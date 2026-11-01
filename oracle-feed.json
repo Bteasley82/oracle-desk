@@ -5,10 +5,10 @@
  "alerts": [],
  "watchlist": [
   {
-   "price": 0.01985511,
-   "market_cap": 35739191,
-   "volume_24h": 552576,
-   "price_updated": "2026-11-01T14:27:51-05:00",
+   "price": 0.01986675,
+   "market_cap": 35753129,
+   "volume_24h": 534168,
+   "price_updated": "2026-11-01T15:21:19-05:00",
    "name": "Ritual",
    "ticker": "RITUAL",
    "niche": "AI",
@@ -51,13 +51,13 @@
     "https://www.ritualfoundation.com/blog/ritual-mainnet-is-live"
    ],
    "provisional": false,
-   "last_update": "2026-11-01T14:27:51-05:00"
+   "last_update": "2026-11-01T15:21:19-05:00"
   },
   {
-   "price": 0.179166,
-   "market_cap": 23291592,
-   "volume_24h": 12257935,
-   "price_updated": "2026-11-01T14:27:51-05:00",
+   "price": 0.181923,
+   "market_cap": 23665152,
+   "volume_24h": 14519157,
+   "price_updated": "2026-11-01T15:21:19-05:00",
    "name": "NeoSoul",
    "ticker": "DNA",
    "niche": "AI",
@@ -91,13 +91,13 @@
     "https://www.theblock.co/press-releases/neosoul-raises-11-million-in-pre-a-funding-to-accelerate-its-expansion-in-the-ai-economy-412324"
    ],
    "provisional": false,
-   "last_update": "2026-11-01T14:27:51-05:00"
+   "last_update": "2026-11-01T15:21:19-05:00"
   },
   {
-   "price": 0.122671,
-   "market_cap": 20240665,
-   "volume_24h": 11960727,
-   "price_updated": "2026-11-01T14:27:51-05:00",
+   "price": 0.123052,
+   "market_cap": 20299405,
+   "volume_24h": 4354982,
+   "price_updated": "2026-11-01T15:21:19-05:00",
    "name": "Axis Robotics",
    "ticker": "AXIS",
    "niche": "AI",
@@ -138,7 +138,7 @@
     "https://cryptobriefing.com/axis-robotics-axis-token-sell-off-zachxbt/"
    ],
    "provisional": false,
-   "last_update": "2026-11-01T14:27:51-05:00"
+   "last_update": "2026-11-01T15:21:19-05:00"
   },
   {
    "price": null,
@@ -174,10 +174,10 @@
    "provisional": true
   },
   {
-   "price": 71.57,
-   "market_cap": 22708497,
-   "volume_24h": 646994,
-   "price_updated": "2026-11-01T14:27:51-05:00",
+   "price": 71.05,
+   "market_cap": 22527465,
+   "volume_24h": 764337,
+   "price_updated": "2026-11-01T15:21:19-05:00",
    "name": "Quantus",
    "ticker": "QTC",
    "niche": "Quantum",
@@ -217,7 +217,7 @@
     "https://cryptonews.net/news/altcoins/33550862/"
    ],
    "provisional": false,
-   "last_update": "2026-11-01T14:27:51-05:00"
+   "last_update": "2026-11-01T15:21:19-05:00"
   },
   {
    "price": null,
@@ -338,10 +338,10 @@
    "risks": "Only 0.30% of supply disclosed (Kaito creator pool); no TGE date, supply or vesting; points plus referral farming; impersonators soliciting 'investments' (project's own Oct 28 warning)."
   },
   {
-   "price": 0.108849,
-   "market_cap": 10087657,
-   "volume_24h": 131607,
-   "price_updated": "2026-11-01T14:27:51-05:00",
+   "price": 0.10912,
+   "market_cap": 10117044,
+   "volume_24h": 132059,
+   "price_updated": "2026-11-01T15:21:19-05:00",
    "cg_id": "verona",
    "contract": null,
    "chain": "Verona L1 (Cosmos SDK)",
@@ -376,7 +376,7 @@
    ],
    "evidence": "Not a new token: the existing XION chain (Burnt Labs; Multicoin, Animoca-backed per CoinGecko) shipped NIST post-quantum account signatures on mainnet Oct 28; open-source release on GitHub; added to CoinGecko Quantum-Resistant category.",
    "risks": "Not a new launch; validators/consensus still classical; low 24h volume; about 47% below its June high; tokenomics and audit not checked in this sweep.",
-   "last_update": "2026-11-01T14:27:51-05:00"
+   "last_update": "2026-11-01T15:21:19-05:00"
   }
  ],
  "airdrops": [
@@ -547,5 +547,5 @@
   "quantum_summary": "No quantum project reaches 75. Verona (65, existing token, PQ upgrade Oct 28), Quantus (64) and Quip (62, pre-TGE) are the ones to watch."
  },
  "sweep": "sweeps/2026-10-31.md",
- "prices_updated": "2026-11-01T14:27:51-05:00"
+ "prices_updated": "2026-11-01T15:21:19-05:00"
 }
