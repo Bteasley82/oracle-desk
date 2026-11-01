@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>ORACLE Desk</title>
+<style>
+  :root { --bg:#0f1115; --panel:#171a21; --line:#272b35; --text:#e6e8ee; --muted:#9aa3b2; --accent:#7aa2ff; --high:#3ecf8e; --watch:#f5b84b; --rej:#ef6b6b; }
+  @media (prefers-color-scheme: light) { :root { --bg:#f7f8fa; --panel:#fff; --line:#e3e6ec; --text:#14171f; --muted:#5d6675; --accent:#2f5bd8; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:1180px; margin:0 auto; padding:28px 18px 60px; }
+  h1 { margin:0 0 4px; font-size:28px; letter-spacing:.5px; }
+  h2 { margin:34px 0 6px; font-size:20px; }
+  h3 { margin:18px 0 6px; font-size:16px; }
+  .sub, .caption, .muted { color:var(--muted); }
+  .caption { margin:0 0 10px; font-size:13px; }
+  .note { border:1px solid var(--line); border-left:4px solid var(--accent); background:var(--panel); padding:10px 14px; border-radius:6px; margin:16px 0; }
+  .tablewrap { overflow-x:auto; border:1px solid var(--line); border-radius:8px; background:var(--panel); }
+  table { border-collapse:collapse; width:100%; font-size:14px; }
+  th, td { padding:8px 10px; border-bottom:1px solid var(--line); text-align:left; vertical-align:top; }
+  th { color:var(--muted); font-weight:600; white-space:nowrap; }
+  tr:last-child td { border-bottom:0; }
+  td.num, th.num { text-align:right; white-space:nowrap; font-variant-numeric:tabular-nums; }
+  .badge { display:inline-block; padding:1px 8px; border-radius:999px; font-size:12px; font-weight:600; border:1px solid currentColor; white-space:nowrap; }
+  .b-high { color:var(--high); } .b-watch { color:var(--watch); } .b-prov { color:var(--muted); } .b-rej { color:var(--rej); }
+  .bd { font-size:12px; color:var(--muted); }
+  .card { border:1px solid var(--line); background:var(--panel); border-radius:8px; padding:12px 14px; margin:10px 0; }
+  .card dl { display:grid; grid-template-columns:120px 1fr; gap:4px 12px; margin:8px 0; }
+  .card dt { color:var(--muted); } .card dd { margin:0; }
+  .links { display:flex; flex-wrap:wrap; gap:6px; margin-top:6px; }
+  .links a { font-size:13px; padding:2px 8px; border:1px solid var(--line); border-radius:6px; text-decoration:none; color:var(--accent); }
+  ul.rows { list-style:none; padding:0; margin:0; border:1px solid var(--line); border-radius:8px; background:var(--panel); }
+  ul.rows li { padding:9px 12px; border-bottom:1px solid var(--line); display:flex; justify-content:space-between; gap:16px; }
+  ul.rows li:last-child { border-bottom:0; }
+  ul.rows .meta { color:var(--muted); white-space:nowrap; font-size:13px; }
+  details summary { cursor:pointer; font-weight:600; }
+  .err { color:var(--rej); }
+  footer { margin-top:40px; font-size:12px; color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>ORACLE Desk</h1>
+  <div class="sub">New and upcoming AI and post-quantum crypto launches, scored 0 to 100 and filtered for scams.</div>
+  <div class="sub" id="asof">Loading feed…</div>
+  <div class="note"><strong>Research only, not financial advice.</strong> The Oracle never connects a wallet, signs anything, trades or handles keys. Joining any sale, campaign or exchange program is your own decision.</div>
+  <div id="app"></div>
+  <footer>Data: <a href="oracle-feed.json">oracle-feed.json</a> · prices from CoinGecko, refreshed every 2 hours · scoring method in <a href="SPEC.md">SPEC.md</a>.</footer>
+</main>
+<script>
+"use strict";
+(function () {
+  var TZ = "America/New_York";
+  // Known phishing / look-alike hosts: never rendered as links even if they slip into the feed.
+  var BLOCKED = [/airdlrop/i];
+  var app = document.getElementById("app");
+
+  function el(tag, attrs, kids) {
+    var e = document.createElement(tag);
+    if (attrs) for (var k in attrs) { if (k === "class") e.className = attrs[k]; else e.setAttribute(k, attrs[k]); }
+    (kids || []).forEach(function (c) { if (c == null) return; e.appendChild(typeof c === "string" ? document.createTextNode(c) : c); });
+    return e;
+  }
+  function host(u) {
+    try {
+      var x = new URL(u), h = x.hostname.replace(/^www\./, ""), seg = x.pathname.split("/")[1];
+      return (h === "x.com" || h === "github.com") && seg ? h + "/" + seg : h;
+    } catch (e) { return ""; }
+  }
+  function safeUrl(u) {
+    if (typeof u !== "string") return null;
+    var x; try { x = new URL(u); } catch (e) { return null; }
+    if (x.protocol !== "https:") return null;
+    for (var i = 0; i < BLOCKED.length; i++) if (BLOCKED[i].test(x.hostname)) return null;
+    return x.href;
+  }
+  function link(u, label) {
+    var s = safeUrl(u);
+    if (!s) return null;
+    return el("a", { href: s, target: "_blank", rel: "noopener noreferrer nofollow" }, [label || host(s)]);
+  }
+  function fmtET(iso) {
+    if (!iso) return "No date set";
+    if (iso.length === 10) {
+      return new Date(iso + "T12:00:00Z").toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
+    }
+    var d = new Date(iso);
+    return d.toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric", year: "numeric", timeZone: TZ }) + ", " +
+      d.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", timeZone: TZ }) + " ET";
+  }
+  function fmtPrice(p) {
+    if (p == null) return "Not trading";
+    if (p >= 1) return "$" + p.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    return "$" + p.toLocaleString("en-US", { maximumSignificantDigits: 4 });
+  }
+  function fmtUsd(v) {
+    if (v == null) return "–";
+    if (v >= 1e9) return "$" + (v / 1e9).toFixed(2) + "B";
+    if (v >= 1e6) return "$" + (v / 1e6).toFixed(1) + "M";
+    if (v >= 1e3) return "$" + (v / 1e3).toFixed(0) + "K";
+    return "$" + v.toFixed(0);
+  }
+  var FACTORS = [["team", "Team", 15], ["backers", "Backers", 10], ["product", "Product", 15], ["audit", "Audit", 10],
+    ["consistency", "Consistency", 10], ["tokenomics", "Tokenomics", 15], ["liquidity", "Liquidity", 15], ["redflag", "Red-flag pool", 10]];
+  function bdText(b) {
+    if (!b) return "Breakdown not recorded";
+    return FACTORS.map(function (f) { return f[1] + " " + (b[f[0]] != null ? b[f[0]] : "?") + "/" + f[2]; }).join(" · ");
+  }
+  function badge(w) {
+    if (w.verdict === "HIGH PRIORITY") return el("span", { class: "badge b-high" }, ["HIGH PRIORITY"]);
+    if (w.provisional) return el("span", { class: "badge b-prov" }, ["WATCH · PROVISIONAL"]);
+    return el("span", { class: "badge b-watch" }, ["WATCH"]);
+  }
+  function section(title, caption) {
+    var s = el("section", null, [el("h2", null, [title]), caption ? el("p", { class: "caption" }, [caption]) : null]);
+    app.appendChild(s); return s;
+  }
+  function table(cols, numCols, rows) {
+    var thead = el("thead", null, [el("tr", null, cols.map(function (c, i) { return el("th", numCols.indexOf(i) >= 0 ? { class: "num" } : null, [c]); }))]);
+    var tbody = el("tbody", null, rows.map(function (r) {
+      return el("tr", null, r.map(function (c, i) { return el("td", numCols.indexOf(i) >= 0 ? { class: "num" } : null, [c]); }));
+    }));
+    return el("div", { class: "tablewrap" }, [el("table", null, [thead, tbody])]);
+  }
+  function itemTable(items, BD) {
+    if (!items.length) return el("p", { class: "muted" }, ["None right now."]);
+    return table(["Project", "Verdict", "Score", "Stage", "Price", "Market cap", "24h volume", "Price as of"], [2, 4, 5, 6],
+      items.map(function (w) {
+        return [
+          el("div", null, [w.name + " (" + w.ticker + ")", el("div", { class: "bd" }, [w.niche + (w.chain ? " · " + w.chain : "")])]),
+          badge(w),
+          el("div", null, [String(w.score) + (w.provisional ? " (prov.)" : ""), el("div", { class: "bd" }, [bdText(BD[w.ticker])])]),
+          w.stage === "live" ? "Live" : "Pre-launch",
+          fmtPrice(w.price), fmtUsd(w.market_cap), fmtUsd(w.volume_24h),
+          w.price_updated ? fmtET(w.price_updated) : "–"
+        ];
+      }));
+  }
+  function linkRow(urls) {
+    var box = el("div", { class: "links" });
+    (urls || []).forEach(function (u) { var a = link(u.u, u.label); if (a) box.appendChild(a); });
+    return box;
+  }
+  function card(w, BD) {
+    var dl = el("dl");
+    [["Score", w.score + " / 100 — " + bdText(BD[w.ticker])], ["Evidence", w.evidence], ["Risks", w.risks],
+     ["Chain", w.chain || "Not launched"], ["Contract", w.contract || "Not published"], ["CoinGecko id", w.cg_id || "Not listed"],
+     ["Milestones", (w.milestones || []).map(function (m) { return (m.date ? fmtET(m.date) : "No date") + ": " + m.text + (m.confirmed ? "" : " (unconfirmed)"); }).join(" · ")]
+    ].forEach(function (p) { dl.appendChild(el("dt", null, [p[0]])); dl.appendChild(el("dd", null, [p[1] || "–"])); });
+    var links = (w.official_links || []).map(function (u) { return { u: u, label: "Official: " + host(u) }; })
+      .concat((w.sources || []).map(function (u) { return { u: u, label: "Source: " + host(u) }; }));
+    return el("details", { class: "card" }, [
+      el("summary", null, [w.name + " (" + w.ticker + ") · score " + w.score + " · ", badge(w)]), dl, linkRow(links)]);
+  }
+
+  function render(F, BD) {
+    var wl = (F.watchlist || []).slice().sort(function (a, b) { return b.score - a.score; });
+    var stamps = wl.map(function (w) { return w.price_updated; }).filter(Boolean).sort(function (a, b) { return new Date(a) - new Date(b); });
+    document.getElementById("asof").textContent = "Prices as of " + fmtET(stamps.length ? stamps[stamps.length - 1] : F.updated) +
+      " (CoinGecko) · research report updated " + fmtET(F.report && F.report.updated);
+
+    var high = wl.filter(function (w) { return w.verdict === "HIGH PRIORITY"; });
+    var s = section("HIGH PRIORITY", "Score 75+ with two or more independent quality sources. Alerts capped at " + (F.alert_cap || 3) + " a day.");
+    s.appendChild(itemTable(high, BD));
+    high.forEach(function (w) { s.appendChild(card(w, BD)); });
+
+    var watch = wl.filter(function (w) { return w.verdict === "WATCH"; });
+    s = section("WATCH", "Score 55–74. PROVISIONAL = tokenomics unpublished, so the score is tracked but cannot trigger an alert.");
+    s.appendChild(el("h3", null, ["AI"]));
+    s.appendChild(itemTable(watch.filter(function (w) { return w.niche === "AI"; }), BD));
+    if (F.report) s.appendChild(el("p", null, [F.report.ai_summary]));
+    s.appendChild(el("h3", null, ["Quantum / post-quantum"]));
+    s.appendChild(itemTable(watch.filter(function (w) { return w.niche !== "AI"; }), BD));
+    if (F.report) s.appendChild(el("p", null, [F.report.quantum_summary]));
+
+    s = section("Upcoming deadlines", "Times in ET. Dates from filings or marked 'soon' are not confirmed launches.");
+    var dls = (F.deadlines || []).slice().sort(function (a, b) { return (a.date || "9999").localeCompare(b.date || "9999"); });
+    s.appendChild(el("ul", { class: "rows" }, dls.map(function (d) { return el("li", null, [el("span", null, [d.text]), el("span", { class: "meta" }, [fmtET(d.date)])]); })));
+
+    s = section("Open campaigns and points programs", "Official links only. Most need an exchange account, KYC or a wallet — the Oracle never connects one.");
+    var camps = (F.airdrops || []).slice().sort(function (a, b) { return (a.closes || "9999").localeCompare(b.closes || "9999"); });
+    s.appendChild(el("ul", { class: "rows" }, camps.map(function (c) {
+      var a = c.link ? link(c.link) : null;
+      return el("li", null, [
+        el("span", null, [el("strong", null, [c.project + ": " + c.what]), " — " + c.how + " ", a || el("span", { class: "muted" }, ["(details on the exchange only)"]),
+          c.unconfirmed ? el("span", { class: "badge b-prov", style: "margin-left:6px" }, ["Unconfirmed"]) : null]),
+        el("span", { class: "meta" }, [c.closes ? "Closes " + fmtET(c.closes) : "Ongoing"])]);
+    })));
+
+    if (F.digest && F.digest.top3) {
+      s = section("Top 3 to research");
+      s.appendChild(el("ol", null, F.digest.top3.map(function (t) { return el("li", null, [el("strong", null, [t.name]), ": " + t.why + " ", link(t.link)]); })));
+    }
+
+    s = section("REJECT", (F.rejections || []).length + " entries. Score under 55 or any hard red flag.");
+    s.appendChild(table(["Project", "Niche", "Why rejected", "Link"], [], (F.rejections || []).map(function (r) {
+      return [el("span", null, [r.name, " ", el("span", { class: "badge b-rej" }, ["REJECT"])]), r.niche, r.reason, (r.link && link(r.link)) || "–"];
+    })));
+
+    s = section("All project notes and sources", "Evidence, risks, contract, milestones and every official and source link.");
+    wl.forEach(function (w) { s.appendChild(card(w, BD)); });
+
+    s = section("How scores work");
+    s.appendChild(el("p", null, ["Each project is scored out of 100: team 15, backers 10, product and code 15, audit 10, consistent official channels 10, tokenomics 15, liquidity and venues 15, and a 10-point red-flag pool. HIGH PRIORITY needs 75+ and two independent quality sources; any hard red flag (presale pushed by shills, impersonation, honeypot contract, fake audit) is an automatic REJECT. Full method in SPEC.md."]));
+  }
+
+  var bust = "?t=" + Date.now();
+  Promise.all([
+    fetch("oracle-feed.json" + bust, { cache: "no-store" }).then(function (r) { if (!r.ok) throw new Error("feed HTTP " + r.status); return r.json(); }),
+    fetch("breakdowns.json" + bust, { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; })
+  ]).then(function (res) { render(res[0], res[1] || {}); })
+    .catch(function (e) { document.getElementById("asof").textContent = ""; app.appendChild(el("p", { class: "err" }, ["Could not load oracle-feed.json: " + e.message])); });
+})();
+</script>
+</body>
+</html>

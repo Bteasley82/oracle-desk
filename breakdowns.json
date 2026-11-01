@@ -1,0 +1,13 @@
+{
+  "_note": "Oracle Score breakdown per project, keyed by ticker. Source: sweeps/2026-10-31.md. Factors: team/15, backers/10, product/15, audit/10, consistency/10, tokenomics/15, liquidity/15, redflag/10.",
+  "_sweep": "2026-10-31",
+  "RITUAL": {"team": 14, "backers": 10, "product": 13, "audit": 3, "consistency": 9, "tokenomics": 10, "liquidity": 12, "redflag": 7},
+  "AXIS":   {"team": 6, "backers": 7, "product": 10, "audit": 0, "consistency": 6, "tokenomics": 11, "liquidity": 14, "redflag": 3},
+  "DNA":    {"team": 5, "backers": 7, "product": 10, "audit": 0, "consistency": 8, "tokenomics": 8, "liquidity": 13, "redflag": 7},
+  "FRAC":   {"team": 6, "backers": 6, "product": 9, "audit": 8, "consistency": 6, "tokenomics": 3, "liquidity": 2, "redflag": 9},
+  "QUIP":   {"team": 12, "backers": 6, "product": 12, "audit": 7, "consistency": 9, "tokenomics": 6, "liquidity": 2, "redflag": 8},
+  "QTC":    {"team": 12, "backers": 8, "product": 12, "audit": 2, "consistency": 9, "tokenomics": 8, "liquidity": 6, "redflag": 7},
+  "DAT":    {"team": 7, "backers": 9, "product": 8, "audit": 0, "consistency": 6, "tokenomics": 2, "liquidity": 3, "redflag": 8},
+  "TMT":    {"team": 3, "backers": 6, "product": 10, "audit": 0, "consistency": 7, "tokenomics": 1, "liquidity": 1, "redflag": 5},
+  "VERONA": {"team": 12, "backers": 9, "product": 13, "audit": 2, "consistency": 9, "tokenomics": 6, "liquidity": 7, "redflag": 7}
+}
