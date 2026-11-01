@@ -386,7 +386,21 @@
    "how": "Complete quests / mindshare tasks on the official sites; final points distributed at close",
    "closes": "2026-11-02T08:00:00-05:00",
    "link": "https://quest.quip.network",
-   "unconfirmed": false
+   "unconfirmed": false,
+   "progress": "350 Quip Points claimed (Follow X + 3 founder follows, Discord, Telegram, daily check-in); rank not shown (5000+). Still open: YouTube subscribe quest, waiting on owner's Google sign-in approval.",
+   "points": 350,
+   "rank": "not shown (5000+)",
+   "claimed": [
+    "Follow X",
+    "3 founder follows",
+    "Discord",
+    "Telegram",
+    "Daily check-in"
+   ],
+   "open_tasks": [
+    "YouTube subscribe (waiting on owner's Google sign-in approval)"
+   ],
+   "progress_at": "2026-11-01T17:36:00-05:00"
   },
   {
    "project": "Quip Network",
@@ -440,7 +454,12 @@
  "deadlines": [
   {
    "date": "2026-11-02T08:00:00-05:00",
-   "text": "Quip Quests & Mindshare close"
+   "text": "Quip Quests & Mindshare close",
+   "project": "Quip Network",
+   "title": "Quip Quests: 350 pts claimed · YouTube subscribe still open",
+   "type": "Airdrop quests",
+   "theme": "Quantum",
+   "url": "https://quest.quip.network"
   },
   {
    "date": "2026-11-03T08:00:00-05:00",
@@ -521,7 +540,17 @@
    "reason": "Pseudonymous dev, SafeTrade only"
   }
  ],
- "prelaunch_updates": [],
+ "prelaunch_updates": [
+  {
+   "project": "Quip Network",
+   "theme": "Quantum",
+   "source_type": "official",
+   "kind": "airdrop_progress",
+   "at": "2026-11-01T17:36:00-05:00",
+   "text": "OPEN CAMPAIGN · Quip Quests close Nov 2, 8:00 AM ET. Airdrop Bot progress: 350 Quip Points claimed (Follow X + 3 founder follows, Discord, Telegram, daily check-in); rank not shown (5000+). Still open: YouTube subscribe quest, waiting on owner's Google sign-in approval.",
+   "url": "https://quest.quip.network"
+  }
+ ],
  "digest": {
   "top3": [
    {
