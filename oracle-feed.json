@@ -1,545 +1,551 @@
 {
-  "updated": "2026-11-01T13:06:00-05:00",
-  "alerts_used_today": 0,
-  "alert_cap": 3,
-  "alerts": [],
-  "watchlist": [
+ "updated": "2026-11-01T13:06:00-05:00",
+ "alerts_used_today": 0,
+ "alert_cap": 3,
+ "alerts": [],
+ "watchlist": [
+  {
+   "price": 0.01978097,
+   "market_cap": 35607344,
+   "volume_24h": 550578,
+   "price_updated": "2026-11-01T13:26:12-05:00",
+   "name": "Ritual",
+   "ticker": "RITUAL",
+   "niche": "AI",
+   "stage": "live",
+   "score": 78,
+   "verdict": "HIGH PRIORITY",
+   "cg_id": "ritual",
+   "contract": "Native on RITUAL chain (ID 784); BSC & Base 0x256Ea35422b2F36B24aC1D66159Fe69e75918C37 (official tokenomics page; CoinGecko lists no platform contract)",
+   "chain": "Ritual L1 (native); BSC; Base",
+   "milestones": [
     {
-      "price": 0.01972607,
-      "market_cap": 35509520.08384811,
-      "volume_24h": 545091.1343233212,
-      "price_updated": "2026-11-01T13:06:00-05:00",
-      "name": "Ritual",
-      "ticker": "RITUAL",
-      "niche": "AI",
-      "stage": "live",
-      "score": 78,
-      "verdict": "HIGH PRIORITY",
-      "cg_id": "ritual",
-      "contract": "Native on RITUAL chain (ID 784); BSC & Base 0x256Ea35422b2F36B24aC1D66159Fe69e75918C37 (official tokenomics page; CoinGecko lists no platform contract)",
-      "chain": "Ritual L1 (native); BSC; Base",
-      "milestones": [
-        {
-          "date": "2026-10-26",
-          "text": "Mainnet + TGE; Coinbase RITUAL-USD spot from day one",
-          "confirmed": true
-        },
-        {
-          "date": null,
-          "text": "Community airdrop claim window start (pre-approved addresses only)",
-          "confirmed": false
-        },
-        {
-          "date": null,
-          "text": "Public audit publication",
-          "confirmed": false
-        }
-      ],
-      "official_links": [
-        "https://ritual.net",
-        "https://www.ritualfoundation.com",
-        "https://x.com/ritualnet",
-        "https://x.com/ritualfnd",
-        "https://docs.ritualfoundation.org",
-        "https://tokenomics.ritualfoundation.org"
-      ],
-      "evidence": "Founders Niraj Pant & Akilesh Potti (ex-Polychain); $25M Series A led by Archetype (CoinDesk, Fortune, The Block); Coinbase spot listing from Oct 26; insiders locked >=12 months; 18% unlocked at launch.",
-      "risks": "No public audit found; thin volume; uncapped supply (~5% issuance); ~30% below Oct 29 high; Foundation admin powers at launch; sybil-pruning complaints.",
-      "sources": [
-        "https://cryptobriefing.com/coinbase-enables-ritual-token-spot-trading/",
-        "https://www.tokenpost.com/news/investing/41383",
-        "https://www.ritualfoundation.com/blog/ritual-mainnet-is-live"
-      ],
-      "provisional": false
+     "date": "2026-10-26",
+     "text": "Mainnet + TGE; Coinbase RITUAL-USD spot from day one",
+     "confirmed": true
     },
     {
-      "price": 0.183196,
-      "market_cap": 23814074.644524377,
-      "volume_24h": 12835979.726963488,
-      "price_updated": "2026-11-01T13:06:00-05:00",
-      "name": "NeoSoul",
-      "ticker": "DNA",
-      "niche": "AI",
-      "stage": "live",
-      "score": 58,
-      "verdict": "WATCH",
-      "cg_id": "neosoul",
-      "contract": "0xA991F61940095AEA0724ef54077223B048c5CF7b",
-      "chain": "BNB Smart Chain",
-      "milestones": [
-        {
-          "date": "2026-10-16",
-          "text": "Gate listing / trading start",
-          "confirmed": true
-        },
-        {
-          "date": "2026-11-06",
-          "text": "Gate Launchpool for DNA ends",
-          "confirmed": true
-        }
-      ],
-      "official_links": [
-        "https://neosoul.ai",
-        "https://x.com/NeoSoulAI"
-      ],
-      "evidence": "AI trading-agent workbench (NeoTrade); $11M pre-A led by MH Ventures with Amber Group, 0G Foundation and others (Aug 2026); listed on Gate, KuCoin, Bitget, MEXC and others.",
-      "risks": "Only one co-founder named; X account created Mar 2026; no audit; revenue self-reported; ~13% float vs FDV; funding coverage is mostly press releases.",
-      "sources": [
-        "https://www.gate.com/announcements/article/102248",
-        "https://dealroom.co/news/146017-neosoul-raises-11m-series-a-to-build-ai-agents-that-trade-autonomously/",
-        "https://www.theblock.co/press-releases/neosoul-raises-11-million-in-pre-a-funding-to-accelerate-its-expansion-in-the-ai-economy-412324"
-      ],
-      "provisional": false
+     "date": null,
+     "text": "Community airdrop claim window start (pre-approved addresses only)",
+     "confirmed": false
     },
     {
-      "price": 0.125156,
-      "market_cap": 20656242.467195764,
-      "volume_24h": 4315396.845198971,
-      "price_updated": "2026-11-01T13:06:00-05:00",
-      "name": "Axis Robotics",
-      "ticker": "AXIS",
-      "niche": "AI",
-      "stage": "live",
-      "score": 57,
-      "verdict": "WATCH",
-      "cg_id": "axis-robotics",
-      "contract": "0x5be75e3b0aff5d1a042a5363ae36acb1d6d755ea",
-      "chain": "Base",
-      "milestones": [
-        {
-          "date": "2026-10-21",
-          "text": "TGE; Coinbase, Upbit, Bitget, KuCoin day-one listings",
-          "confirmed": true
-        },
-        {
-          "date": "2026-10-28",
-          "text": "Sell-off: OTC counterparty sold locked ecosystem tokens (counsel reviewing)",
-          "confirmed": true
-        },
-        {
-          "date": "2026-11-03",
-          "text": "MEXC Airdrop+ for AXIS ends",
-          "confirmed": true
-        }
-      ],
-      "official_links": [
-        "https://axisrobotics.ai",
-        "https://x.com/axisrobotics",
-        "https://github.com/AxisAIOrg",
-        "https://airdrop.axisrobotics.ai"
-      ],
-      "evidence": "Physical-AI teleop data platform live since Mar 2026; tier-1 day-one venues; 1B fixed supply; team/investors 12-mo cliff + 24 mo vest.",
-      "risks": "Oct 28-29 sell-off of ~42M AXIS (ZachXBT flagged suspected insiders; Axis blames an OTC counterparty breaching a lock-up); no audit; legal-entity mismatch; no named team; phishing look-alike 'airdlrop' domain circulating.",
-      "sources": [
-        "https://tgeindex.com/tge/axis-robotics/",
-        "https://www.panews.io/articles/01a18863-17dc-715b-990d-21430c8f7370",
-        "https://cryptobriefing.com/axis-robotics-axis-token-sell-off-zachxbt/"
-      ],
-      "provisional": false
-    },
-    {
-      "price": null,
-      "market_cap": null,
-      "volume_24h": null,
-      "price_updated": null,
-      "name": "Fraction AI",
-      "ticker": "FRAC",
-      "niche": "AI",
-      "stage": "pre-launch",
-      "score": 49,
-      "verdict": "WATCH",
-      "cg_id": null,
-      "contract": null,
-      "chain": null,
-      "milestones": [
-        {
-          "date": "2026-11-11",
-          "text": "Admission to trading per EU MiCA white paper",
-          "confirmed": false
-        }
-      ],
-      "official_links": [
-        "https://fractionai.xyz",
-        "https://x.com/FractionAI_xyz",
-        "https://fraction-ai.gitbook.io/fraction-ai-product-docs"
-      ],
-      "evidence": "AI agent competition platform; Halborn audit; Fraction AI Foundation in EU MiCA register.",
-      "risks": "No allocation, vesting, float or venues published; date only from a regulatory filing; backers not independently verified.",
-      "sources": [
-        "https://tgeindex.com/tge/fraction-ai/"
-      ],
-      "provisional": true
-    },
-    {
-      "price": 71.97,
-      "market_cap": 22813761.126305312,
-      "volume_24h": 656982.6853654508,
-      "price_updated": "2026-11-01T13:06:00-05:00",
-      "name": "Quantus",
-      "ticker": "QTC",
-      "niche": "Quantum",
-      "stage": "live",
-      "score": 64,
-      "verdict": "WATCH",
-      "cg_id": "quantus",
-      "contract": "qtc.omft.near (NEAR Intents asset); native on Quantus L1",
-      "chain": "Quantus L1 (native); NEAR",
-      "milestones": [
-        {
-          "date": "2026-09-09",
-          "text": "Mainnet launch",
-          "confirmed": true
-        },
-        {
-          "date": "2026-10-07",
-          "text": "Trading opened (NEAR Intents)",
-          "confirmed": true
-        },
-        {
-          "date": null,
-          "text": "Tier-1 CEX listing",
-          "confirmed": false
-        }
-      ],
-      "official_links": [
-        "https://www.quantus.com",
-        "https://x.com/QuantusNetwork",
-        "https://github.com/Quantus-Network",
-        "https://www.quantus.com/whitepaper/pdf/en-US/whitepaper-v0.3.3.pdf"
-      ],
-      "evidence": "PoW L1 with NIST ML-DSA (Dilithium) signatures and ML-KEM; co-founders Christopher Smith & Joseph Mattia; round led by Balaji Srinivasan with Babak Nivi, Mert.",
-      "risks": "27% genesis premine (23% insiders, 1-yr lock + 36 mo linear); no tier-1 CEX; no audit found; FDV ~18x market cap.",
-      "sources": [
-        "https://approx.org/2026/10/07/quantum-safe-quantus-launches-qtc-token-trading-via-near-intents/",
-        "https://cryptonews.net/news/altcoins/33550862/"
-      ],
-      "provisional": false
-    },
-    {
-      "price": null,
-      "market_cap": null,
-      "volume_24h": null,
-      "price_updated": null,
-      "name": "Quip Network",
-      "ticker": "QUIP",
-      "niche": "Quantum",
-      "stage": "pre-launch",
-      "score": 62,
-      "verdict": "WATCH",
-      "cg_id": null,
-      "contract": null,
-      "chain": null,
-      "milestones": [
-        {
-          "date": "2026-11-02",
-          "text": "Quests & Mindshare campaigns close",
-          "confirmed": true
-        },
-        {
-          "date": null,
-          "text": "Chain audit -> mainnet -> TGE",
-          "confirmed": false
-        }
-      ],
-      "official_links": [
-        "https://quip.network",
-        "https://x.com/quipnetwork",
-        "https://links.quip.network",
-        "https://developers.quip.network"
-      ],
-      "evidence": "Postquant Labs; CEO Colton Dillion, CTO Dr. Richard Carback named; Oak Security audit of swap/signature/smart-account contracts; testnet 27K+ PQ wallets, 1,500+ nodes (self-reported).",
-      "risks": "TGE undated; chain audit not done; uncapped supply (40M/yr emissions); points conversion rate unpublished; incentivized mindshare posting.",
-      "sources": [
-        "https://quip.network/blog/is-quip-network-legit-what-we-are-who-built-it-and-what-you-can-check",
-        "https://quip.network/documents/Quip-Security-Audit-v1.0.pdf",
-        "https://www.codezen.tech/audits/quip-network/"
-      ],
-      "provisional": false
-    },
-    {
-      "price": null,
-      "market_cap": null,
-      "volume_24h": null,
-      "price_updated": null,
-      "cg_id": null,
-      "contract": null,
-      "chain": "Base (planned)",
-      "provisional": true,
-      "name": "Dataline",
-      "ticker": "DAT",
-      "niche": "AI",
-      "stage": "pre-launch",
-      "score": 43,
-      "verdict": "WATCH",
-      "milestones": [
-        {
-          "date": "2026-10-21",
-          "text": "$10.6M seed announced; public sale planned on Uniswap CCA (Base)",
-          "confirmed": true
-        },
-        {
-          "date": null,
-          "text": "Uniswap CCA public sale: pre-bidding 'opens soon', no date",
-          "confirmed": false
-        },
-        {
-          "date": null,
-          "text": "Token launch targeted by end of 2026",
-          "confirmed": false
-        }
-      ],
-      "official_links": [
-        "https://x.com/DatalineAI"
-      ],
-      "sources": [
-        "https://www.theblock.co/news/deals/2026-10-21-dataline-decentralized-data-network-ai-agents-funding-ico-421596",
-        "https://cryptobriefing.com/dataline-raises-10-6m-ai-data-network-token-sale/",
-        "https://www.kucoin.com/blog/jp-dataline-crypto-funding-dline-token-launch"
-      ],
-      "evidence": "Data network for AI agents (formerly Tearline), ~50 data sources (self-reported); $10.6M seed co-led by Lattice and Dispersion with Coinbase Ventures, Anagram, Symbolic, Vlad Tenev (The Block); co-founder Nuo Shi named.",
-      "risks": "No tokenomics, sale size, price or date published; ticker confusion (official X says $DAT, some outlets say DLINE); X has 315K followers but very low engagement; no audit."
-    },
-    {
-      "price": null,
-      "market_cap": null,
-      "volume_24h": null,
-      "price_updated": null,
-      "cg_id": null,
-      "contract": null,
-      "chain": "BNB Chain (product)",
-      "provisional": true,
-      "name": "TermiX",
-      "ticker": "TMT",
-      "niche": "AI",
-      "stage": "pre-launch",
-      "score": 33,
-      "verdict": "WATCH",
-      "milestones": [
-        {
-          "date": null,
-          "text": "TMT TGE: no date announced",
-          "confirmed": false
-        }
-      ],
-      "official_links": [
-        "https://www.agent.family",
-        "https://x.com/termix_ai"
-      ],
-      "sources": [
-        "https://www.chaincatcher.com/en/article/2275451",
-        "https://dropstab.com/coins/termix-ai",
-        "https://www.agent.family/campaigns/kaito-katalyst"
-      ],
-      "evidence": "Agent-to-agent job marketplace with on-chain escrow live on BNB Chain mainnet; backed by YZi Labs (per its X bio and Bit.Fan).",
-      "risks": "Only 0.30% of supply disclosed (Kaito creator pool); no TGE date, supply or vesting; points plus referral farming; impersonators soliciting 'investments' (project's own Oct 28 warning)."
-    },
-    {
-      "price": 0.109237,
-      "market_cap": 10128758.56132247,
-      "volume_24h": 126163.18362237133,
-      "price_updated": "2026-11-01T13:06:00-05:00",
-      "cg_id": "verona",
-      "contract": null,
-      "chain": "Verona L1 (Cosmos SDK)",
-      "provisional": false,
-      "name": "Verona (ex-XION)",
-      "ticker": "VERONA",
-      "niche": "Quantum",
-      "stage": "live",
-      "score": 65,
-      "verdict": "WATCH",
-      "milestones": [
-        {
-          "date": "2026-10-28",
-          "text": "Fermi v32 mainnet upgrade: ML-DSA-65 and SLH-DSA-128s account signatures",
-          "confirmed": true
-        },
-        {
-          "date": null,
-          "text": "Phase two: validator keys to ML-DSA-65",
-          "confirmed": false
-        }
-      ],
-      "official_links": [
-        "https://verona.dev",
-        "https://x.com/verona_dev",
-        "https://github.com/burnt-labs/xion/releases/tag/v32.0.0"
-      ],
-      "sources": [
-        "https://announcements.bybit.com/en/article/bybit-to-support-verona-verona-v32-0-1-network-upgrade--artfb91da5997be/",
-        "https://polkachu.com/chain_upgrades/1188",
-        "https://www.globenewswire.com/news-release/2026/10/28/3390239/0/en/verona-launches-fermi-mainnet-v32-with-nist-post-quantum-cryptography.html"
-      ],
-      "evidence": "Not a new token: the existing XION chain (Burnt Labs; Multicoin, Animoca-backed per CoinGecko) shipped NIST post-quantum account signatures on mainnet Oct 28; open-source release on GitHub; added to CoinGecko Quantum-Resistant category.",
-      "risks": "Not a new launch; validators/consensus still classical; low 24h volume; about 47% below its June high; tokenomics and audit not checked in this sweep."
+     "date": null,
+     "text": "Public audit publication",
+     "confirmed": false
     }
-  ],
-  "airdrops": [
-    {
-      "project": "Quip Network",
-      "what": "Quests & Mindshare campaigns",
-      "how": "Complete quests / mindshare tasks on the official sites; final points distributed at close",
-      "closes": "2026-11-02T08:00:00-05:00",
-      "link": "https://quest.quip.network",
-      "unconfirmed": false
-    },
-    {
-      "project": "Quip Network",
-      "what": "Mindshare leaderboard",
-      "how": "Official mindshare subdomain (same close as Quests)",
-      "closes": "2026-11-02T08:00:00-05:00",
-      "link": "https://mindshare.quip.network",
-      "unconfirmed": false
-    },
-    {
-      "project": "Quip Network",
-      "what": "Quip Points (ongoing)",
-      "how": "Daily sign-in, node, QuipSwap paper swaps; points convert to QUIP at TGE by leaderboard position",
-      "closes": null,
-      "link": "https://links.quip.network",
-      "unconfirmed": true
-    },
-    {
-      "project": "NeoSoul (DNA)",
-      "what": "Gate Launchpool",
-      "how": "Exchange-run staking of BTC/ETH/DNA; needs Gate account + KYC",
-      "closes": "2026-11-06T06:00:00-05:00",
-      "link": "https://www.gate.com/announcements/article/102248",
-      "unconfirmed": false
-    },
-    {
-      "project": "Axis Robotics (AXIS)",
-      "what": "MEXC Airdrop+",
-      "how": "Exchange-run, trading-based; details on MEXC only",
-      "closes": "2026-11-03T08:00:00-05:00",
-      "link": null,
-      "unconfirmed": false
-    },
-    {
-      "project": "Ritual (RITUAL)",
-      "what": "Community airdrop claim",
-      "how": "Pre-approved addresses only; 3-month window from a Foundation-announced start",
-      "closes": null,
-      "link": "https://airdrop.ritualfoundation.org",
-      "unconfirmed": true
-    },
-    {
-      "project": "Axis Robotics (AXIS)",
-      "what": "Contributor claim",
-      "how": "Prior contributors only; real page is airdrop.axisrobotics.ai (a look-alike 'airdlrop' domain is phishing)",
-      "closes": null,
-      "link": "https://airdrop.axisrobotics.ai",
-      "unconfirmed": true
-    }
-  ],
-  "deadlines": [
-    {
-      "date": "2026-11-02T08:00:00-05:00",
-      "text": "Quip Quests & Mindshare close"
-    },
-    {
-      "date": "2026-11-03T08:00:00-05:00",
-      "text": "MEXC Airdrop+ for AXIS ends"
-    },
-    {
-      "date": "2026-11-06T06:00:00-05:00",
-      "text": "Gate Launchpool for DNA ends"
-    },
-    {
-      "date": "2026-11-11",
-      "text": "Fraction AI (FRAC) admission to trading per MiCA filing (not announced by project)"
-    },
-    {
-      "date": "2026-11-18",
-      "text": "QMS Network Builder Program applications close (no token announced)"
-    },
-    {
-      "date": null,
-      "text": "Dataline (DAT) Uniswap CCA sale on Base: 'pre-bidding opens soon', no date"
-    },
-    {
-      "date": null,
-      "text": "Quip (QUIP): chain audit, then mainnet, then TGE; no dates"
-    }
-  ],
-  "rejections": [
-    {
-      "name": "Univex Network",
-      "niche": "AI+Quantum",
-      "reason": "Hard flag: website presale for an 'AI + post-quantum' L1 pushed by shill accounts"
-    },
-    {
-      "name": "Wire Network (WIRE)",
-      "niche": "AI",
-      "reason": "Pre-token sale open with no team, tokenomics, audit or venues; TGE pushed from Oct 27 to late Nov (TGE Index 1/8)",
-      "link": "https://tgeindex.com/tge/wire-network/"
-    },
-    {
-      "name": "Ptah IAO",
-      "niche": "AI",
-      "reason": "'Initial Agent Offering' presale promoted by near-zero-follower accounts posting template text"
-    },
-    {
-      "name": "JAGENT, GANG (BSC agent launchpads)",
-      "niche": "AI",
-      "reason": "Anonymous BSC fair-mint / launchpad tokens with shill-only coverage"
-    },
-    {
-      "name": "TensorCash (TSC)",
-      "niche": "AI+Quantum",
-      "reason": "Pseudonymous initiator, no funding, SafeTrade only (score 34)"
-    },
-    {
-      "name": "Soqucoin (SOQ)",
-      "niche": "Quantum",
-      "reason": "Unidentified team, tiny venues, conflicting mainnet messaging (score 41, recheck)"
-    },
-    {
-      "name": "NaoX Protocol (NAORIS)",
-      "niche": "Quantum",
-      "reason": "Not new (2025 TGE; KuCoin spot Oct 27); CoinGecko still links the suspended @NaorisProtocol while @NaoXprotocol is unconfirmed from the official site",
-      "link": "https://www.kucoin.com/blog/naox-protocol-naoris-listed-on-kucoin-trading-schedule-token-utility-and-quantum-resistant-blockchain"
-    },
-    {
-      "name": "OnlyAgent (OA), pqc.market (PQC), Swarm Engine (SWARM)",
-      "niche": "AI / Quantum",
-      "reason": "Anonymous pump.fun / single-pool tokens"
-    },
-    {
-      "name": "Agent AI Cash (AAIC), Lithosphere (LITHO), Sectora (SECT)",
-      "niche": "AI / Quantum",
-      "reason": "Paid-PR-only coverage, unverified launches or weak audits"
-    },
-    {
-      "name": "Parano1d (NOID)",
-      "niche": "Quantum",
-      "reason": "Pseudonymous dev, SafeTrade only"
-    }
-  ],
-  "prelaunch_updates": [],
-  "digest": {
-    "top3": [
-      {
-        "name": "Ritual (RITUAL)",
-        "why": "Only HIGH PRIORITY: Coinbase-listed AI L1 with doxxed founders; watch for a public audit and claim-window confirmation",
-        "link": "https://tokenomics.ritualfoundation.org"
-      },
-      {
-        "name": "Dataline (DAT)",
-        "why": "Strongest upcoming AI launch by backers (Coinbase Ventures, Lattice); score hinges on the sale terms and tokenomics",
-        "link": "https://www.theblock.co/news/deals/2026-10-21-dataline-decentralized-data-network-ai-agents-funding-ico-421596"
-      },
-      {
-        "name": "Quip Network (QUIP)",
-        "why": "Best-documented pre-launch PQ project (named team, Oak audit); chain audit and TGE date are the gates",
-        "link": "https://quip.network/blog/is-quip-network-legit-what-we-are-who-built-it-and-what-you-can-check"
-      }
-    ]
+   ],
+   "official_links": [
+    "https://ritual.net",
+    "https://www.ritualfoundation.com",
+    "https://x.com/ritualnet",
+    "https://x.com/ritualfnd",
+    "https://docs.ritualfoundation.org",
+    "https://tokenomics.ritualfoundation.org"
+   ],
+   "evidence": "Founders Niraj Pant & Akilesh Potti (ex-Polychain); $25M Series A led by Archetype (CoinDesk, Fortune, The Block); Coinbase spot listing from Oct 26; insiders locked >=12 months; 18% unlocked at launch.",
+   "risks": "No public audit found; thin volume; uncapped supply (~5% issuance); ~30% below Oct 29 high; Foundation admin powers at launch; sybil-pruning complaints.",
+   "sources": [
+    "https://cryptobriefing.com/coinbase-enables-ritual-token-spot-trading/",
+    "https://www.tokenpost.com/news/investing/41383",
+    "https://www.ritualfoundation.com/blog/ritual-mainnet-is-live"
+   ],
+   "provisional": false,
+   "last_update": "2026-11-01T13:26:12-05:00"
   },
-  "report": {
-    "updated": "2026-10-31T23:27:01-04:00",
-    "ai_summary": "Ritual (78) is the only HIGH PRIORITY. NeoSoul (58) and Axis (57) are live WATCH names with open risks; Dataline, Fraction AI and TermiX are provisional until they publish tokenomics.",
-    "quantum_summary": "No quantum project reaches 75. Verona (65, existing token, PQ upgrade Oct 28), Quantus (64) and Quip (62, pre-TGE) are the ones to watch."
+  {
+   "price": 0.180732,
+   "market_cap": 23495063,
+   "volume_24h": 12969795,
+   "price_updated": "2026-11-01T13:26:12-05:00",
+   "name": "NeoSoul",
+   "ticker": "DNA",
+   "niche": "AI",
+   "stage": "live",
+   "score": 58,
+   "verdict": "WATCH",
+   "cg_id": "neosoul",
+   "contract": "0xA991F61940095AEA0724ef54077223B048c5CF7b",
+   "chain": "BNB Smart Chain",
+   "milestones": [
+    {
+     "date": "2026-10-16",
+     "text": "Gate listing / trading start",
+     "confirmed": true
+    },
+    {
+     "date": "2026-11-06",
+     "text": "Gate Launchpool for DNA ends",
+     "confirmed": true
+    }
+   ],
+   "official_links": [
+    "https://neosoul.ai",
+    "https://x.com/NeoSoulAI"
+   ],
+   "evidence": "AI trading-agent workbench (NeoTrade); $11M pre-A led by MH Ventures with Amber Group, 0G Foundation and others (Aug 2026); listed on Gate, KuCoin, Bitget, MEXC and others.",
+   "risks": "Only one co-founder named; X account created Mar 2026; no audit; revenue self-reported; ~13% float vs FDV; funding coverage is mostly press releases.",
+   "sources": [
+    "https://www.gate.com/announcements/article/102248",
+    "https://dealroom.co/news/146017-neosoul-raises-11m-series-a-to-build-ai-agents-that-trade-autonomously/",
+    "https://www.theblock.co/press-releases/neosoul-raises-11-million-in-pre-a-funding-to-accelerate-its-expansion-in-the-ai-economy-412324"
+   ],
+   "provisional": false,
+   "last_update": "2026-11-01T13:26:12-05:00"
   },
-  "sweep": "sweeps/2026-10-31.md"
+  {
+   "price": 0.124451,
+   "market_cap": 20534472,
+   "volume_24h": 11814535,
+   "price_updated": "2026-11-01T13:26:12-05:00",
+   "name": "Axis Robotics",
+   "ticker": "AXIS",
+   "niche": "AI",
+   "stage": "live",
+   "score": 57,
+   "verdict": "WATCH",
+   "cg_id": "axis-robotics",
+   "contract": "0x5be75e3b0aff5d1a042a5363ae36acb1d6d755ea",
+   "chain": "Base",
+   "milestones": [
+    {
+     "date": "2026-10-21",
+     "text": "TGE; Coinbase, Upbit, Bitget, KuCoin day-one listings",
+     "confirmed": true
+    },
+    {
+     "date": "2026-10-28",
+     "text": "Sell-off: OTC counterparty sold locked ecosystem tokens (counsel reviewing)",
+     "confirmed": true
+    },
+    {
+     "date": "2026-11-03",
+     "text": "MEXC Airdrop+ for AXIS ends",
+     "confirmed": true
+    }
+   ],
+   "official_links": [
+    "https://axisrobotics.ai",
+    "https://x.com/axisrobotics",
+    "https://github.com/AxisAIOrg",
+    "https://airdrop.axisrobotics.ai"
+   ],
+   "evidence": "Physical-AI teleop data platform live since Mar 2026; tier-1 day-one venues; 1B fixed supply; team/investors 12-mo cliff + 24 mo vest.",
+   "risks": "Oct 28-29 sell-off of ~42M AXIS (ZachXBT flagged suspected insiders; Axis blames an OTC counterparty breaching a lock-up); no audit; legal-entity mismatch; no named team; phishing look-alike 'airdlrop' domain circulating.",
+   "sources": [
+    "https://tgeindex.com/tge/axis-robotics/",
+    "https://www.panews.io/articles/01a18863-17dc-715b-990d-21430c8f7370",
+    "https://cryptobriefing.com/axis-robotics-axis-token-sell-off-zachxbt/"
+   ],
+   "provisional": false,
+   "last_update": "2026-11-01T13:26:12-05:00"
+  },
+  {
+   "price": null,
+   "market_cap": null,
+   "volume_24h": null,
+   "price_updated": null,
+   "name": "Fraction AI",
+   "ticker": "FRAC",
+   "niche": "AI",
+   "stage": "pre-launch",
+   "score": 49,
+   "verdict": "WATCH",
+   "cg_id": null,
+   "contract": null,
+   "chain": null,
+   "milestones": [
+    {
+     "date": "2026-11-11",
+     "text": "Admission to trading per EU MiCA white paper",
+     "confirmed": false
+    }
+   ],
+   "official_links": [
+    "https://fractionai.xyz",
+    "https://x.com/FractionAI_xyz",
+    "https://fraction-ai.gitbook.io/fraction-ai-product-docs"
+   ],
+   "evidence": "AI agent competition platform; Halborn audit; Fraction AI Foundation in EU MiCA register.",
+   "risks": "No allocation, vesting, float or venues published; date only from a regulatory filing; backers not independently verified.",
+   "sources": [
+    "https://tgeindex.com/tge/fraction-ai/"
+   ],
+   "provisional": true
+  },
+  {
+   "price": 72.09,
+   "market_cap": 22837034,
+   "volume_24h": 659394,
+   "price_updated": "2026-11-01T13:26:12-05:00",
+   "name": "Quantus",
+   "ticker": "QTC",
+   "niche": "Quantum",
+   "stage": "live",
+   "score": 64,
+   "verdict": "WATCH",
+   "cg_id": "quantus",
+   "contract": "qtc.omft.near (NEAR Intents asset); native on Quantus L1",
+   "chain": "Quantus L1 (native); NEAR",
+   "milestones": [
+    {
+     "date": "2026-09-09",
+     "text": "Mainnet launch",
+     "confirmed": true
+    },
+    {
+     "date": "2026-10-07",
+     "text": "Trading opened (NEAR Intents)",
+     "confirmed": true
+    },
+    {
+     "date": null,
+     "text": "Tier-1 CEX listing",
+     "confirmed": false
+    }
+   ],
+   "official_links": [
+    "https://www.quantus.com",
+    "https://x.com/QuantusNetwork",
+    "https://github.com/Quantus-Network",
+    "https://www.quantus.com/whitepaper/pdf/en-US/whitepaper-v0.3.3.pdf"
+   ],
+   "evidence": "PoW L1 with NIST ML-DSA (Dilithium) signatures and ML-KEM; co-founders Christopher Smith & Joseph Mattia; round led by Balaji Srinivasan with Babak Nivi, Mert.",
+   "risks": "27% genesis premine (23% insiders, 1-yr lock + 36 mo linear); no tier-1 CEX; no audit found; FDV ~18x market cap.",
+   "sources": [
+    "https://approx.org/2026/10/07/quantum-safe-quantus-launches-qtc-token-trading-via-near-intents/",
+    "https://cryptonews.net/news/altcoins/33550862/"
+   ],
+   "provisional": false,
+   "last_update": "2026-11-01T13:26:12-05:00"
+  },
+  {
+   "price": null,
+   "market_cap": null,
+   "volume_24h": null,
+   "price_updated": null,
+   "name": "Quip Network",
+   "ticker": "QUIP",
+   "niche": "Quantum",
+   "stage": "pre-launch",
+   "score": 62,
+   "verdict": "WATCH",
+   "cg_id": null,
+   "contract": null,
+   "chain": null,
+   "milestones": [
+    {
+     "date": "2026-11-02",
+     "text": "Quests & Mindshare campaigns close",
+     "confirmed": true
+    },
+    {
+     "date": null,
+     "text": "Chain audit -> mainnet -> TGE",
+     "confirmed": false
+    }
+   ],
+   "official_links": [
+    "https://quip.network",
+    "https://x.com/quipnetwork",
+    "https://links.quip.network",
+    "https://developers.quip.network"
+   ],
+   "evidence": "Postquant Labs; CEO Colton Dillion, CTO Dr. Richard Carback named; Oak Security audit of swap/signature/smart-account contracts; testnet 27K+ PQ wallets, 1,500+ nodes (self-reported).",
+   "risks": "TGE undated; chain audit not done; uncapped supply (40M/yr emissions); points conversion rate unpublished; incentivized mindshare posting.",
+   "sources": [
+    "https://quip.network/blog/is-quip-network-legit-what-we-are-who-built-it-and-what-you-can-check",
+    "https://quip.network/documents/Quip-Security-Audit-v1.0.pdf",
+    "https://www.codezen.tech/audits/quip-network/"
+   ],
+   "provisional": false
+  },
+  {
+   "price": null,
+   "market_cap": null,
+   "volume_24h": null,
+   "price_updated": null,
+   "cg_id": null,
+   "contract": null,
+   "chain": "Base (planned)",
+   "provisional": true,
+   "name": "Dataline",
+   "ticker": "DAT",
+   "niche": "AI",
+   "stage": "pre-launch",
+   "score": 43,
+   "verdict": "WATCH",
+   "milestones": [
+    {
+     "date": "2026-10-21",
+     "text": "$10.6M seed announced; public sale planned on Uniswap CCA (Base)",
+     "confirmed": true
+    },
+    {
+     "date": null,
+     "text": "Uniswap CCA public sale: pre-bidding 'opens soon', no date",
+     "confirmed": false
+    },
+    {
+     "date": null,
+     "text": "Token launch targeted by end of 2026",
+     "confirmed": false
+    }
+   ],
+   "official_links": [
+    "https://x.com/DatalineAI"
+   ],
+   "sources": [
+    "https://www.theblock.co/news/deals/2026-10-21-dataline-decentralized-data-network-ai-agents-funding-ico-421596",
+    "https://cryptobriefing.com/dataline-raises-10-6m-ai-data-network-token-sale/",
+    "https://www.kucoin.com/blog/jp-dataline-crypto-funding-dline-token-launch"
+   ],
+   "evidence": "Data network for AI agents (formerly Tearline), ~50 data sources (self-reported); $10.6M seed co-led by Lattice and Dispersion with Coinbase Ventures, Anagram, Symbolic, Vlad Tenev (The Block); co-founder Nuo Shi named.",
+   "risks": "No tokenomics, sale size, price or date published; ticker confusion (official X says $DAT, some outlets say DLINE); X has 315K followers but very low engagement; no audit."
+  },
+  {
+   "price": null,
+   "market_cap": null,
+   "volume_24h": null,
+   "price_updated": null,
+   "cg_id": null,
+   "contract": null,
+   "chain": "BNB Chain (product)",
+   "provisional": true,
+   "name": "TermiX",
+   "ticker": "TMT",
+   "niche": "AI",
+   "stage": "pre-launch",
+   "score": 33,
+   "verdict": "WATCH",
+   "milestones": [
+    {
+     "date": null,
+     "text": "TMT TGE: no date announced",
+     "confirmed": false
+    }
+   ],
+   "official_links": [
+    "https://www.agent.family",
+    "https://x.com/termix_ai"
+   ],
+   "sources": [
+    "https://www.chaincatcher.com/en/article/2275451",
+    "https://dropstab.com/coins/termix-ai",
+    "https://www.agent.family/campaigns/kaito-katalyst"
+   ],
+   "evidence": "Agent-to-agent job marketplace with on-chain escrow live on BNB Chain mainnet; backed by YZi Labs (per its X bio and Bit.Fan).",
+   "risks": "Only 0.30% of supply disclosed (Kaito creator pool); no TGE date, supply or vesting; points plus referral farming; impersonators soliciting 'investments' (project's own Oct 28 warning)."
+  },
+  {
+   "price": 0.108818,
+   "market_cap": 10091858,
+   "volume_24h": 129327,
+   "price_updated": "2026-11-01T13:26:12-05:00",
+   "cg_id": "verona",
+   "contract": null,
+   "chain": "Verona L1 (Cosmos SDK)",
+   "provisional": false,
+   "name": "Verona (ex-XION)",
+   "ticker": "VERONA",
+   "niche": "Quantum",
+   "stage": "live",
+   "score": 65,
+   "verdict": "WATCH",
+   "milestones": [
+    {
+     "date": "2026-10-28",
+     "text": "Fermi v32 mainnet upgrade: ML-DSA-65 and SLH-DSA-128s account signatures",
+     "confirmed": true
+    },
+    {
+     "date": null,
+     "text": "Phase two: validator keys to ML-DSA-65",
+     "confirmed": false
+    }
+   ],
+   "official_links": [
+    "https://verona.dev",
+    "https://x.com/verona_dev",
+    "https://github.com/burnt-labs/xion/releases/tag/v32.0.0"
+   ],
+   "sources": [
+    "https://announcements.bybit.com/en/article/bybit-to-support-verona-verona-v32-0-1-network-upgrade--artfb91da5997be/",
+    "https://polkachu.com/chain_upgrades/1188",
+    "https://www.globenewswire.com/news-release/2026/10/28/3390239/0/en/verona-launches-fermi-mainnet-v32-with-nist-post-quantum-cryptography.html"
+   ],
+   "evidence": "Not a new token: the existing XION chain (Burnt Labs; Multicoin, Animoca-backed per CoinGecko) shipped NIST post-quantum account signatures on mainnet Oct 28; open-source release on GitHub; added to CoinGecko Quantum-Resistant category.",
+   "risks": "Not a new launch; validators/consensus still classical; low 24h volume; about 47% below its June high; tokenomics and audit not checked in this sweep.",
+   "last_update": "2026-11-01T13:26:12-05:00"
+  }
+ ],
+ "airdrops": [
+  {
+   "project": "Quip Network",
+   "what": "Quests & Mindshare campaigns",
+   "how": "Complete quests / mindshare tasks on the official sites; final points distributed at close",
+   "closes": "2026-11-02T08:00:00-05:00",
+   "link": "https://quest.quip.network",
+   "unconfirmed": false
+  },
+  {
+   "project": "Quip Network",
+   "what": "Mindshare leaderboard",
+   "how": "Official mindshare subdomain (same close as Quests)",
+   "closes": "2026-11-02T08:00:00-05:00",
+   "link": "https://mindshare.quip.network",
+   "unconfirmed": false
+  },
+  {
+   "project": "Quip Network",
+   "what": "Quip Points (ongoing)",
+   "how": "Daily sign-in, node, QuipSwap paper swaps; points convert to QUIP at TGE by leaderboard position",
+   "closes": null,
+   "link": "https://links.quip.network",
+   "unconfirmed": true
+  },
+  {
+   "project": "NeoSoul (DNA)",
+   "what": "Gate Launchpool",
+   "how": "Exchange-run staking of BTC/ETH/DNA; needs Gate account + KYC",
+   "closes": "2026-11-06T06:00:00-05:00",
+   "link": "https://www.gate.com/announcements/article/102248",
+   "unconfirmed": false
+  },
+  {
+   "project": "Axis Robotics (AXIS)",
+   "what": "MEXC Airdrop+",
+   "how": "Exchange-run, trading-based; details on MEXC only",
+   "closes": "2026-11-03T08:00:00-05:00",
+   "link": null,
+   "unconfirmed": false
+  },
+  {
+   "project": "Ritual (RITUAL)",
+   "what": "Community airdrop claim",
+   "how": "Pre-approved addresses only; 3-month window from a Foundation-announced start",
+   "closes": null,
+   "link": "https://airdrop.ritualfoundation.org",
+   "unconfirmed": true
+  },
+  {
+   "project": "Axis Robotics (AXIS)",
+   "what": "Contributor claim",
+   "how": "Prior contributors only; real page is airdrop.axisrobotics.ai (a look-alike 'airdlrop' domain is phishing)",
+   "closes": null,
+   "link": "https://airdrop.axisrobotics.ai",
+   "unconfirmed": true
+  }
+ ],
+ "deadlines": [
+  {
+   "date": "2026-11-02T08:00:00-05:00",
+   "text": "Quip Quests & Mindshare close"
+  },
+  {
+   "date": "2026-11-03T08:00:00-05:00",
+   "text": "MEXC Airdrop+ for AXIS ends"
+  },
+  {
+   "date": "2026-11-06T06:00:00-05:00",
+   "text": "Gate Launchpool for DNA ends"
+  },
+  {
+   "date": "2026-11-11",
+   "text": "Fraction AI (FRAC) admission to trading per MiCA filing (not announced by project)"
+  },
+  {
+   "date": "2026-11-18",
+   "text": "QMS Network Builder Program applications close (no token announced)"
+  },
+  {
+   "date": null,
+   "text": "Dataline (DAT) Uniswap CCA sale on Base: 'pre-bidding opens soon', no date"
+  },
+  {
+   "date": null,
+   "text": "Quip (QUIP): chain audit, then mainnet, then TGE; no dates"
+  }
+ ],
+ "rejections": [
+  {
+   "name": "Univex Network",
+   "niche": "AI+Quantum",
+   "reason": "Hard flag: website presale for an 'AI + post-quantum' L1 pushed by shill accounts"
+  },
+  {
+   "name": "Wire Network (WIRE)",
+   "niche": "AI",
+   "reason": "Pre-token sale open with no team, tokenomics, audit or venues; TGE pushed from Oct 27 to late Nov (TGE Index 1/8)",
+   "link": "https://tgeindex.com/tge/wire-network/"
+  },
+  {
+   "name": "Ptah IAO",
+   "niche": "AI",
+   "reason": "'Initial Agent Offering' presale promoted by near-zero-follower accounts posting template text"
+  },
+  {
+   "name": "JAGENT, GANG (BSC agent launchpads)",
+   "niche": "AI",
+   "reason": "Anonymous BSC fair-mint / launchpad tokens with shill-only coverage"
+  },
+  {
+   "name": "TensorCash (TSC)",
+   "niche": "AI+Quantum",
+   "reason": "Pseudonymous initiator, no funding, SafeTrade only (score 34)"
+  },
+  {
+   "name": "Soqucoin (SOQ)",
+   "niche": "Quantum",
+   "reason": "Unidentified team, tiny venues, conflicting mainnet messaging (score 41, recheck)"
+  },
+  {
+   "name": "NaoX Protocol (NAORIS)",
+   "niche": "Quantum",
+   "reason": "Not new (2025 TGE; KuCoin spot Oct 27); CoinGecko still links the suspended @NaorisProtocol while @NaoXprotocol is unconfirmed from the official site",
+   "link": "https://www.kucoin.com/blog/naox-protocol-naoris-listed-on-kucoin-trading-schedule-token-utility-and-quantum-resistant-blockchain"
+  },
+  {
+   "name": "OnlyAgent (OA), pqc.market (PQC), Swarm Engine (SWARM)",
+   "niche": "AI / Quantum",
+   "reason": "Anonymous pump.fun / single-pool tokens"
+  },
+  {
+   "name": "Agent AI Cash (AAIC), Lithosphere (LITHO), Sectora (SECT)",
+   "niche": "AI / Quantum",
+   "reason": "Paid-PR-only coverage, unverified launches or weak audits"
+  },
+  {
+   "name": "Parano1d (NOID)",
+   "niche": "Quantum",
+   "reason": "Pseudonymous dev, SafeTrade only"
+  }
+ ],
+ "prelaunch_updates": [],
+ "digest": {
+  "top3": [
+   {
+    "name": "Ritual (RITUAL)",
+    "why": "Only HIGH PRIORITY: Coinbase-listed AI L1 with doxxed founders; watch for a public audit and claim-window confirmation",
+    "link": "https://tokenomics.ritualfoundation.org"
+   },
+   {
+    "name": "Dataline (DAT)",
+    "why": "Strongest upcoming AI launch by backers (Coinbase Ventures, Lattice); score hinges on the sale terms and tokenomics",
+    "link": "https://www.theblock.co/news/deals/2026-10-21-dataline-decentralized-data-network-ai-agents-funding-ico-421596"
+   },
+   {
+    "name": "Quip Network (QUIP)",
+    "why": "Best-documented pre-launch PQ project (named team, Oak audit); chain audit and TGE date are the gates",
+    "link": "https://quip.network/blog/is-quip-network-legit-what-we-are-who-built-it-and-what-you-can-check"
+   }
+  ]
+ },
+ "report": {
+  "updated": "2026-10-31T23:27:01-04:00",
+  "ai_summary": "Ritual (78) is the only HIGH PRIORITY. NeoSoul (58) and Axis (57) are live WATCH names with open risks; Dataline, Fraction AI and TermiX are provisional until they publish tokenomics.",
+  "quantum_summary": "No quantum project reaches 75. Verona (65, existing token, PQ upgrade Oct 28), Quantus (64) and Quip (62, pre-TGE) are the ones to watch."
+ },
+ "sweep": "sweeps/2026-10-31.md",
+ "prices_updated": "2026-11-01T13:26:12-05:00"
 }
