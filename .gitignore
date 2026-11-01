@@ -1,3 +1,5 @@
 __pycache__/
 *.pyc
 .oracle-feed.*.tmp
+.prices.lock
+oracle-feed.json.tmp
