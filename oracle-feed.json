@@ -1,1425 +1,1450 @@
 {
- "generated_at": "2026-11-01T17:55:00-05:00",
- "updated": "2026-11-01T17:55:00-05:00",
- "status": {
-  "state": "idle",
-  "last_scan": "2026-11-01T17:55:00-05:00",
-  "next_scan": "2026-11-02T07:30:00-05:00",
-  "alerts_used_today": 1,
+  "generated_at": "2026-11-02T07:43:00-05:00",
+  "updated": "2026-11-02T07:43:03-05:00",
+  "status": {
+    "state": "idle",
+    "last_scan": "2026-11-02T07:43:00-05:00",
+    "next_scan": "2026-11-03T07:30:00-05:00",
+    "alerts_used_today": 0,
+    "alert_cap": 3,
+    "x_reads_left_today": 993,
+    "activity": [
+      "Re-checked 10 watchlist projects: no score changes",
+      "Screened new AI and quantum launches: 5 rejected, 1 radar",
+      "No new HIGH PRIORITY (0 of 3 used)",
+      "Airdrop Bot: 378 Quip Points (last report Nov 1)"
+    ]
+  },
+  "snapshot_note": "Sweep Nov 2 · 1 HIGH · 9 WATCH · 5 rejected · no score changes · Airdrop Bot: 378 Quip Points (last report Nov 1)",
+  "alerts_used_today": 0,
   "alert_cap": 3,
-  "x_reads_left_today": 979,
-  "activity": [
-   "Rescored 10 watchlist projects",
-   "Screened new AI and quantum launches",
-   "Impostor checks: Ritual PASS",
-   "Airdrop Bot: 378 Quip Points"
-  ]
- },
- "snapshot_note": "Full sweep Nov 1 · 1 HIGH · 9 WATCH · 9 rejected · Airdrop Bot: 378 Quip Points (Quip quests end Nov 2, 8:00 AM ET)",
- "alerts_used_today": 1,
- "alert_cap": 3,
- "alerts": [
-  {
-   "name": "Ritual",
-   "ticker": "RITUAL",
-   "theme": "AI",
-   "event": "Mainnet + TGE; spot live on Coinbase, MEXC, KuCoin",
-   "event_date": "2026-10-26T12:00:00-04:00",
-   "score": 78,
-   "breakdown": {
-    "team": 93,
-    "tech": 87,
-    "backing": 100,
-    "security": 30,
-    "tokenomics": 67,
-    "dev": 90,
-    "social": 70
-   },
-   "breakdown_note": "Percent of each Oracle factor: team=Team 14/15, tech=Product 13/15, backing=Backers 10/10, security=Audit 3/10, tokenomics=Tokenomics 10/15, dev=Official-channel consistency 9/10, social=Red-flag pool 7/10; Liquidity 12/15 not shown as a bar.",
-   "why_legit": "Doxxed founders (Niraj Pant, Akilesh Potti, ex-Polychain), $25M Series A led by Archetype, live AI L1 since Oct 26 with Coinbase, KuCoin and MEXC spot markets; insiders locked 12+ months.",
-   "sources": [
+  "alerts": [
     {
-     "label": "Ritual Foundation: mainnet live",
-     "url": "https://www.ritualfoundation.com/blog/ritual-mainnet-is-live"
-    },
-    {
-     "label": "Crypto Briefing: Coinbase spot",
-     "url": "https://cryptobriefing.com/coinbase-enables-ritual-token-spot-trading/"
-    },
-    {
-     "label": "KuCoin listing notice",
-     "url": "https://www.kucoin.com/announcement/en-ritual-ritual-listed-on-kucoin1028"
+      "name": "Ritual",
+      "ticker": "RITUAL",
+      "theme": "AI",
+      "event": "Mainnet + TGE; spot live on Coinbase, MEXC, KuCoin",
+      "event_date": "2026-10-26T12:00:00-04:00",
+      "score": 78,
+      "breakdown": {
+        "team": 93,
+        "tech": 87,
+        "backing": 100,
+        "security": 30,
+        "tokenomics": 67,
+        "dev": 90,
+        "social": 70
+      },
+      "breakdown_note": "Percent of each Oracle factor: team=Team 14/15, tech=Product 13/15, backing=Backers 10/10, security=Audit 3/10, tokenomics=Tokenomics 10/15, dev=Official-channel consistency 9/10, social=Red-flag pool 7/10; Liquidity 12/15 not shown as a bar.",
+      "why_legit": "Doxxed founders (Niraj Pant, Akilesh Potti, ex-Polychain), $25M Series A led by Archetype, live AI L1 since Oct 26 with Coinbase, KuCoin and MEXC spot markets; insiders locked 12+ months.",
+      "sources": [
+        {
+          "label": "Ritual Foundation: mainnet live",
+          "url": "https://www.ritualfoundation.com/blog/ritual-mainnet-is-live"
+        },
+        {
+          "label": "Crypto Briefing: Coinbase spot",
+          "url": "https://cryptobriefing.com/coinbase-enables-ritual-token-spot-trading/"
+        },
+        {
+          "label": "KuCoin listing notice",
+          "url": "https://www.kucoin.com/announcement/en-ritual-ritual-listed-on-kucoin1028"
+        }
+      ],
+      "risks": [
+        "No public audit of the core chain found",
+        "Thin 24h volume (~$0.55M)",
+        "Uncapped supply (~5%/yr issuance)",
+        "~30% below the Oct 29 high",
+        "Foundation admin powers at launch"
+      ],
+      "contract": {
+        "chain": "BSC & Base (LayerZero-bridged; native on Ritual L1, chain ID 784)",
+        "address": "0x256Ea35422b2F36B24aC1D66159Fe69e75918C37",
+        "verified": false
+      },
+      "impostor_warning": "Impostor check PASS: site, X and CoinGecko point at each other. Look-alike founder handles exist with 0-1 followers; use only @ritualnet / @ritualfnd. The bridged address comes from the official tokenomics page but is a bridged token, so it stays unverified.",
+      "market_cap": 35562313,
+      "at": "2026-11-01T17:55:00-05:00",
+      "sent_at": "2026-11-01T17:55:00-05:00",
+      "status": "sent"
     }
-   ],
-   "risks": [
-    "No public audit of the core chain found",
-    "Thin 24h volume (~$0.55M)",
-    "Uncapped supply (~5%/yr issuance)",
-    "~30% below the Oct 29 high",
-    "Foundation admin powers at launch"
-   ],
-   "contract": {
-    "chain": "BSC & Base (LayerZero-bridged; native on Ritual L1, chain ID 784)",
-    "address": "0x256Ea35422b2F36B24aC1D66159Fe69e75918C37",
-    "verified": false
-   },
-   "impostor_warning": "Impostor check PASS: site, X and CoinGecko point at each other. Look-alike founder handles exist with 0-1 followers; use only @ritualnet / @ritualfnd. The bridged address comes from the official tokenomics page but is a bridged token, so it stays unverified.",
-   "market_cap": 35562313,
-   "at": "2026-11-01T17:55:00-05:00",
-   "sent_at": "2026-11-01T17:55:00-05:00",
-   "status": "sent"
-  }
- ],
- "watchlist": [
-  {
-   "name": "Ritual",
-   "ticker": "RITUAL",
-   "theme": "AI",
-   "stage": "live",
-   "score": 78,
-   "tier": "HIGH",
-   "verdict": "HIGH PRIORITY",
-   "breakdown": {
-    "team": 14,
-    "backers": 10,
-    "product": 13,
-    "audit": 3,
-    "consistency": 9,
-    "tokenomics": 10,
-    "liquidity": 12,
-    "red_flag_pool": 7
-   },
-   "website": "https://ritual.net",
-   "next_milestone": "Community airdrop claim window (approved addresses only): start date unpublished",
-   "milestone_date": null,
-   "dex_route": "",
-   "chain": "Ritual L1 (native); bridged to BSC & Base via LayerZero",
-   "links": [
+  ],
+  "watchlist": [
     {
-     "label": "Site",
-     "url": "https://ritual.net"
+      "name": "Ritual",
+      "ticker": "RITUAL",
+      "theme": "AI",
+      "stage": "live",
+      "score": 78,
+      "tier": "HIGH",
+      "verdict": "HIGH PRIORITY",
+      "breakdown": {
+        "team": 14,
+        "backers": 10,
+        "product": 13,
+        "audit": 3,
+        "consistency": 9,
+        "tokenomics": 10,
+        "liquidity": 12,
+        "red_flag_pool": 7
+      },
+      "website": "https://ritual.net",
+      "next_milestone": "Community airdrop claim window (approved addresses only): start date unpublished",
+      "milestone_date": null,
+      "dex_route": "",
+      "chain": "Ritual L1 (native); bridged to BSC & Base via LayerZero",
+      "links": [
+        {
+          "label": "Site",
+          "url": "https://ritual.net"
+        },
+        {
+          "label": "Foundation",
+          "url": "https://www.ritualfoundation.com"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/ritualnet"
+        },
+        {
+          "label": "Docs",
+          "url": "https://docs.ritualfoundation.org"
+        },
+        {
+          "label": "Tokenomics",
+          "url": "https://tokenomics.ritualfoundation.org"
+        }
+      ],
+      "sources": [
+        "https://www.ritualfoundation.com/blog/ritual-mainnet-is-live",
+        "https://cryptobriefing.com/coinbase-enables-ritual-token-spot-trading/",
+        "https://www.kucoin.com/announcement/en-ritual-ritual-listed-on-kucoin1028"
+      ],
+      "notes": "Mainnet + TGE Oct 26; spot on Coinbase (Oct 26), MEXC (Oct 26) and KuCoin (Oct 28). 18% unlocked at launch, insiders locked >=12 months, uncapped (~5%/yr issuance). No public audit found. Nov 2: some outlets (Dealroom, HOGE Wire) say Zellic audited the protocol, but no public report was found (not in Zellic's public repo, not on the Ritual blog), so Audit stays 3/10.",
+      "upgrade_if": "A public audit of the core chain is published and 24h volume deepens",
+      "downgrade_if": "Insider unlock news, an exploit, or Coinbase/KuCoin delisting",
+      "provisional": false,
+      "price": 0.01923333,
+      "market_cap": 34619995.30893079,
+      "volume_24h": 495258.9543456176,
+      "price_updated": "2026-11-02T07:43:03-05:00",
+      "last_update": "2026-11-02T07:43:03-05:00",
+      "cg_id": "ritual",
+      "niche": "AI",
+      "official_links": [
+        "https://ritual.net",
+        "https://www.ritualfoundation.com",
+        "https://x.com/ritualnet",
+        "https://docs.ritualfoundation.org",
+        "https://tokenomics.ritualfoundation.org"
+      ],
+      "score_history": [
+        {
+          "date": "2026-10-31",
+          "score": 78
+        },
+        {
+          "date": "2026-11-01",
+          "score": 78
+        },
+        {
+          "date": "2026-11-02",
+          "score": 78
+        }
+      ],
+      "contract": "Native on RITUAL chain (ID 784); BSC & Base 0x256Ea35422b2F36B24aC1D66159Fe69e75918C37 (official tokenomics page; CoinGecko lists no platform contract)",
+      "milestones": [
+        {
+          "date": "2026-10-26",
+          "text": "Mainnet + TGE; Coinbase RITUAL-USD spot from day one",
+          "confirmed": true
+        },
+        {
+          "date": null,
+          "text": "Community airdrop claim window start (pre-approved addresses only)",
+          "confirmed": false
+        },
+        {
+          "date": null,
+          "text": "Public audit publication",
+          "confirmed": false
+        }
+      ]
     },
     {
-     "label": "Foundation",
-     "url": "https://www.ritualfoundation.com"
+      "name": "Verona (ex-XION)",
+      "ticker": "VERONA",
+      "theme": "Quantum",
+      "stage": "live",
+      "score": 65,
+      "tier": "WATCH",
+      "verdict": "WATCH",
+      "breakdown": {
+        "team": 12,
+        "backers": 9,
+        "product": 13,
+        "audit": 2,
+        "consistency": 9,
+        "tokenomics": 6,
+        "liquidity": 7,
+        "red_flag_pool": 7
+      },
+      "website": "https://verona.dev",
+      "next_milestone": "Phase two: validator keys to ML-DSA-65 (date TBA)",
+      "milestone_date": null,
+      "dex_route": "",
+      "chain": "Verona L1 (Cosmos SDK)",
+      "links": [
+        {
+          "label": "Site",
+          "url": "https://verona.dev"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/verona_dev"
+        },
+        {
+          "label": "v32 release",
+          "url": "https://github.com/burnt-labs/xion/releases/tag/v32.0.0"
+        }
+      ],
+      "sources": [
+        "https://announcements.bybit.com/en/article/bybit-to-support-verona-verona-v32-0-1-network-upgrade--artfb91da5997be/",
+        "https://www.globenewswire.com/news-release/2026/10/28/3390239/0/en/verona-launches-fermi-mainnet-v32-with-nist-post-quantum-cryptography.html"
+      ],
+      "notes": "Existing token (ex-XION). Fermi v32 (Oct 28) added ML-DSA-65 and SLH-DSA-128s account signing; added to CoinGecko and CoinMarketCap Quantum-Resistant categories (CMC per @verona_dev Oct 30). Validators still classical. Nov 2: official account retweeted an interview mentioning a new Verona stablecoin (not yet verified from verona.dev).",
+      "upgrade_if": "Validator-key migration ships and volume grows",
+      "downgrade_if": "Upgrade bugs or the classical-key path stays the default",
+      "provisional": false,
+      "price": 0.109354,
+      "market_cap": 10144262.828062886,
+      "volume_24h": 278435.3646395441,
+      "price_updated": "2026-11-02T07:43:03-05:00",
+      "last_update": "2026-11-02T07:43:03-05:00",
+      "cg_id": "verona",
+      "niche": "Quantum",
+      "official_links": [
+        "https://verona.dev",
+        "https://x.com/verona_dev",
+        "https://github.com/burnt-labs/xion/releases/tag/v32.0.0"
+      ],
+      "score_history": [
+        {
+          "date": "2026-10-31",
+          "score": 65
+        },
+        {
+          "date": "2026-11-01",
+          "score": 65
+        },
+        {
+          "date": "2026-11-02",
+          "score": 65
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2026-10-28",
+          "text": "Fermi v32 mainnet upgrade: ML-DSA-65 and SLH-DSA-128s account signatures",
+          "confirmed": true
+        },
+        {
+          "date": null,
+          "text": "Phase two: validator keys to ML-DSA-65",
+          "confirmed": false
+        }
+      ]
     },
     {
-     "label": "X",
-     "url": "https://x.com/ritualnet"
+      "name": "Quantus",
+      "ticker": "QTC",
+      "theme": "Quantum",
+      "stage": "live",
+      "score": 64,
+      "tier": "WATCH",
+      "verdict": "WATCH",
+      "breakdown": {
+        "team": 12,
+        "backers": 8,
+        "product": 12,
+        "audit": 2,
+        "consistency": 9,
+        "tokenomics": 8,
+        "liquidity": 6,
+        "red_flag_pool": 7
+      },
+      "website": "https://www.quantus.com",
+      "next_milestone": "Tier-1 CEX listing: none announced",
+      "milestone_date": null,
+      "dex_route": "NEAR Intents (near.com), Rhea Finance",
+      "chain": "Quantus L1 (native PoW); NEAR Intents asset",
+      "links": [
+        {
+          "label": "Site",
+          "url": "https://www.quantus.com"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/QuantusNetwork"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Quantus-Network"
+        },
+        {
+          "label": "Whitepaper",
+          "url": "https://www.quantus.com/whitepaper/pdf/en-US/whitepaper-v0.3.3.pdf"
+        }
+      ],
+      "sources": [
+        "https://forklog.com/en/quantus-post-quantum-blockchain-token-launches-on-near-ecosystem/",
+        "https://bigone.zendesk.com/hc/en-us/articles/62918956035353-BigONE-Lists-Quantus-QTC-USDT-Trading-Pair-is-Now-Available"
+      ],
+      "notes": "ML-DSA PoW L1 (mainnet Sep 9); trading via NEAR Intents since Oct 6, plus BigONE, Ourbit, SafeTrade. 27% genesis premine (insiders 1-yr lock + 36 mo linear). No audit found; FDV ~18x market cap.",
+      "upgrade_if": "Audit published or a tier-1 CEX listing",
+      "downgrade_if": "Premine unlock pressure or mining centralisation",
+      "provisional": false,
+      "price": 69.65,
+      "market_cap": 22169661.94424223,
+      "volume_24h": 916784.4503391327,
+      "price_updated": "2026-11-02T07:43:03-05:00",
+      "last_update": "2026-11-02T07:43:03-05:00",
+      "cg_id": "quantus",
+      "niche": "Quantum",
+      "official_links": [
+        "https://www.quantus.com",
+        "https://x.com/QuantusNetwork",
+        "https://github.com/Quantus-Network",
+        "https://www.quantus.com/whitepaper/pdf/en-US/whitepaper-v0.3.3.pdf"
+      ],
+      "score_history": [
+        {
+          "date": "2026-10-31",
+          "score": 64
+        },
+        {
+          "date": "2026-11-01",
+          "score": 64
+        },
+        {
+          "date": "2026-11-02",
+          "score": 64
+        }
+      ],
+      "contract": "qtc.omft.near (NEAR Intents asset); native on Quantus L1",
+      "milestones": [
+        {
+          "date": "2026-09-09",
+          "text": "Mainnet launch",
+          "confirmed": true
+        },
+        {
+          "date": "2026-10-07",
+          "text": "Trading opened (NEAR Intents)",
+          "confirmed": true
+        },
+        {
+          "date": null,
+          "text": "Tier-1 CEX listing",
+          "confirmed": false
+        }
+      ]
     },
     {
-     "label": "Docs",
-     "url": "https://docs.ritualfoundation.org"
+      "name": "Quip Network",
+      "ticker": "QUIP",
+      "theme": "Quantum",
+      "stage": "pre-launch",
+      "score": 62,
+      "tier": "WATCH",
+      "verdict": "WATCH",
+      "breakdown": {
+        "team": 12,
+        "backers": 6,
+        "product": 12,
+        "audit": 7,
+        "consistency": 9,
+        "tokenomics": 6,
+        "liquidity": 2,
+        "red_flag_pool": 8
+      },
+      "website": "https://quip.network",
+      "cg_watch": true,
+      "next_milestone": "Quests end Mon 11/2 8:00 AM ET · Airdrop Bot: 378 Quip Points (last report Sun 11/1 5:53 PM ET)",
+      "milestone_date": "2026-11-02T08:00:00-05:00",
+      "dex_route": "",
+      "chain": "Quip chain (testnet); QuipSwap on Base",
+      "links": [
+        {
+          "label": "Site",
+          "url": "https://quip.network"
+        },
+        {
+          "label": "Quests",
+          "url": "https://quest.quip.network"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/quipnetwork"
+        },
+        {
+          "label": "Docs",
+          "url": "https://developers.quip.network"
+        },
+        {
+          "label": "Mainnet update",
+          "url": "https://quip.network/blog/quip-network-final-stretch-to-mainnet"
+        }
+      ],
+      "sources": [
+        "https://quip.network/blog/quip-network-final-stretch-to-mainnet",
+        "https://quip.network/documents/Quip-Security-Audit-v1.0.pdf",
+        "https://www.codezen.tech/audits/quip-network/"
+      ],
+      "notes": "Airdrop Bot: 378 Quip Points on Quip Quests (rank 5000+), last reported Sun Nov 1 5:53 PM ET; no newer report. Quests & Mindshare close Mon Nov 2 8:00 AM ET; results are tallied on the campaign sites; Quip Points continue until mainnet. Project: chain audit -> mainnet -> TGE, no dates; Oak Security contract audit (Sep 24) 48 findings, 0 critical; points convert to QUIP by leaderboard position at TGE, rate unpublished.",
+      "airdrop_progress": {
+        "campaign": "Quip Quests",
+        "points": 378,
+        "rank": "5000+ (exact rank not shown)",
+        "claimed": [
+          "Follow X",
+          "3 founder follows",
+          "Discord",
+          "Telegram",
+          "YouTube subscribe",
+          "Nov 1 daily check-in"
+        ],
+        "open": [
+          "Nov 2 daily check-in",
+          "Daily X posts",
+          "One optional quest"
+        ],
+        "ends": "2026-11-02T08:00:00-05:00",
+        "reported_at": "2026-11-01T17:53:00-05:00",
+        "url": "https://quest.quip.network"
+      },
+      "upgrade_if": "Chain audit published and a dated TGE with venues",
+      "downgrade_if": "Audit slips or conversion terms disappoint",
+      "provisional": false,
+      "price": null,
+      "market_cap": null,
+      "volume_24h": null,
+      "price_updated": null,
+      "cg_id": null,
+      "last_update": "2026-11-02T07:43:00-05:00",
+      "niche": "Quantum",
+      "official_links": [
+        "https://quip.network",
+        "https://quest.quip.network",
+        "https://x.com/quipnetwork",
+        "https://developers.quip.network",
+        "https://quip.network/blog/quip-network-final-stretch-to-mainnet"
+      ],
+      "score_history": [
+        {
+          "date": "2026-10-31",
+          "score": 62
+        },
+        {
+          "date": "2026-11-01",
+          "score": 62
+        },
+        {
+          "date": "2026-11-02",
+          "score": 62
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2026-11-02",
+          "text": "Quests & Mindshare campaigns close",
+          "confirmed": true
+        },
+        {
+          "date": null,
+          "text": "Chain audit -> mainnet -> TGE",
+          "confirmed": false
+        }
+      ]
     },
     {
-     "label": "Tokenomics",
-     "url": "https://tokenomics.ritualfoundation.org"
+      "name": "GenLayer",
+      "ticker": "GEN",
+      "theme": "AI",
+      "stage": "pre-launch",
+      "score": 60,
+      "tier": "WATCH",
+      "verdict": "WATCH",
+      "breakdown": {
+        "team": 11,
+        "backers": 7,
+        "product": 10,
+        "audit": 1,
+        "consistency": 7,
+        "tokenomics": 12,
+        "liquidity": 4,
+        "red_flag_pool": 8
+      },
+      "website": "https://www.genlayer.com",
+      "cg_watch": true,
+      "next_milestone": "TGE + mainnet on Arbitrum: date unpublished (Oct target passed)",
+      "milestone_date": null,
+      "dex_route": "",
+      "chain": "Arbitrum (announced Oct 22)",
+      "links": [
+        {
+          "label": "Site",
+          "url": "https://www.genlayer.com"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/GenLayer"
+        },
+        {
+          "label": "Portal",
+          "url": "https://portal.genlayer.foundation"
+        },
+        {
+          "label": "Docs",
+          "url": "https://docs.genlayer.com"
+        }
+      ],
+      "sources": [
+        "https://tgeindex.com/tge/genlayer/",
+        "https://www.theblock.co/news/business/2024-08-20-vcs-back-ai-focused-blockchain-team-building-internet-connected-smart-contracts-312105",
+        "https://portal.genlayer.foundation/assets/documents/genlayer-tokenomics-october-2026.pdf"
+      ],
+      "notes": "NEW this sweep. AI-native chain for 'intelligent contracts' (YeagerAI; CEO Albert Castellana). $7.5M seed led by North Island Ventures (The Block, Aug 2024). Tokenomics published: 4.2B genesis, ~24.4% float at TGE, investors/labs 12-mo cliff. MiCA paper names Kraken, Coinbase, Bybit EU, KuCoin EU, Gate. No independent audit yet; airdrop registration closed.",
+      "upgrade_if": "Dated TGE with confirmed venues and an independent audit",
+      "downgrade_if": "More date slips or impostor/claim scams",
+      "provisional": false,
+      "cg_id": null,
+      "price": null,
+      "market_cap": null,
+      "volume_24h": null,
+      "price_updated": null,
+      "last_update": "2026-11-02T07:43:00-05:00",
+      "niche": "AI",
+      "official_links": [
+        "https://www.genlayer.com",
+        "https://x.com/GenLayer",
+        "https://portal.genlayer.foundation",
+        "https://docs.genlayer.com"
+      ],
+      "score_history": [
+        {
+          "date": "2026-11-01",
+          "score": 60
+        },
+        {
+          "date": "2026-11-02",
+          "score": 60
+        }
+      ]
+    },
+    {
+      "name": "NeoSoul",
+      "ticker": "DNA",
+      "theme": "AI",
+      "stage": "live",
+      "score": 58,
+      "tier": "WATCH",
+      "verdict": "WATCH",
+      "breakdown": {
+        "team": 5,
+        "backers": 7,
+        "product": 10,
+        "audit": 0,
+        "consistency": 8,
+        "tokenomics": 8,
+        "liquidity": 13,
+        "red_flag_pool": 7
+      },
+      "website": "https://neosoul.ai",
+      "next_milestone": "Gate Launchpool for DNA ends Fri 11/6 6:00 AM ET",
+      "milestone_date": "2026-11-06T06:00:00-05:00",
+      "dex_route": "",
+      "chain": "BNB Smart Chain",
+      "links": [
+        {
+          "label": "Site",
+          "url": "https://neosoul.ai"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/NeoSoulAI"
+        },
+        {
+          "label": "Tokenomics",
+          "url": "https://www.neosoul.ai/assets/DNA_Tokenomics_Article_EN_v2-D-qJyoK5.pdf"
+        }
+      ],
+      "sources": [
+        "https://www.gate.com/announcements/article/102248",
+        "https://blog.kraken.com/product/asset-listings/dna-is-available-for-trading"
+      ],
+      "notes": "AI trading-agent workbench (NeoTrade). Kraken, KuCoin, Gate, Bitget, MEXC. 130M of 1B DNA circulating at launch; team unlocks KPI-linked after 12-mo cliff. Only one co-founder named; no audit.",
+      "upgrade_if": "Named team and an audit",
+      "downgrade_if": "Revenue claims fail independent checks",
+      "provisional": false,
+      "price": 0.185166,
+      "market_cap": 24081266.880352084,
+      "volume_24h": 23587874.003689572,
+      "price_updated": "2026-11-02T07:43:03-05:00",
+      "last_update": "2026-11-02T07:43:03-05:00",
+      "cg_id": "neosoul",
+      "niche": "AI",
+      "official_links": [
+        "https://neosoul.ai",
+        "https://x.com/NeoSoulAI",
+        "https://www.neosoul.ai/assets/DNA_Tokenomics_Article_EN_v2-D-qJyoK5.pdf"
+      ],
+      "score_history": [
+        {
+          "date": "2026-10-31",
+          "score": 58
+        },
+        {
+          "date": "2026-11-01",
+          "score": 58
+        },
+        {
+          "date": "2026-11-02",
+          "score": 58
+        }
+      ],
+      "contract": "0xA991F61940095AEA0724ef54077223B048c5CF7b",
+      "milestones": [
+        {
+          "date": "2026-10-16",
+          "text": "Gate listing / trading start",
+          "confirmed": true
+        },
+        {
+          "date": "2026-11-06",
+          "text": "Gate Launchpool for DNA ends",
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "name": "Axis Robotics",
+      "ticker": "AXIS",
+      "theme": "AI",
+      "stage": "live",
+      "score": 57,
+      "tier": "WATCH",
+      "verdict": "WATCH",
+      "breakdown": {
+        "team": 6,
+        "backers": 7,
+        "product": 10,
+        "audit": 0,
+        "consistency": 6,
+        "tokenomics": 11,
+        "liquidity": 14,
+        "red_flag_pool": 3
+      },
+      "website": "https://axisrobotics.ai",
+      "next_milestone": "MEXC Airdrop+ for AXIS ends Tue 11/3 8:00 AM ET",
+      "milestone_date": "2026-11-03T08:00:00-05:00",
+      "dex_route": "",
+      "chain": "Base",
+      "links": [
+        {
+          "label": "Site",
+          "url": "https://axisrobotics.ai"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/axisrobotics"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/AxisAIOrg"
+        }
+      ],
+      "sources": [
+        "https://tgeindex.com/tge/axis-robotics/",
+        "https://www.panews.io/articles/01a18863-17dc-715b-990d-21430c8f7370",
+        "https://cryptobriefing.com/axis-robotics-axis-token-sell-off-zachxbt/"
+      ],
+      "notes": "Physical-AI teleop data network; TGE Oct 22 with 13 day-one venues. Oct 28-29 sell-off of ~42M AXIS (ZachXBT flagged insiders; Axis blames an OTC counterparty, says 835M AXIS locked). Price down ~52% in 7 days. No audit; no named team. Nov 2: no resolution; Axis says it is pursuing legal remedies against the OTC counterparty; ZachXBT's insider claim still open. Nov 2 official post: AXIS-Bench research paper.",
+      "upgrade_if": "Independent confirmation of who sold and a named team",
+      "downgrade_if": "Evidence the sellers were insiders",
+      "provisional": false,
+      "price": 0.125367,
+      "market_cap": 20612334.049034707,
+      "volume_24h": 18975687.99100681,
+      "price_updated": "2026-11-02T07:43:03-05:00",
+      "last_update": "2026-11-02T07:43:03-05:00",
+      "cg_id": "axis-robotics",
+      "niche": "AI",
+      "official_links": [
+        "https://axisrobotics.ai",
+        "https://x.com/axisrobotics",
+        "https://github.com/AxisAIOrg"
+      ],
+      "score_history": [
+        {
+          "date": "2026-10-31",
+          "score": 57
+        },
+        {
+          "date": "2026-11-01",
+          "score": 57
+        },
+        {
+          "date": "2026-11-02",
+          "score": 57
+        }
+      ],
+      "contract": "0x5be75e3b0aff5d1a042a5363ae36acb1d6d755ea",
+      "milestones": [
+        {
+          "date": "2026-10-21",
+          "text": "TGE; Coinbase, Upbit, Bitget, KuCoin day-one listings",
+          "confirmed": true
+        },
+        {
+          "date": "2026-10-28",
+          "text": "Sell-off: OTC counterparty sold locked ecosystem tokens (counsel reviewing)",
+          "confirmed": true
+        },
+        {
+          "date": "2026-11-03",
+          "text": "MEXC Airdrop+ for AXIS ends",
+          "confirmed": true
+        }
+      ]
+    },
+    {
+      "name": "Fraction AI",
+      "ticker": "FRAC",
+      "theme": "AI",
+      "stage": "pre-launch",
+      "score": 49,
+      "tier": "WATCH",
+      "verdict": "WATCH (PROVISIONAL)",
+      "breakdown": {
+        "team": 6,
+        "backers": 6,
+        "product": 9,
+        "audit": 8,
+        "consistency": 6,
+        "tokenomics": 3,
+        "liquidity": 2,
+        "red_flag_pool": 9
+      },
+      "website": "https://fractionai.xyz",
+      "cg_watch": true,
+      "next_milestone": "Admission to trading per MiCA filing Wed 11/11 (time TBA)",
+      "milestone_date": "2026-11-11T23:59:00-05:00",
+      "tge_date": "2026-11-11T23:59:00-05:00",
+      "dex_route": "",
+      "chain": "unpublished",
+      "links": [
+        {
+          "label": "Site",
+          "url": "https://fractionai.xyz"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/FractionAI_xyz"
+        },
+        {
+          "label": "Docs",
+          "url": "https://fraction-ai.gitbook.io/fraction-ai-product-docs"
+        }
+      ],
+      "sources": [
+        "https://tgeindex.com/tge/fraction-ai/"
+      ],
+      "notes": "AI agent competitions; Halborn audit. Date comes from its EU MiCA white paper (7,000,000,001 FRAC total supply); allocation, vesting, float and venues unpublished (Binance, Coinbase, OKX named only as intended venues).",
+      "upgrade_if": "Tokenomics and confirmed venues published",
+      "downgrade_if": "Nov 11 passes with no launch",
+      "provisional": true,
+      "price": null,
+      "market_cap": null,
+      "volume_24h": null,
+      "price_updated": null,
+      "cg_id": null,
+      "last_update": "2026-11-02T07:43:00-05:00",
+      "niche": "AI",
+      "official_links": [
+        "https://fractionai.xyz",
+        "https://x.com/FractionAI_xyz",
+        "https://fraction-ai.gitbook.io/fraction-ai-product-docs"
+      ],
+      "score_history": [
+        {
+          "date": "2026-10-31",
+          "score": 49
+        },
+        {
+          "date": "2026-11-01",
+          "score": 49
+        },
+        {
+          "date": "2026-11-02",
+          "score": 49
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2026-11-11",
+          "text": "Admission to trading per EU MiCA white paper",
+          "confirmed": false
+        }
+      ]
+    },
+    {
+      "name": "Dataline",
+      "ticker": "DAT",
+      "theme": "AI",
+      "stage": "pre-launch",
+      "score": 43,
+      "tier": "WATCH",
+      "verdict": "WATCH (PROVISIONAL)",
+      "breakdown": {
+        "team": 7,
+        "backers": 9,
+        "product": 8,
+        "audit": 0,
+        "consistency": 6,
+        "tokenomics": 2,
+        "liquidity": 3,
+        "red_flag_pool": 8
+      },
+      "website": "https://x.com/DatalineAI",
+      "next_milestone": "Uniswap CCA public sale on Base: date unpublished",
+      "milestone_date": null,
+      "dex_route": "",
+      "chain": "Base (planned)",
+      "links": [
+        {
+          "label": "X",
+          "url": "https://x.com/DatalineAI"
+        },
+        {
+          "label": "The Block",
+          "url": "https://www.theblock.co/news/deals/2026-10-21-dataline-decentralized-data-network-ai-agents-funding-ico-421596"
+        }
+      ],
+      "sources": [
+        "https://www.theblock.co/news/deals/2026-10-21-dataline-decentralized-data-network-ai-agents-funding-ico-421596",
+        "https://cryptobriefing.com/dataline-raises-10-6m-ai-data-network-token-sale/"
+      ],
+      "notes": "$10.6M seed (Lattice, Dispersion; Coinbase Ventures participating). Oct 30 posts explain the continuous clearing auction but give no date, size, price or tokenomics.",
+      "upgrade_if": "Sale terms and tokenomics published",
+      "downgrade_if": "Sale opens without tokenomics",
+      "provisional": true,
+      "price": null,
+      "market_cap": null,
+      "volume_24h": null,
+      "price_updated": null,
+      "cg_id": null,
+      "last_update": "2026-11-02T07:43:00-05:00",
+      "niche": "AI",
+      "official_links": [
+        "https://x.com/DatalineAI",
+        "https://www.theblock.co/news/deals/2026-10-21-dataline-decentralized-data-network-ai-agents-funding-ico-421596"
+      ],
+      "score_history": [
+        {
+          "date": "2026-10-31",
+          "score": 43
+        },
+        {
+          "date": "2026-11-01",
+          "score": 43
+        },
+        {
+          "date": "2026-11-02",
+          "score": 43
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2026-10-21",
+          "text": "$10.6M seed announced; public sale planned on Uniswap CCA (Base)",
+          "confirmed": true
+        },
+        {
+          "date": null,
+          "text": "Uniswap CCA public sale: pre-bidding 'opens soon', no date",
+          "confirmed": false
+        },
+        {
+          "date": null,
+          "text": "Token launch targeted by end of 2026",
+          "confirmed": false
+        }
+      ]
+    },
+    {
+      "name": "TermiX",
+      "ticker": "TMT",
+      "theme": "AI",
+      "stage": "pre-launch",
+      "score": 33,
+      "tier": "WATCH",
+      "verdict": "WATCH (PROVISIONAL)",
+      "breakdown": {
+        "team": 3,
+        "backers": 6,
+        "product": 10,
+        "audit": 0,
+        "consistency": 7,
+        "tokenomics": 1,
+        "liquidity": 1,
+        "red_flag_pool": 5
+      },
+      "website": "https://www.agent.family",
+      "next_milestone": "Kaito Katalyst winners announced Mon 11/23 (time TBA); TGE date unpublished",
+      "milestone_date": "2026-11-23T23:59:00-05:00",
+      "dex_route": "",
+      "chain": "BNB Chain (product)",
+      "links": [
+        {
+          "label": "Site",
+          "url": "https://www.agent.family"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/termix_ai"
+        }
+      ],
+      "sources": [
+        "https://www.agent.family/campaigns/kaito-katalyst",
+        "https://www.chaincatcher.com/en/article/2275451"
+      ],
+      "notes": "Agent job marketplace on BNB Chain. Only 0.30% of supply disclosed. Its X posts (Oct 30 - Nov 1) tell AI agents incl. Grok Bot to 'help me install' its skills; the Oracle ignores these (security flag). Nov 2: new 'Agents Helping Agents Bounty' post (agents post bounties for other agents); no tokenomics or TGE date.",
+      "upgrade_if": "Full tokenomics and a dated TGE",
+      "downgrade_if": "More agent-install prompts or referral-driven pushes",
+      "provisional": true,
+      "price": null,
+      "market_cap": null,
+      "volume_24h": null,
+      "price_updated": null,
+      "cg_id": null,
+      "last_update": "2026-11-02T07:43:00-05:00",
+      "niche": "AI",
+      "official_links": [
+        "https://www.agent.family",
+        "https://x.com/termix_ai"
+      ],
+      "score_history": [
+        {
+          "date": "2026-10-31",
+          "score": 33
+        },
+        {
+          "date": "2026-11-01",
+          "score": 33
+        },
+        {
+          "date": "2026-11-02",
+          "score": 33
+        }
+      ],
+      "milestones": [
+        {
+          "date": null,
+          "text": "TMT TGE: no date announced",
+          "confirmed": false
+        }
+      ]
     }
-   ],
-   "sources": [
-    "https://www.ritualfoundation.com/blog/ritual-mainnet-is-live",
-    "https://cryptobriefing.com/coinbase-enables-ritual-token-spot-trading/",
-    "https://www.kucoin.com/announcement/en-ritual-ritual-listed-on-kucoin1028"
-   ],
-   "notes": "Mainnet + TGE Oct 26; spot on Coinbase (Oct 26), MEXC (Oct 26) and KuCoin (Oct 28). 18% unlocked at launch, insiders locked >=12 months, uncapped (~5%/yr issuance). No public audit found.",
-   "upgrade_if": "A public audit of the core chain is published and 24h volume deepens",
-   "downgrade_if": "Insider unlock news, an exploit, or Coinbase/KuCoin delisting",
-   "provisional": false,
-   "price": 0.01919137,
-   "market_cap": 34544468,
-   "volume_24h": 507162,
-   "price_updated": "2026-11-02T06:41:23-05:00",
-   "last_update": "2026-11-02T06:41:23-05:00",
-   "cg_id": "ritual",
-   "niche": "AI",
-   "official_links": [
-    "https://ritual.net",
-    "https://www.ritualfoundation.com",
-    "https://x.com/ritualnet",
-    "https://docs.ritualfoundation.org",
-    "https://tokenomics.ritualfoundation.org"
-   ],
-   "score_history": [
+  ],
+  "airdrops": [
     {
-     "date": "2026-10-31",
-     "score": 78
+      "project": "Quip Network",
+      "what": "Quests & Mindshare campaigns",
+      "how": "Complete quests / mindshare tasks on the official sites; final points distributed at close",
+      "closes": "2026-11-02T08:00:00-05:00",
+      "link": "https://quest.quip.network",
+      "unconfirmed": false,
+      "progress": "378 Quip Points, rank 5000+ (last Airdrop Bot report Nov 1, 5:53 PM ET; no newer report).",
+      "points": 378,
+      "rank": "5000+ (exact rank not shown)",
+      "claimed": [
+        "Follow X",
+        "3 founder follows",
+        "Discord",
+        "Telegram",
+        "YouTube subscribe",
+        "Nov 1 daily check-in"
+      ],
+      "open_tasks": [
+        "Nov 2 daily check-in",
+        "Daily X posts",
+        "One optional quest"
+      ],
+      "progress_at": "2026-11-01T17:53:00-05:00"
     },
     {
-     "date": "2026-11-01",
-     "score": 78
+      "project": "Quip Network",
+      "what": "Mindshare leaderboard",
+      "how": "Official mindshare subdomain (same close as Quests)",
+      "closes": "2026-11-02T08:00:00-05:00",
+      "link": "https://mindshare.quip.network",
+      "unconfirmed": false
+    },
+    {
+      "project": "Quip Network",
+      "what": "Quip Points (ongoing)",
+      "how": "Daily sign-in, node, QuipSwap paper swaps; points convert to QUIP at TGE by leaderboard position",
+      "closes": null,
+      "link": "https://links.quip.network",
+      "unconfirmed": true
+    },
+    {
+      "project": "NeoSoul",
+      "what": "Gate Launchpool",
+      "how": "Exchange-run staking of BTC/ETH/DNA; needs Gate account + KYC",
+      "closes": "2026-11-06T06:00:00-05:00",
+      "link": "https://www.gate.com/announcements/article/102248",
+      "unconfirmed": false
+    },
+    {
+      "project": "Axis Robotics (AXIS)",
+      "what": "MEXC Airdrop+",
+      "how": "Exchange-run, trading-based; details on MEXC only",
+      "closes": "2026-11-03T08:00:00-05:00",
+      "link": null,
+      "unconfirmed": false
+    },
+    {
+      "project": "Ritual (RITUAL)",
+      "what": "Community airdrop claim",
+      "how": "Pre-approved addresses only; 3-month window from a Foundation-announced start",
+      "closes": null,
+      "link": "https://airdrop.ritualfoundation.org",
+      "unconfirmed": true
+    },
+    {
+      "project": "Axis Robotics (AXIS)",
+      "what": "Contributor claim",
+      "how": "Prior contributors only; real page is airdrop.axisrobotics.ai (a look-alike 'airdlrop' domain is phishing)",
+      "closes": null,
+      "link": "https://airdrop.axisrobotics.ai",
+      "unconfirmed": true
     }
-   ],
-   "contract": "Native on RITUAL chain (ID 784); BSC & Base 0x256Ea35422b2F36B24aC1D66159Fe69e75918C37 (official tokenomics page; CoinGecko lists no platform contract)",
-   "milestones": [
+  ],
+  "deadlines": [
     {
-     "date": "2026-10-26",
-     "text": "Mainnet + TGE; Coinbase RITUAL-USD spot from day one",
-     "confirmed": true
+      "project": "Quip Network",
+      "title": "Quip Quests close 8 AM ET · Airdrop Bot: 378 pts (last report Nov 1)",
+      "type": "Airdrop quests",
+      "theme": "Quantum",
+      "url": "https://quest.quip.network",
+      "date": "2026-11-02T08:00:00-05:00",
+      "text": "Quip Quests & Mindshare close"
     },
     {
-     "date": null,
-     "text": "Community airdrop claim window start (pre-approved addresses only)",
-     "confirmed": false
+      "project": "Axis Robotics",
+      "title": "MEXC Airdrop+ for AXIS ends (exchange-run)",
+      "type": "Exchange campaign",
+      "theme": "AI",
+      "url": null,
+      "date": "2026-11-03T08:00:00-05:00",
+      "text": "MEXC Airdrop+ for AXIS ends"
     },
     {
-     "date": null,
-     "text": "Public audit publication",
-     "confirmed": false
+      "project": "NeoSoul",
+      "title": "Gate Launchpool for DNA ends (exchange-run, KYC)",
+      "type": "Exchange campaign",
+      "theme": "AI",
+      "url": "https://www.gate.com/announcements/article/102248",
+      "date": "2026-11-06T06:00:00-05:00",
+      "text": "Gate Launchpool for DNA ends"
+    },
+    {
+      "project": "Fraction AI",
+      "title": "FRAC admission to trading per MiCA filing (not announced by project)",
+      "type": "Launch",
+      "theme": "AI",
+      "url": "https://tgeindex.com/tge/fraction-ai/",
+      "date": "2026-11-11T23:59:00-05:00",
+      "all_day": true,
+      "text": "Fraction AI (FRAC) admission to trading per MiCA filing (not announced by project)"
+    },
+    {
+      "project": "QMS Network",
+      "title": "Builder Program applications close (no token announced)",
+      "type": "Program",
+      "theme": "Quantum",
+      "url": "https://qms.finance",
+      "date": "2026-11-18T23:59:00-05:00",
+      "all_day": true,
+      "text": "QMS Network Builder Program applications close (no token announced)"
+    },
+    {
+      "project": "Dataline",
+      "title": "DAT Uniswap CCA sale on Base: 'pre-bidding opens soon', no date",
+      "type": "Token sale",
+      "theme": "AI",
+      "url": null,
+      "date": null,
+      "text": "Dataline (DAT) Uniswap CCA sale on Base: 'pre-bidding opens soon', no date"
+    },
+    {
+      "project": "Quip Network",
+      "title": "Chain audit, then mainnet, then TGE; no dates",
+      "type": "Launch",
+      "theme": "Quantum",
+      "url": "https://quip.network/blog/quip-network-final-stretch-to-mainnet",
+      "date": null,
+      "text": "Quip (QUIP): chain audit, then mainnet, then TGE; no dates"
     }
-   ]
-  },
-  {
-   "name": "Verona (ex-XION)",
-   "ticker": "VERONA",
-   "theme": "Quantum",
-   "stage": "live",
-   "score": 65,
-   "tier": "WATCH",
-   "verdict": "WATCH",
-   "breakdown": {
-    "team": 12,
-    "backers": 9,
-    "product": 13,
-    "audit": 2,
-    "consistency": 9,
-    "tokenomics": 6,
-    "liquidity": 7,
-    "red_flag_pool": 7
-   },
-   "website": "https://verona.dev",
-   "next_milestone": "Phase two: validator keys to ML-DSA-65 (date TBA)",
-   "milestone_date": null,
-   "dex_route": "",
-   "chain": "Verona L1 (Cosmos SDK)",
-   "links": [
+  ],
+  "rejections": [
     {
-     "label": "Site",
-     "url": "https://verona.dev"
+      "name": "Asentum (ASE)",
+      "theme": "Quantum",
+      "niche": "Quantum",
+      "score": "unscored",
+      "reason": "PQ L1 incentivized testnet; team listed by nicknames only, no funding, airdrop-hunter coverage only",
+      "at": "2026-11-02T07:43:00-05:00"
     },
     {
-     "label": "X",
-     "url": "https://x.com/verona_dev"
+      "name": "NOTHUMAN / GHOSTX (BSC Agent-ID mints)",
+      "theme": "AI",
+      "niche": "AI",
+      "score": "unscored",
+      "reason": "Anonymous BNB Chain mint tokens gated by Binance .ai Agent ID; meme launches, no product or team",
+      "at": "2026-11-02T07:43:00-05:00"
     },
     {
-     "label": "v32 release",
-     "url": "https://github.com/burnt-labs/xion/releases/tag/v32.0.0"
+      "name": "TERA",
+      "theme": "AI",
+      "niche": "AI",
+      "score": "unscored",
+      "reason": "Meme launch on Hood Launcher (Nov 2); shill-only coverage",
+      "at": "2026-11-02T07:43:00-05:00"
+    },
+    {
+      "name": "AXON Finance (AXON)",
+      "theme": "AI",
+      "niche": "AI",
+      "score": "unscored",
+      "reason": "Only a Hotcoin 'coming soon' listing post; no team, tokenomics or official docs checked",
+      "at": "2026-11-02T07:43:00-05:00"
+    },
+    {
+      "name": "Soqucoin (SOQ)",
+      "theme": "Quantum",
+      "niche": "Quantum",
+      "score": 41,
+      "reason": "Still REJECT: team unidentified; new NeoxEX listing (Nov 1) is another tiny venue",
+      "at": "2026-11-02T07:43:00-05:00"
     }
-   ],
-   "sources": [
-    "https://announcements.bybit.com/en/article/bybit-to-support-verona-verona-v32-0-1-network-upgrade--artfb91da5997be/",
-    "https://www.globenewswire.com/news-release/2026/10/28/3390239/0/en/verona-launches-fermi-mainnet-v32-with-nist-post-quantum-cryptography.html"
-   ],
-   "notes": "Existing token (ex-XION). Fermi v32 (Oct 28) added ML-DSA-65 and SLH-DSA-128s account signing; added to CoinGecko and CoinMarketCap Quantum-Resistant categories (CMC per @verona_dev Oct 30). Validators still classical.",
-   "upgrade_if": "Validator-key migration ships and volume grows",
-   "downgrade_if": "Upgrade bugs or the classical-key path stays the default",
-   "provisional": false,
-   "price": 0.109296,
-   "market_cap": 10129083,
-   "volume_24h": 286051,
-   "price_updated": "2026-11-02T06:41:23-05:00",
-   "last_update": "2026-11-02T06:41:23-05:00",
-   "cg_id": "verona",
-   "niche": "Quantum",
-   "official_links": [
-    "https://verona.dev",
-    "https://x.com/verona_dev",
-    "https://github.com/burnt-labs/xion/releases/tag/v32.0.0"
-   ],
-   "score_history": [
+  ],
+  "prelaunch_updates": [
     {
-     "date": "2026-10-31",
-     "score": 65
+      "project": "Quip Network",
+      "theme": "Quantum",
+      "source_type": "official",
+      "kind": "airdrop_progress",
+      "at": "2026-11-01T17:53:00-05:00",
+      "text": "OPEN CAMPAIGN · Quip Quests close Nov 2, 8:00 AM ET. Airdrop Bot progress: 378 Quip Points, rank 5000+ (last report Nov 1, 5:53 PM ET; no newer report).",
+      "url": "https://quest.quip.network"
     },
     {
-     "date": "2026-11-01",
-     "score": 65
+      "project": "ARMchain",
+      "theme": "Quantum",
+      "source_type": "official",
+      "at": "2026-10-29T12:00:00-04:00",
+      "text": "Radar only: PQ L1 (ML-DSA-44 accounts and validators, ML-KEM networking) with devnet live; public testnet targeted Nov 15; no token, mainnet undated, one founder named, no funding disclosed.",
+      "url": "https://armchain.org/blog/ar-mchain-introduces-post-quantum-layer-1-blockchain-with-devnet-live"
+    },
+    {
+      "project": "TermiX",
+      "theme": "AI",
+      "source_type": "official",
+      "at": "2026-11-02T01:11:16-05:00",
+      "text": "Announced an 'Agents Helping Agents Bounty'; still no tokenomics or TGE date.",
+      "url": "https://x.com/termix_ai/status/2117137447540998452"
+    },
+    {
+      "project": "GenLayer",
+      "theme": "AI",
+      "source_type": "official",
+      "at": "2026-10-27T12:00:00-04:00",
+      "text": "Published GEN tokenomics (4.2B genesis, ~24.4% float at TGE); token and network on Arbitrum; TGE date still unannounced. Airdrop registration is now closed.",
+      "url": "https://portal.genlayer.foundation/assets/documents/genlayer-tokenomics-october-2026.pdf"
+    },
+    {
+      "project": "Quip Network",
+      "theme": "Quantum",
+      "source_type": "official",
+      "at": "2026-10-30T16:55:46-04:00",
+      "text": "Quests and Mindshare campaigns conclude Nov 2 at 13:00 UTC (8:00 AM ET) with the final points distribution.",
+      "url": "https://x.com/quipnetwork/status/2116272874235609120"
+    },
+    {
+      "project": "Dataline",
+      "theme": "AI",
+      "source_type": "official",
+      "at": "2026-10-30T10:53:49-04:00",
+      "text": "Explains its continuous clearing auction (Uniswap CCA) for DAT; no sale date, size or tokenomics yet.",
+      "url": "https://x.com/DatalineAI/status/2116181788209066240"
+    },
+    {
+      "project": "Quip Network",
+      "theme": "Quantum",
+      "source_type": "official",
+      "at": "2026-10-28T12:00:00-04:00",
+      "text": "Final stretch: all components live on testnet; external chain audit is the last step, then mainnet, then TGE (no dates).",
+      "url": "https://quip.network/blog/quip-network-final-stretch-to-mainnet"
+    },
+    {
+      "project": "Verona (ex-XION)",
+      "theme": "Quantum",
+      "source_type": "official",
+      "at": "2026-10-30T09:54:08-04:00",
+      "text": "Added to CoinMarketCap's Quantum-Resistant category after the Oct 28 Fermi v32 PQ upgrade.",
+      "url": "https://x.com/verona_dev/status/2116166766879748343"
     }
-   ],
-   "milestones": [
-    {
-     "date": "2026-10-28",
-     "text": "Fermi v32 mainnet upgrade: ML-DSA-65 and SLH-DSA-128s account signatures",
-     "confirmed": true
-    },
-    {
-     "date": null,
-     "text": "Phase two: validator keys to ML-DSA-65",
-     "confirmed": false
-    }
-   ]
-  },
-  {
-   "name": "Quantus",
-   "ticker": "QTC",
-   "theme": "Quantum",
-   "stage": "live",
-   "score": 64,
-   "tier": "WATCH",
-   "verdict": "WATCH",
-   "breakdown": {
-    "team": 12,
-    "backers": 8,
-    "product": 12,
-    "audit": 2,
-    "consistency": 9,
-    "tokenomics": 8,
-    "liquidity": 6,
-    "red_flag_pool": 7
-   },
-   "website": "https://www.quantus.com",
-   "next_milestone": "Tier-1 CEX listing: none announced",
-   "milestone_date": null,
-   "dex_route": "NEAR Intents (near.com), Rhea Finance",
-   "chain": "Quantus L1 (native PoW); NEAR Intents asset",
-   "links": [
-    {
-     "label": "Site",
-     "url": "https://www.quantus.com"
-    },
-    {
-     "label": "X",
-     "url": "https://x.com/QuantusNetwork"
-    },
-    {
-     "label": "GitHub",
-     "url": "https://github.com/Quantus-Network"
-    },
-    {
-     "label": "Whitepaper",
-     "url": "https://www.quantus.com/whitepaper/pdf/en-US/whitepaper-v0.3.3.pdf"
-    }
-   ],
-   "sources": [
-    "https://forklog.com/en/quantus-post-quantum-blockchain-token-launches-on-near-ecosystem/",
-    "https://bigone.zendesk.com/hc/en-us/articles/62918956035353-BigONE-Lists-Quantus-QTC-USDT-Trading-Pair-is-Now-Available"
-   ],
-   "notes": "ML-DSA PoW L1 (mainnet Sep 9); trading via NEAR Intents since Oct 6, plus BigONE, Ourbit, SafeTrade. 27% genesis premine (insiders 1-yr lock + 36 mo linear). No audit found; FDV ~18x market cap.",
-   "upgrade_if": "Audit published or a tier-1 CEX listing",
-   "downgrade_if": "Premine unlock pressure or mining centralisation",
-   "provisional": false,
-   "price": 69.56,
-   "market_cap": 22160669,
-   "volume_24h": 902178,
-   "price_updated": "2026-11-02T06:41:23-05:00",
-   "last_update": "2026-11-02T06:41:23-05:00",
-   "cg_id": "quantus",
-   "niche": "Quantum",
-   "official_links": [
-    "https://www.quantus.com",
-    "https://x.com/QuantusNetwork",
-    "https://github.com/Quantus-Network",
-    "https://www.quantus.com/whitepaper/pdf/en-US/whitepaper-v0.3.3.pdf"
-   ],
-   "score_history": [
-    {
-     "date": "2026-10-31",
-     "score": 64
-    },
-    {
-     "date": "2026-11-01",
-     "score": 64
-    }
-   ],
-   "contract": "qtc.omft.near (NEAR Intents asset); native on Quantus L1",
-   "milestones": [
-    {
-     "date": "2026-09-09",
-     "text": "Mainnet launch",
-     "confirmed": true
-    },
-    {
-     "date": "2026-10-07",
-     "text": "Trading opened (NEAR Intents)",
-     "confirmed": true
-    },
-    {
-     "date": null,
-     "text": "Tier-1 CEX listing",
-     "confirmed": false
-    }
-   ]
-  },
-  {
-   "name": "Quip Network",
-   "ticker": "QUIP",
-   "theme": "Quantum",
-   "stage": "pre-launch",
-   "score": 62,
-   "tier": "WATCH",
-   "verdict": "WATCH",
-   "breakdown": {
-    "team": 12,
-    "backers": 6,
-    "product": 12,
-    "audit": 7,
-    "consistency": 9,
-    "tokenomics": 6,
-    "liquidity": 2,
-    "red_flag_pool": 8
-   },
-   "website": "https://quip.network",
-   "cg_watch": true,
-   "next_milestone": "Quests end Mon 11/2 8:00 AM ET · Airdrop Bot: 378 Quip Points",
-   "milestone_date": "2026-11-02T08:00:00-05:00",
-   "dex_route": "",
-   "chain": "Quip chain (testnet); QuipSwap on Base",
-   "links": [
-    {
-     "label": "Site",
-     "url": "https://quip.network"
-    },
-    {
-     "label": "Quests",
-     "url": "https://quest.quip.network"
-    },
-    {
-     "label": "X",
-     "url": "https://x.com/quipnetwork"
-    },
-    {
-     "label": "Docs",
-     "url": "https://developers.quip.network"
-    },
-    {
-     "label": "Mainnet update",
-     "url": "https://quip.network/blog/quip-network-final-stretch-to-mainnet"
-    }
-   ],
-   "sources": [
-    "https://quip.network/blog/quip-network-final-stretch-to-mainnet",
-    "https://quip.network/documents/Quip-Security-Audit-v1.0.pdf",
-    "https://www.codezen.tech/audits/quip-network/"
-   ],
-   "notes": "Your Airdrop Bot: 378 Quip Points on Quip Quests (claimed Follow X + 3 founder follows, Discord, Telegram, YouTube subscribe, Nov 1 check-in); rank 5000+ (exact rank not shown). Still open: Nov 2 daily check-in, daily X posts, one optional quest. Quests end Mon Nov 2, 8:00 AM ET. Project: chain audit -> mainnet -> TGE, no dates; Oak Security contract audit (Sep 24) 48 findings, 0 critical; points convert to QUIP by leaderboard position at TGE, rate unpublished.",
-   "airdrop_progress": {
-    "campaign": "Quip Quests",
-    "points": 378,
-    "rank": "5000+ (exact rank not shown)",
-    "claimed": [
-     "Follow X",
-     "3 founder follows",
-     "Discord",
-     "Telegram",
-     "YouTube subscribe",
-     "Nov 1 daily check-in"
+  ],
+  "digest": {
+    "date": "2026-11-02",
+    "top3": [
+      {
+        "name": "Ritual (RITUAL)",
+        "why": "Still the only HIGH PRIORITY (78). Outlets say Zellic audited it, but no public report exists yet, so the audit gap remains.",
+        "url": "https://ritual.net"
+      },
+      {
+        "name": "Quip Network (QUIP)",
+        "why": "Quests closed at Mon 8:00 AM ET; Airdrop Bot last reported 378 Quip Points. Score 62: waiting on the chain audit, then mainnet and TGE.",
+        "url": "https://quest.quip.network"
+      },
+      {
+        "name": "Axis Robotics (AXIS)",
+        "why": "MEXC Airdrop+ ends Tue Nov 3, 8:00 AM ET (exchange-run). Score 57; the sell-off dispute is unresolved.",
+        "url": "https://axisrobotics.ai"
+      }
     ],
-    "open": [
-     "Nov 2 daily check-in",
-     "Daily X posts",
-     "One optional quest"
+    "ai": [
+      "Ritual 78 HIGH PRIORITY, unchanged; a Zellic audit is claimed by outlets, but no public report has been found.",
+      "GenLayer 60, NeoSoul 58, Axis 57 unchanged; GenLayer still has no TGE date.",
+      "Fraction AI 49 (provisional): Nov 11 MiCA date stands; still no tokenomics or venues.",
+      "Dataline 43 and TermiX 33 stay provisional; no sale date or tokenomics.",
+      "Rejected: BSC Agent-ID mint memes (NOTHUMAN/GHOSTX), TERA, AXON (Hotcoin-only)."
     ],
-    "ends": "2026-11-02T08:00:00-05:00",
-    "reported_at": "2026-11-01T17:53:00-05:00",
-    "url": "https://quest.quip.network"
-   },
-   "upgrade_if": "Chain audit published and a dated TGE with venues",
-   "downgrade_if": "Audit slips or conversion terms disappoint",
-   "provisional": false,
-   "price": null,
-   "market_cap": null,
-   "volume_24h": null,
-   "price_updated": null,
-   "cg_id": null,
-   "last_update": "2026-11-01T17:55:00-05:00",
-   "niche": "Quantum",
-   "official_links": [
-    "https://quip.network",
-    "https://quest.quip.network",
-    "https://x.com/quipnetwork",
-    "https://developers.quip.network",
-    "https://quip.network/blog/quip-network-final-stretch-to-mainnet"
-   ],
-   "score_history": [
-    {
-     "date": "2026-10-31",
-     "score": 62
-    },
-    {
-     "date": "2026-11-01",
-     "score": 62
-    }
-   ],
-   "milestones": [
-    {
-     "date": "2026-11-02",
-     "text": "Quests & Mindshare campaigns close",
-     "confirmed": true
-    },
-    {
-     "date": null,
-     "text": "Chain audit -> mainnet -> TGE",
-     "confirmed": false
-    }
-   ]
+    "quantum": [
+      "Quip Network 62 WATCH · Airdrop Bot: 378 Quip Points (last report Nov 1); quests close Nov 2 8:00 AM ET; Quip Points run until mainnet.",
+      "Verona 65 and Quantus 64 unchanged; no new quantum project reached 55.",
+      "Radar: ARMchain PQ L1 devnet (testnet Nov 15, no token). Rejected: Asentum (nickname-only team), Soqucoin (still)."
+    ]
   },
-  {
-   "name": "GenLayer",
-   "ticker": "GEN",
-   "theme": "AI",
-   "stage": "pre-launch",
-   "score": 60,
-   "tier": "WATCH",
-   "verdict": "WATCH",
-   "breakdown": {
-    "team": 11,
-    "backers": 7,
-    "product": 10,
-    "audit": 1,
-    "consistency": 7,
-    "tokenomics": 12,
-    "liquidity": 4,
-    "red_flag_pool": 8
-   },
-   "website": "https://www.genlayer.com",
-   "cg_watch": true,
-   "next_milestone": "TGE + mainnet on Arbitrum: date unpublished (Oct target passed)",
-   "milestone_date": null,
-   "dex_route": "",
-   "chain": "Arbitrum (announced Oct 22)",
-   "links": [
-    {
-     "label": "Site",
-     "url": "https://www.genlayer.com"
-    },
-    {
-     "label": "X",
-     "url": "https://x.com/GenLayer"
-    },
-    {
-     "label": "Portal",
-     "url": "https://portal.genlayer.foundation"
-    },
-    {
-     "label": "Docs",
-     "url": "https://docs.genlayer.com"
-    }
-   ],
-   "sources": [
-    "https://tgeindex.com/tge/genlayer/",
-    "https://www.theblock.co/news/business/2024-08-20-vcs-back-ai-focused-blockchain-team-building-internet-connected-smart-contracts-312105",
-    "https://portal.genlayer.foundation/assets/documents/genlayer-tokenomics-october-2026.pdf"
-   ],
-   "notes": "NEW this sweep. AI-native chain for 'intelligent contracts' (YeagerAI; CEO Albert Castellana). $7.5M seed led by North Island Ventures (The Block, Aug 2024). Tokenomics published: 4.2B genesis, ~24.4% float at TGE, investors/labs 12-mo cliff. MiCA paper names Kraken, Coinbase, Bybit EU, KuCoin EU, Gate. No independent audit yet; airdrop registration closed.",
-   "upgrade_if": "Dated TGE with confirmed venues and an independent audit",
-   "downgrade_if": "More date slips or impostor/claim scams",
-   "provisional": false,
-   "cg_id": null,
-   "price": null,
-   "market_cap": null,
-   "volume_24h": null,
-   "price_updated": null,
-   "last_update": "2026-11-01T17:55:00-05:00",
-   "niche": "AI",
-   "official_links": [
-    "https://www.genlayer.com",
-    "https://x.com/GenLayer",
-    "https://portal.genlayer.foundation",
-    "https://docs.genlayer.com"
-   ],
-   "score_history": [
-    {
-     "date": "2026-11-01",
-     "score": 60
-    }
-   ]
+  "report": {
+    "updated": "2026-11-02T07:43:00-05:00",
+    "intro": "Morning sweep for Mon Nov 2, 2026 (ET): watchlist re-checked for listings, audits, tokenomics, unlocks and red flags; new AI and quantum/PQ candidates screened. No score changes today.",
+    "snapshots": "Prices: CoinGecko, refreshed hourly by the desk (each row shows its own Updated time). Research: official sites and X accounts, exchange notices, TGE Index, The Block, Crypto Briefing.",
+    "disclaimer": "The Oracle never connects wallets, signs, or trades. Scores measure disclosure and evidence, not price.",
+    "takeaways": [
+      "No new HIGH PRIORITY today; Ritual (78) stays the only one (already alerted Nov 1).",
+      "No verdict or score changes across the 10 watchlist projects.",
+      "Ritual: outlets claim a Zellic audit, but there is no public report yet; Audit factor unchanged.",
+      "Airdrop Bot: last report 378 Quip Points (Nov 1); Quip quests close Mon Nov 2, 8:00 AM ET.",
+      "Next 72h: MEXC Airdrop+ for AXIS ends Tue Nov 3, 8:00 AM ET.",
+      "Rejected today: Asentum, NOTHUMAN/GHOSTX, TERA, AXON, Soqucoin (still)."
+    ],
+    "prelaunch": [
+      {
+        "project": "Quip Network",
+        "ticker": "QUIP",
+        "theme": "Quantum",
+        "coming": "Quests end Mon 11/2 8:00 AM ET · Airdrop Bot: 378 Quip Points (last report Sun 11/1 5:53 PM ET)",
+        "when": "Nov 2, 8:00 AM ET",
+        "score": 62,
+        "why": "Your Airdrop Bot: 378 Quip Points on Quip Quests (claimed Follow X + 3 founder follows, Discord, Telegram, YouTube subscribe, Nov 1 check-in); rank 5000+ (exact rank not shown). Still open: Nov 2 daily check-in, daily X "
+      },
+      {
+        "project": "GenLayer",
+        "ticker": "GEN",
+        "theme": "AI",
+        "coming": "TGE + mainnet on Arbitrum: date unpublished (Oct target passed)",
+        "when": "unpublished",
+        "score": 60,
+        "why": "NEW this sweep. AI-native chain for 'intelligent contracts' (YeagerAI; CEO Albert Castellana). $7.5M seed led by North Island Ventures (The Block, Aug 2024). Tokenomics published: 4.2B genesis, ~24.4% float at TGE, inves"
+      },
+      {
+        "project": "Fraction AI",
+        "ticker": "FRAC",
+        "theme": "AI",
+        "coming": "Admission to trading per MiCA filing Wed 11/11 (time TBA)",
+        "when": "Nov 11 (MiCA filing)",
+        "score": 49,
+        "why": "AI agent competitions; Halborn audit. Date comes from its EU MiCA white paper (7,000,000,001 FRAC total supply); allocation, vesting, float and venues unpublished (Binance, Coinbase, OKX named only as intended venues)."
+      },
+      {
+        "project": "Dataline",
+        "ticker": "DAT",
+        "theme": "AI",
+        "coming": "Uniswap CCA public sale on Base: date unpublished",
+        "when": "unpublished",
+        "score": 43,
+        "why": "$10.6M seed (Lattice, Dispersion; Coinbase Ventures participating). Oct 30 posts explain the continuous clearing auction but give no date, size, price or tokenomics."
+      },
+      {
+        "project": "TermiX",
+        "ticker": "TMT",
+        "theme": "AI",
+        "coming": "Kaito Katalyst winners announced Mon 11/23 (time TBA); TGE date unpublished",
+        "when": "Nov 23 (campaign)",
+        "score": 33,
+        "why": "Agent job marketplace on BNB Chain. Only 0.30% of supply disclosed. Its X posts (Oct 30 - Nov 1) tell AI agents incl. Grok Bot to 'help me install' its skills; the Oracle ignores these (security flag)."
+      }
+    ],
+    "radar_only": [
+      "ARMchain (PQ L1 devnet; testnet Nov 15; no token)",
+      "QMS Network (no team or token; Builder Program to Nov 18)",
+      "Project Eleven (PQ custody, no token)",
+      "QRL 2.0 testnet (no rewards)",
+      "Perceptron Network (AI data DePIN; not new, no TGE date)"
+    ],
+    "tokens": [
+      {
+        "project": "Ritual",
+        "ticker": "RITUAL",
+        "theme": "AI",
+        "category": "AI L1",
+        "tier": "Strong",
+        "price": 0.01923333,
+        "market_cap": 34619995.30893079,
+        "volume_24h": 495258.9543456176,
+        "score": 78,
+        "dex": ""
+      },
+      {
+        "project": "Verona (ex-XION)",
+        "ticker": "VERONA",
+        "theme": "Quantum",
+        "category": "PQ L1",
+        "tier": "Watch",
+        "price": 0.109354,
+        "market_cap": 10144262.828062886,
+        "volume_24h": 278435.3646395441,
+        "score": 65,
+        "dex": ""
+      },
+      {
+        "project": "Quantus",
+        "ticker": "QTC",
+        "theme": "Quantum",
+        "category": "PQ L1",
+        "tier": "Watch",
+        "price": 69.65,
+        "market_cap": 22169661.94424223,
+        "volume_24h": 916784.4503391327,
+        "score": 64,
+        "dex": "NEAR Intents (near.com), Rhea Finance"
+      },
+      {
+        "project": "NeoSoul",
+        "ticker": "DNA",
+        "theme": "AI",
+        "category": "AI agents",
+        "tier": "Watch",
+        "price": 0.185166,
+        "market_cap": 24081266.880352084,
+        "volume_24h": 23587874.003689572,
+        "score": 58,
+        "dex": ""
+      },
+      {
+        "project": "Axis Robotics",
+        "ticker": "AXIS",
+        "theme": "AI",
+        "category": "Physical AI data",
+        "tier": "Watch",
+        "price": 0.125367,
+        "market_cap": 20612334.049034707,
+        "volume_24h": 18975687.99100681,
+        "score": 57,
+        "dex": ""
+      }
+    ],
+    "impostors": [
+      {
+        "project": "Axis Robotics",
+        "theme": "AI",
+        "fakes": "A look-alike 'airdlrop' .live checker domain pushed by small accounts (address not repeated here)",
+        "official": "airdrop.axisrobotics.ai and https://axisrobotics.ai only"
+      },
+      {
+        "project": "Ritual",
+        "theme": "AI",
+        "fakes": "Founder look-alike handles with 0-1 followers",
+        "official": "@ritualnet, @ritualfnd, https://ritual.net"
+      },
+      {
+        "project": "GenLayer",
+        "theme": "AI",
+        "fakes": "ChainPatrol reports impersonators and look-alike domains ahead of TGE",
+        "official": "https://www.genlayer.com and portal.genlayer.foundation"
+      },
+      {
+        "project": "Quip Network",
+        "theme": "Quantum",
+        "fakes": "Quoted 'conversion rates' for Quip Points are not from the project",
+        "official": "https://quip.network, quest.quip.network, mindshare.quip.network"
+      },
+      {
+        "project": "NaoX Protocol",
+        "theme": "Quantum",
+        "fakes": "CoinGecko still links the suspended @NaorisProtocol",
+        "official": "Unconfirmed: verify a new handle from the official site first"
+      }
+    ],
+    "notes": [
+      {
+        "section": "prelaunch",
+        "theme": "Quantum",
+        "text": "Quip Quests: Airdrop Bot last reported 378 Quip Points (rank 5000+) on Nov 1, 5:53 PM ET. Quests & Mindshare close Mon Nov 2, 8:00 AM ET; Quip Points continue until mainnet."
+      },
+      {
+        "section": "tokens",
+        "theme": "AI",
+        "text": "Ritual audit: Dealroom and HOGE Wire say Zellic audited the protocol; no public report found, so the score stays 78."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ritual mainnet is live",
+        "url": "https://www.ritualfoundation.com/blog/ritual-mainnet-is-live"
+      },
+      {
+        "title": "Dealroom: Ritual launch (Zellic audit claim)",
+        "url": "https://dealroom.co/news/167237-ritual-launches-ai-layer-1-and-ritual-token-after-30m-raise/"
+      },
+      {
+        "title": "TGE Index: November 2026",
+        "url": "https://tgeindex.com/tge/november-2026/"
+      },
+      {
+        "title": "TGE Index: GenLayer",
+        "url": "https://tgeindex.com/tge/genlayer/"
+      },
+      {
+        "title": "ARMchain devnet post",
+        "url": "https://armchain.org/blog/ar-mchain-introduces-post-quantum-layer-1-blockchain-with-devnet-live"
+      },
+      {
+        "title": "Axis denies team selling (ChainCatcher)",
+        "url": "https://www.chaincatcher.com/en/article/2300071"
+      },
+      {
+        "title": "Quip: final stretch to mainnet",
+        "url": "https://quip.network/blog/quip-network-final-stretch-to-mainnet"
+      }
+    ]
   },
-  {
-   "name": "NeoSoul",
-   "ticker": "DNA",
-   "theme": "AI",
-   "stage": "live",
-   "score": 58,
-   "tier": "WATCH",
-   "verdict": "WATCH",
-   "breakdown": {
-    "team": 5,
-    "backers": 7,
-    "product": 10,
-    "audit": 0,
-    "consistency": 8,
-    "tokenomics": 8,
-    "liquidity": 13,
-    "red_flag_pool": 7
-   },
-   "website": "https://neosoul.ai",
-   "next_milestone": "Gate Launchpool for DNA ends Fri 11/6 6:00 AM ET",
-   "milestone_date": "2026-11-06T06:00:00-05:00",
-   "dex_route": "",
-   "chain": "BNB Smart Chain",
-   "links": [
-    {
-     "label": "Site",
-     "url": "https://neosoul.ai"
-    },
-    {
-     "label": "X",
-     "url": "https://x.com/NeoSoulAI"
-    },
-    {
-     "label": "Tokenomics",
-     "url": "https://www.neosoul.ai/assets/DNA_Tokenomics_Article_EN_v2-D-qJyoK5.pdf"
-    }
-   ],
-   "sources": [
-    "https://www.gate.com/announcements/article/102248",
-    "https://blog.kraken.com/product/asset-listings/dna-is-available-for-trading"
-   ],
-   "notes": "AI trading-agent workbench (NeoTrade). Kraken, KuCoin, Gate, Bitget, MEXC. 130M of 1B DNA circulating at launch; team unlocks KPI-linked after 12-mo cliff. Only one co-founder named; no audit.",
-   "upgrade_if": "Named team and an audit",
-   "downgrade_if": "Revenue claims fail independent checks",
-   "provisional": false,
-   "price": 0.187938,
-   "market_cap": 24431990,
-   "volume_24h": 23749162,
-   "price_updated": "2026-11-02T06:41:23-05:00",
-   "last_update": "2026-11-02T06:41:23-05:00",
-   "cg_id": "neosoul",
-   "niche": "AI",
-   "official_links": [
-    "https://neosoul.ai",
-    "https://x.com/NeoSoulAI",
-    "https://www.neosoul.ai/assets/DNA_Tokenomics_Article_EN_v2-D-qJyoK5.pdf"
-   ],
-   "score_history": [
-    {
-     "date": "2026-10-31",
-     "score": 58
-    },
-    {
-     "date": "2026-11-01",
-     "score": 58
-    }
-   ],
-   "contract": "0xA991F61940095AEA0724ef54077223B048c5CF7b",
-   "milestones": [
-    {
-     "date": "2026-10-16",
-     "text": "Gate listing / trading start",
-     "confirmed": true
-    },
-    {
-     "date": "2026-11-06",
-     "text": "Gate Launchpool for DNA ends",
-     "confirmed": true
-    }
-   ]
-  },
-  {
-   "name": "Axis Robotics",
-   "ticker": "AXIS",
-   "theme": "AI",
-   "stage": "live",
-   "score": 57,
-   "tier": "WATCH",
-   "verdict": "WATCH",
-   "breakdown": {
-    "team": 6,
-    "backers": 7,
-    "product": 10,
-    "audit": 0,
-    "consistency": 6,
-    "tokenomics": 11,
-    "liquidity": 14,
-    "red_flag_pool": 3
-   },
-   "website": "https://axisrobotics.ai",
-   "next_milestone": "MEXC Airdrop+ for AXIS ends Tue 11/3 8:00 AM ET",
-   "milestone_date": "2026-11-03T08:00:00-05:00",
-   "dex_route": "",
-   "chain": "Base",
-   "links": [
-    {
-     "label": "Site",
-     "url": "https://axisrobotics.ai"
-    },
-    {
-     "label": "X",
-     "url": "https://x.com/axisrobotics"
-    },
-    {
-     "label": "GitHub",
-     "url": "https://github.com/AxisAIOrg"
-    }
-   ],
-   "sources": [
-    "https://tgeindex.com/tge/axis-robotics/",
-    "https://www.panews.io/articles/01a18863-17dc-715b-990d-21430c8f7370",
-    "https://cryptobriefing.com/axis-robotics-axis-token-sell-off-zachxbt/"
-   ],
-   "notes": "Physical-AI teleop data network; TGE Oct 22 with 13 day-one venues. Oct 28-29 sell-off of ~42M AXIS (ZachXBT flagged insiders; Axis blames an OTC counterparty, says 835M AXIS locked). Price down ~52% in 7 days. No audit; no named team.",
-   "upgrade_if": "Independent confirmation of who sold and a named team",
-   "downgrade_if": "Evidence the sellers were insiders",
-   "provisional": false,
-   "price": 0.120395,
-   "market_cap": 19865226,
-   "volume_24h": 16277529,
-   "price_updated": "2026-11-02T06:41:23-05:00",
-   "last_update": "2026-11-02T06:41:23-05:00",
-   "cg_id": "axis-robotics",
-   "niche": "AI",
-   "official_links": [
-    "https://axisrobotics.ai",
-    "https://x.com/axisrobotics",
-    "https://github.com/AxisAIOrg"
-   ],
-   "score_history": [
-    {
-     "date": "2026-10-31",
-     "score": 57
-    },
-    {
-     "date": "2026-11-01",
-     "score": 57
-    }
-   ],
-   "contract": "0x5be75e3b0aff5d1a042a5363ae36acb1d6d755ea",
-   "milestones": [
-    {
-     "date": "2026-10-21",
-     "text": "TGE; Coinbase, Upbit, Bitget, KuCoin day-one listings",
-     "confirmed": true
-    },
-    {
-     "date": "2026-10-28",
-     "text": "Sell-off: OTC counterparty sold locked ecosystem tokens (counsel reviewing)",
-     "confirmed": true
-    },
-    {
-     "date": "2026-11-03",
-     "text": "MEXC Airdrop+ for AXIS ends",
-     "confirmed": true
-    }
-   ]
-  },
-  {
-   "name": "Fraction AI",
-   "ticker": "FRAC",
-   "theme": "AI",
-   "stage": "pre-launch",
-   "score": 49,
-   "tier": "WATCH",
-   "verdict": "WATCH (PROVISIONAL)",
-   "breakdown": {
-    "team": 6,
-    "backers": 6,
-    "product": 9,
-    "audit": 8,
-    "consistency": 6,
-    "tokenomics": 3,
-    "liquidity": 2,
-    "red_flag_pool": 9
-   },
-   "website": "https://fractionai.xyz",
-   "cg_watch": true,
-   "next_milestone": "Admission to trading per MiCA filing Wed 11/11 (time TBA)",
-   "milestone_date": "2026-11-11T23:59:00-05:00",
-   "tge_date": "2026-11-11T23:59:00-05:00",
-   "dex_route": "",
-   "chain": "unpublished",
-   "links": [
-    {
-     "label": "Site",
-     "url": "https://fractionai.xyz"
-    },
-    {
-     "label": "X",
-     "url": "https://x.com/FractionAI_xyz"
-    },
-    {
-     "label": "Docs",
-     "url": "https://fraction-ai.gitbook.io/fraction-ai-product-docs"
-    }
-   ],
-   "sources": [
-    "https://tgeindex.com/tge/fraction-ai/"
-   ],
-   "notes": "AI agent competitions; Halborn audit. Date comes from its EU MiCA white paper (7,000,000,001 FRAC total supply); allocation, vesting, float and venues unpublished (Binance, Coinbase, OKX named only as intended venues).",
-   "upgrade_if": "Tokenomics and confirmed venues published",
-   "downgrade_if": "Nov 11 passes with no launch",
-   "provisional": true,
-   "price": null,
-   "market_cap": null,
-   "volume_24h": null,
-   "price_updated": null,
-   "cg_id": null,
-   "last_update": "2026-11-01T17:55:00-05:00",
-   "niche": "AI",
-   "official_links": [
-    "https://fractionai.xyz",
-    "https://x.com/FractionAI_xyz",
-    "https://fraction-ai.gitbook.io/fraction-ai-product-docs"
-   ],
-   "score_history": [
-    {
-     "date": "2026-10-31",
-     "score": 49
-    },
-    {
-     "date": "2026-11-01",
-     "score": 49
-    }
-   ],
-   "milestones": [
-    {
-     "date": "2026-11-11",
-     "text": "Admission to trading per EU MiCA white paper",
-     "confirmed": false
-    }
-   ]
-  },
-  {
-   "name": "Dataline",
-   "ticker": "DAT",
-   "theme": "AI",
-   "stage": "pre-launch",
-   "score": 43,
-   "tier": "WATCH",
-   "verdict": "WATCH (PROVISIONAL)",
-   "breakdown": {
-    "team": 7,
-    "backers": 9,
-    "product": 8,
-    "audit": 0,
-    "consistency": 6,
-    "tokenomics": 2,
-    "liquidity": 3,
-    "red_flag_pool": 8
-   },
-   "website": "https://x.com/DatalineAI",
-   "next_milestone": "Uniswap CCA public sale on Base: date unpublished",
-   "milestone_date": null,
-   "dex_route": "",
-   "chain": "Base (planned)",
-   "links": [
-    {
-     "label": "X",
-     "url": "https://x.com/DatalineAI"
-    },
-    {
-     "label": "The Block",
-     "url": "https://www.theblock.co/news/deals/2026-10-21-dataline-decentralized-data-network-ai-agents-funding-ico-421596"
-    }
-   ],
-   "sources": [
-    "https://www.theblock.co/news/deals/2026-10-21-dataline-decentralized-data-network-ai-agents-funding-ico-421596",
-    "https://cryptobriefing.com/dataline-raises-10-6m-ai-data-network-token-sale/"
-   ],
-   "notes": "$10.6M seed (Lattice, Dispersion; Coinbase Ventures participating). Oct 30 posts explain the continuous clearing auction but give no date, size, price or tokenomics.",
-   "upgrade_if": "Sale terms and tokenomics published",
-   "downgrade_if": "Sale opens without tokenomics",
-   "provisional": true,
-   "price": null,
-   "market_cap": null,
-   "volume_24h": null,
-   "price_updated": null,
-   "cg_id": null,
-   "last_update": "2026-11-01T17:55:00-05:00",
-   "niche": "AI",
-   "official_links": [
-    "https://x.com/DatalineAI",
-    "https://www.theblock.co/news/deals/2026-10-21-dataline-decentralized-data-network-ai-agents-funding-ico-421596"
-   ],
-   "score_history": [
-    {
-     "date": "2026-10-31",
-     "score": 43
-    },
-    {
-     "date": "2026-11-01",
-     "score": 43
-    }
-   ],
-   "milestones": [
-    {
-     "date": "2026-10-21",
-     "text": "$10.6M seed announced; public sale planned on Uniswap CCA (Base)",
-     "confirmed": true
-    },
-    {
-     "date": null,
-     "text": "Uniswap CCA public sale: pre-bidding 'opens soon', no date",
-     "confirmed": false
-    },
-    {
-     "date": null,
-     "text": "Token launch targeted by end of 2026",
-     "confirmed": false
-    }
-   ]
-  },
-  {
-   "name": "TermiX",
-   "ticker": "TMT",
-   "theme": "AI",
-   "stage": "pre-launch",
-   "score": 33,
-   "tier": "WATCH",
-   "verdict": "WATCH (PROVISIONAL)",
-   "breakdown": {
-    "team": 3,
-    "backers": 6,
-    "product": 10,
-    "audit": 0,
-    "consistency": 7,
-    "tokenomics": 1,
-    "liquidity": 1,
-    "red_flag_pool": 5
-   },
-   "website": "https://www.agent.family",
-   "next_milestone": "Kaito Katalyst winners announced Mon 11/23 (time TBA); TGE date unpublished",
-   "milestone_date": "2026-11-23T23:59:00-05:00",
-   "dex_route": "",
-   "chain": "BNB Chain (product)",
-   "links": [
-    {
-     "label": "Site",
-     "url": "https://www.agent.family"
-    },
-    {
-     "label": "X",
-     "url": "https://x.com/termix_ai"
-    }
-   ],
-   "sources": [
-    "https://www.agent.family/campaigns/kaito-katalyst",
-    "https://www.chaincatcher.com/en/article/2275451"
-   ],
-   "notes": "Agent job marketplace on BNB Chain. Only 0.30% of supply disclosed. Its X posts (Oct 30 - Nov 1) tell AI agents incl. Grok Bot to 'help me install' its skills; the Oracle ignores these (security flag).",
-   "upgrade_if": "Full tokenomics and a dated TGE",
-   "downgrade_if": "More agent-install prompts or referral-driven pushes",
-   "provisional": true,
-   "price": null,
-   "market_cap": null,
-   "volume_24h": null,
-   "price_updated": null,
-   "cg_id": null,
-   "last_update": "2026-11-01T17:55:00-05:00",
-   "niche": "AI",
-   "official_links": [
-    "https://www.agent.family",
-    "https://x.com/termix_ai"
-   ],
-   "score_history": [
-    {
-     "date": "2026-10-31",
-     "score": 33
-    },
-    {
-     "date": "2026-11-01",
-     "score": 33
-    }
-   ],
-   "milestones": [
-    {
-     "date": null,
-     "text": "TMT TGE: no date announced",
-     "confirmed": false
-    }
-   ]
-  }
- ],
- "airdrops": [
-  {
-   "project": "Quip Network",
-   "what": "Quests & Mindshare campaigns",
-   "how": "Complete quests / mindshare tasks on the official sites; final points distributed at close",
-   "closes": "2026-11-02T08:00:00-05:00",
-   "link": "https://quest.quip.network",
-   "unconfirmed": false,
-   "progress": "378 Quip Points on Quip Quests (claimed Follow X + 3 founder follows, Discord, Telegram, YouTube subscribe, Nov 1 check-in); rank 5000+ (exact rank not shown). Still open: Nov 2 daily check-in, daily X posts, one optional quest. Quests end Mon Nov 2, 8:00 AM ET.",
-   "points": 378,
-   "rank": "5000+ (exact rank not shown)",
-   "claimed": [
-    "Follow X",
-    "3 founder follows",
-    "Discord",
-    "Telegram",
-    "YouTube subscribe",
-    "Nov 1 daily check-in"
-   ],
-   "open_tasks": [
-    "Nov 2 daily check-in",
-    "Daily X posts",
-    "One optional quest"
-   ],
-   "progress_at": "2026-11-01T17:53:00-05:00"
-  },
-  {
-   "project": "Quip Network",
-   "what": "Mindshare leaderboard",
-   "how": "Official mindshare subdomain (same close as Quests)",
-   "closes": "2026-11-02T08:00:00-05:00",
-   "link": "https://mindshare.quip.network",
-   "unconfirmed": false
-  },
-  {
-   "project": "Quip Network",
-   "what": "Quip Points (ongoing)",
-   "how": "Daily sign-in, node, QuipSwap paper swaps; points convert to QUIP at TGE by leaderboard position",
-   "closes": null,
-   "link": "https://links.quip.network",
-   "unconfirmed": true
-  },
-  {
-   "project": "NeoSoul",
-   "what": "Gate Launchpool",
-   "how": "Exchange-run staking of BTC/ETH/DNA; needs Gate account + KYC",
-   "closes": "2026-11-06T06:00:00-05:00",
-   "link": "https://www.gate.com/announcements/article/102248",
-   "unconfirmed": false
-  },
-  {
-   "project": "Axis Robotics (AXIS)",
-   "what": "MEXC Airdrop+",
-   "how": "Exchange-run, trading-based; details on MEXC only",
-   "closes": "2026-11-03T08:00:00-05:00",
-   "link": null,
-   "unconfirmed": false
-  },
-  {
-   "project": "Ritual (RITUAL)",
-   "what": "Community airdrop claim",
-   "how": "Pre-approved addresses only; 3-month window from a Foundation-announced start",
-   "closes": null,
-   "link": "https://airdrop.ritualfoundation.org",
-   "unconfirmed": true
-  },
-  {
-   "project": "Axis Robotics (AXIS)",
-   "what": "Contributor claim",
-   "how": "Prior contributors only; real page is airdrop.axisrobotics.ai (a look-alike 'airdlrop' domain is phishing)",
-   "closes": null,
-   "link": "https://airdrop.axisrobotics.ai",
-   "unconfirmed": true
-  }
- ],
- "deadlines": [
-  {
-   "project": "Quip Network",
-   "title": "Quip Quests: 378 pts · do the Nov 2 check-in before 8 AM ET",
-   "type": "Airdrop quests",
-   "theme": "Quantum",
-   "url": "https://quest.quip.network",
-   "date": "2026-11-02T08:00:00-05:00",
-   "text": "Quip Quests & Mindshare close"
-  },
-  {
-   "project": "Axis Robotics",
-   "title": "MEXC Airdrop+ for AXIS ends (exchange-run)",
-   "type": "Exchange campaign",
-   "theme": "AI",
-   "url": null,
-   "date": "2026-11-03T08:00:00-05:00",
-   "text": "MEXC Airdrop+ for AXIS ends"
-  },
-  {
-   "project": "NeoSoul",
-   "title": "Gate Launchpool for DNA ends (exchange-run, KYC)",
-   "type": "Exchange campaign",
-   "theme": "AI",
-   "url": "https://www.gate.com/announcements/article/102248",
-   "date": "2026-11-06T06:00:00-05:00",
-   "text": "Gate Launchpool for DNA ends"
-  },
-  {
-   "project": "Fraction AI",
-   "title": "FRAC admission to trading per MiCA filing (not announced by project)",
-   "type": "Launch",
-   "theme": "AI",
-   "url": "https://tgeindex.com/tge/fraction-ai/",
-   "date": "2026-11-11T23:59:00-05:00",
-   "all_day": true,
-   "text": "Fraction AI (FRAC) admission to trading per MiCA filing (not announced by project)"
-  },
-  {
-   "project": "QMS Network",
-   "title": "Builder Program applications close (no token announced)",
-   "type": "Program",
-   "theme": "Quantum",
-   "url": "https://qms.finance",
-   "date": "2026-11-18T23:59:00-05:00",
-   "all_day": true,
-   "text": "QMS Network Builder Program applications close (no token announced)"
-  },
-  {
-   "project": "Dataline",
-   "title": "DAT Uniswap CCA sale on Base: 'pre-bidding opens soon', no date",
-   "type": "Token sale",
-   "theme": "AI",
-   "url": null,
-   "date": null,
-   "text": "Dataline (DAT) Uniswap CCA sale on Base: 'pre-bidding opens soon', no date"
-  },
-  {
-   "project": "Quip Network",
-   "title": "Chain audit, then mainnet, then TGE; no dates",
-   "type": "Launch",
-   "theme": "Quantum",
-   "url": "https://quip.network/blog/quip-network-final-stretch-to-mainnet",
-   "date": null,
-   "text": "Quip (QUIP): chain audit, then mainnet, then TGE; no dates"
-  }
- ],
- "rejections": [
-  {
-   "name": "AIDOG",
-   "theme": "AI",
-   "niche": "AI",
-   "score": "unscored",
-   "reason": "Self-described animal meme coin, fair mint on BSC limited to Binance Agent wallets (Oct 30); no product or team",
-   "at": "2026-11-01T17:55:00-05:00"
-  },
-  {
-   "name": "Wire Network (WIRE)",
-   "theme": "AI",
-   "niche": "AI",
-   "score": "unscored",
-   "reason": "Pre-token sale open, TGE moved to second half of Nov; no team, tokenomics or audit (TGE Index 1/8)",
-   "at": "2026-11-01T17:55:00-05:00",
-   "link": "https://tgeindex.com/tge/november-2026/"
-  },
-  {
-   "name": "Ozak AI (OZ)",
-   "theme": "AI",
-   "niche": "AI",
-   "score": "unscored",
-   "reason": "Website presale closed Oct 3; no TGE date or exchange named",
-   "at": "2026-11-01T17:55:00-05:00"
-  },
-  {
-   "name": "Everlyn AI (LYN)",
-   "theme": "AI",
-   "niche": "AI",
-   "score": "unscored",
-   "reason": "Not new: TGE Oct 6, 2025 (shows as new in CoinGecko's AI category only)",
-   "at": "2026-11-01T17:55:00-05:00"
-  },
-  {
-   "name": "JAGENT",
-   "theme": "AI",
-   "niche": "AI",
-   "score": "unscored",
-   "reason": "Anonymous BSC agent token; XT / MEXC Innovation Zone only, shill-only coverage",
-   "at": "2026-11-01T17:55:00-05:00"
-  },
-  {
-   "name": "Soqucoin (SOQ)",
-   "theme": "Quantum",
-   "niche": "Quantum",
-   "score": 41,
-   "reason": "Team unidentified; tiny venues (SafeTrade/NonKYC); mainnet live since Oct 13 per official site",
-   "at": "2026-11-01T17:55:00-05:00"
-  },
-  {
-   "name": "TensorCash (TSC)",
-   "theme": "Quantum",
-   "niche": "Quantum",
-   "score": 34,
-   "reason": "Pseudonymous initiator, no disclosed funding, SafeTrade only",
-   "at": "2026-11-01T17:55:00-05:00"
-  },
-  {
-   "name": "NaoX Protocol (NAORIS)",
-   "theme": "Quantum",
-   "niche": "Quantum",
-   "score": "unscored",
-   "reason": "Not new (2025 TGE; KuCoin spot Oct 27); CoinGecko still links a suspended X account",
-   "at": "2026-11-01T17:55:00-05:00",
-   "link": "https://www.kucoin.com/announcement/en-naox-protocol-naoris-listed-on-kucoin"
-  },
-  {
-   "name": "pqc.market (PQC)",
-   "theme": "Quantum",
-   "niche": "Quantum",
-   "score": "unscored",
-   "reason": "Anonymous pump.fun token launched Oct 8",
-   "at": "2026-11-01T17:55:00-05:00"
-  }
- ],
- "prelaunch_updates": [
-  {
-   "project": "Quip Network",
-   "theme": "Quantum",
-   "source_type": "official",
-   "kind": "airdrop_progress",
-   "at": "2026-11-01T17:53:00-05:00",
-   "text": "OPEN CAMPAIGN · Quip Quests close Nov 2, 8:00 AM ET. Airdrop Bot progress: 378 Quip Points on Quip Quests (claimed Follow X + 3 founder follows, Discord, Telegram, YouTube subscribe, Nov 1 check-in); rank 5000+ (exact rank not shown). Still open: Nov 2 daily check-in, daily X posts, one optional quest. Quests end Mon Nov 2, 8:00 AM ET.",
-   "url": "https://quest.quip.network"
-  },
-  {
-   "project": "GenLayer",
-   "theme": "AI",
-   "source_type": "official",
-   "at": "2026-10-27T12:00:00-04:00",
-   "text": "Published GEN tokenomics (4.2B genesis, ~24.4% float at TGE); token and network on Arbitrum; TGE date still unannounced. Airdrop registration is now closed.",
-   "url": "https://portal.genlayer.foundation/assets/documents/genlayer-tokenomics-october-2026.pdf"
-  },
-  {
-   "project": "Quip Network",
-   "theme": "Quantum",
-   "source_type": "official",
-   "at": "2026-10-30T16:55:46-04:00",
-   "text": "Quests and Mindshare campaigns conclude Nov 2 at 13:00 UTC (8:00 AM ET) with the final points distribution.",
-   "url": "https://x.com/quipnetwork/status/2116272874235609120"
-  },
-  {
-   "project": "Dataline",
-   "theme": "AI",
-   "source_type": "official",
-   "at": "2026-10-30T10:53:49-04:00",
-   "text": "Explains its continuous clearing auction (Uniswap CCA) for DAT; no sale date, size or tokenomics yet.",
-   "url": "https://x.com/DatalineAI/status/2116181788209066240"
-  },
-  {
-   "project": "Quip Network",
-   "theme": "Quantum",
-   "source_type": "official",
-   "at": "2026-10-28T12:00:00-04:00",
-   "text": "Final stretch: all components live on testnet; external chain audit is the last step, then mainnet, then TGE (no dates).",
-   "url": "https://quip.network/blog/quip-network-final-stretch-to-mainnet"
-  },
-  {
-   "project": "Verona (ex-XION)",
-   "theme": "Quantum",
-   "source_type": "official",
-   "at": "2026-10-30T09:54:08-04:00",
-   "text": "Added to CoinMarketCap's Quantum-Resistant category after the Oct 28 Fermi v32 PQ upgrade.",
-   "url": "https://x.com/verona_dev/status/2116166766879748343"
-  }
- ],
- "digest": {
-  "date": "2026-11-01",
-  "top3": [
-   {
-    "name": "Ritual (RITUAL)",
-    "why": "Only HIGH PRIORITY (78): live AI L1, doxxed team, Coinbase + KuCoin + MEXC spot. Missing: a public audit.",
-    "url": "https://ritual.net"
-   },
-   {
-    "name": "Quip Network (QUIP)",
-    "why": "Airdrop Bot: 378 Quip Points (rank 5000+); quests end Mon Nov 2, 8:00 AM ET. Score 62: chain audit, then mainnet, then TGE.",
-    "url": "https://quest.quip.network"
-   },
-   {
-    "name": "GenLayer (GEN)",
-    "why": "New WATCH (60): AI-native chain with published tokenomics and named venues; TGE date and audit still missing.",
-    "url": "https://www.genlayer.com"
-   }
-  ],
-  "ai": [
-   "Ritual 78 HIGH PRIORITY: now on Coinbase, MEXC and KuCoin; still no public audit.",
-   "GenLayer added at 60 WATCH: tokenomics out (24.4% float, 12-mo cliffs), Oct TGE target passed, no audit.",
-   "NeoSoul 58 and Axis 57 unchanged; AXIS is down ~52% this week after the Oct 28-29 sell-off.",
-   "Fraction AI 49 (provisional): Nov 11 trading date is from its MiCA filing only.",
-   "Dataline 43 and TermiX 33 stay provisional; TermiX keeps posting install prompts aimed at AI agents (ignored)."
-  ],
-  "quantum": [
-   "Quip Network 62 WATCH · Airdrop Bot: 378 Quip Points (X, founder follows, Discord, Telegram, YouTube, check-in); Nov 2 check-in still to do; ends Nov 2 8:00 AM ET.",
-   "Verona 65 and Quantus 64 unchanged; no new quantum project reached 55.",
-   "Near-miss: no quantum project is near 75. Quip needs its chain audit and a dated TGE."
-  ]
- },
- "report": {
-  "updated": "2026-11-01T17:55:00-05:00",
-  "intro": "Full sweep of AI and quantum/post-quantum launches for Sun Nov 1, 2026 (ET): every watchlist project rescored on the 8-factor Oracle Score, impostor checks run, new candidates screened.",
-  "snapshots": "Prices: CoinGecko, refreshed hourly by the desk (each row shows its own Updated time). Research: official sites and X accounts, exchange notices, TGE Index, The Block, Crypto Briefing.",
-  "disclaimer": "The Oracle never connects wallets, signs, or trades. Scores measure disclosure and evidence, not price.",
-  "takeaways": [
-   "Ritual (78) is the only HIGH PRIORITY: live AI L1 on Coinbase, KuCoin and MEXC; the gap is a public audit.",
-   "Airdrop Bot: 378 Quip Points on Quip Quests (rank 5000+); all one-time quests claimed; quests end Mon Nov 2, 8:00 AM ET.",
-   "New: GenLayer (GEN) at 60 WATCH: tokenomics and venues published, TGE date and audit missing.",
-   "No quantum/PQ project is near 75; Verona 65, Quantus 64, Quip 62.",
-   "Rejected today: AIDOG (meme), Wire, Ozak AI, Everlyn (not new), JAGENT, Soqucoin, TensorCash, NaoX (not new), pqc.market."
-  ],
-  "prelaunch": [
-   {
-    "project": "Quip Network",
-    "ticker": "QUIP",
-    "theme": "Quantum",
-    "coming": "Quests end Mon 11/2 8:00 AM ET · Airdrop Bot: 378 Quip Points",
-    "when": "Nov 2, 8:00 AM ET",
-    "score": 62,
-    "why": "Your Airdrop Bot: 378 Quip Points on Quip Quests (claimed Follow X + 3 founder follows, Discord, Telegram, YouTube subscribe, Nov 1 check-in); rank 5000+ (exact rank not shown). Still open: Nov 2 daily check-in, daily X "
-   },
-   {
-    "project": "GenLayer",
-    "ticker": "GEN",
-    "theme": "AI",
-    "coming": "TGE + mainnet on Arbitrum: date unpublished (Oct target passed)",
-    "when": "unpublished",
-    "score": 60,
-    "why": "NEW this sweep. AI-native chain for 'intelligent contracts' (YeagerAI; CEO Albert Castellana). $7.5M seed led by North Island Ventures (The Block, Aug 2024). Tokenomics published: 4.2B genesis, ~24.4% float at TGE, inves"
-   },
-   {
-    "project": "Fraction AI",
-    "ticker": "FRAC",
-    "theme": "AI",
-    "coming": "Admission to trading per MiCA filing Wed 11/11 (time TBA)",
-    "when": "Nov 11 (MiCA filing)",
-    "score": 49,
-    "why": "AI agent competitions; Halborn audit. Date comes from its EU MiCA white paper (7,000,000,001 FRAC total supply); allocation, vesting, float and venues unpublished (Binance, Coinbase, OKX named only as intended venues)."
-   },
-   {
-    "project": "Dataline",
-    "ticker": "DAT",
-    "theme": "AI",
-    "coming": "Uniswap CCA public sale on Base: date unpublished",
-    "when": "unpublished",
-    "score": 43,
-    "why": "$10.6M seed (Lattice, Dispersion; Coinbase Ventures participating). Oct 30 posts explain the continuous clearing auction but give no date, size, price or tokenomics."
-   },
-   {
-    "project": "TermiX",
-    "ticker": "TMT",
-    "theme": "AI",
-    "coming": "Kaito Katalyst winners announced Mon 11/23 (time TBA); TGE date unpublished",
-    "when": "Nov 23 (campaign)",
-    "score": 33,
-    "why": "Agent job marketplace on BNB Chain. Only 0.30% of supply disclosed. Its X posts (Oct 30 - Nov 1) tell AI agents incl. Grok Bot to 'help me install' its skills; the Oracle ignores these (security flag)."
-   }
-  ],
-  "radar_only": [
-   "QMS Network (no team or token; Builder Program to Nov 18)",
-   "Project Eleven (PQ custody, no token)",
-   "QRL 2.0 testnet (no rewards)"
-  ],
-  "tokens": [
-   {
-    "project": "Ritual",
-    "ticker": "RITUAL",
-    "theme": "AI",
-    "category": "AI L1",
-    "tier": "Strong",
-    "price": 0.01975701,
-    "market_cap": 35562313,
-    "volume_24h": 547189,
-    "score": 78,
-    "dex": ""
-   },
-   {
-    "project": "Verona (ex-XION)",
-    "ticker": "VERONA",
-    "theme": "Quantum",
-    "category": "PQ L1",
-    "tier": "Watch",
-    "price": 0.108905,
-    "market_cap": 10094247,
-    "volume_24h": 134321,
-    "score": 65,
-    "dex": ""
-   },
-   {
-    "project": "Quantus",
-    "ticker": "QTC",
-    "theme": "Quantum",
-    "category": "PQ L1",
-    "tier": "Watch",
-    "price": 71.06,
-    "market_cap": 22563878,
-    "volume_24h": 778646,
-    "score": 64,
-    "dex": "NEAR Intents (near.com), Rhea Finance"
-   },
-   {
-    "project": "NeoSoul",
-    "ticker": "DNA",
-    "theme": "AI",
-    "category": "AI agents",
-    "tier": "Watch",
-    "price": 0.180626,
-    "market_cap": 23478026,
-    "volume_24h": 16346854,
-    "score": 58,
-    "dex": ""
-   },
-   {
-    "project": "Axis Robotics",
-    "ticker": "AXIS",
-    "theme": "AI",
-    "category": "Physical AI data",
-    "tier": "Watch",
-    "price": 0.12629,
-    "market_cap": 20837715,
-    "volume_24h": 13130344,
-    "score": 57,
-    "dex": ""
-   }
-  ],
-  "impostors": [
-   {
-    "project": "Axis Robotics",
-    "theme": "AI",
-    "fakes": "A look-alike 'airdlrop' .live checker domain pushed by small accounts (address not repeated here)",
-    "official": "airdrop.axisrobotics.ai and https://axisrobotics.ai only"
-   },
-   {
-    "project": "Ritual",
-    "theme": "AI",
-    "fakes": "Founder look-alike handles with 0-1 followers",
-    "official": "@ritualnet, @ritualfnd, https://ritual.net"
-   },
-   {
-    "project": "GenLayer",
-    "theme": "AI",
-    "fakes": "ChainPatrol reports impersonators and look-alike domains ahead of TGE",
-    "official": "https://www.genlayer.com and portal.genlayer.foundation"
-   },
-   {
-    "project": "Quip Network",
-    "theme": "Quantum",
-    "fakes": "Quoted 'conversion rates' for Quip Points are not from the project",
-    "official": "https://quip.network, quest.quip.network, mindshare.quip.network"
-   },
-   {
-    "project": "NaoX Protocol",
-    "theme": "Quantum",
-    "fakes": "CoinGecko still links the suspended @NaorisProtocol",
-    "official": "Unconfirmed: verify a new handle from the official site first"
-   }
-  ],
-  "notes": [
-   {
-    "section": "prelaunch",
-    "theme": "Quantum",
-    "text": "Quip Quests: your Airdrop Bot has 378 Quip Points (rank 5000+). Still open: Nov 2 check-in, daily X posts, one optional quest. Ends Mon Nov 2, 8:00 AM ET."
-   },
-   {
-    "section": "tokens",
-    "theme": "AI",
-    "text": "Near-miss rule: Ritual passes (78, 3 sources). No other AI project is within 10 points of 75."
-   }
-  ],
-  "sources": [
-   {
-    "title": "Ritual mainnet is live",
-    "url": "https://www.ritualfoundation.com/blog/ritual-mainnet-is-live"
-   },
-   {
-    "title": "KuCoin: Ritual listed",
-    "url": "https://www.kucoin.com/announcement/en-ritual-ritual-listed-on-kucoin1028"
-   },
-   {
-    "title": "Quip: final stretch to mainnet",
-    "url": "https://quip.network/blog/quip-network-final-stretch-to-mainnet"
-   },
-   {
-    "title": "TGE Index: GenLayer",
-    "url": "https://tgeindex.com/tge/genlayer/"
-   },
-   {
-    "title": "TGE Index: November 2026",
-    "url": "https://tgeindex.com/tge/november-2026/"
-   },
-   {
-    "title": "Verona Fermi v32",
-    "url": "https://www.globenewswire.com/news-release/2026/10/28/3390239/0/en/verona-launches-fermi-mainnet-v32-with-nist-post-quantum-cryptography.html"
-   },
-   {
-    "title": "Axis denies team selling",
-    "url": "https://www.panews.io/articles/01a18863-17dc-715b-990d-21430c8f7370"
-   }
-  ]
- },
- "sweep": "sweeps/2026-11-01.md",
- "prices_updated": "2026-11-02T06:41:23-05:00"
+  "sweep": "sweeps/2026-11-02.md",
+  "prices_updated": "2026-11-02T07:43:03-05:00"
 }
