@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T07:46:00-05:00",
+ "generated_at": "2026-11-02T09:14:00-05:00",
  "updated": "2026-11-02T07:43:03-05:00",
  "status": {
   "state": "idle",
@@ -12,10 +12,10 @@
    "Re-checked 10 watchlist projects: no score changes",
    "Screened new AI and quantum launches: 5 rejected, 1 radar",
    "No new HIGH PRIORITY (0 of 3 used)",
-   "Airdrop Bot: 381 Quip Points, all claimed"
+   "Quip Quests ended: final 381 Quip Points"
   ]
  },
- "snapshot_note": "Sweep Nov 2 · 1 HIGH · 9 WATCH · 5 rejected · no score changes · Airdrop Bot: 381 Quip Points, all quests claimed",
+ "snapshot_note": "Sweep Nov 2 · 1 HIGH · 9 WATCH · 5 rejected · no score changes · Quip Quests ended: final 381 Quip Points",
  "alerts_used_today": 0,
  "alert_cap": 3,
  "alerts": [
@@ -374,8 +374,8 @@
    },
    "website": "https://quip.network",
    "cg_watch": true,
-   "next_milestone": "Quests close Mon 11/2 8:00 AM ET · Airdrop Bot: 381 pts, all claimed",
-   "milestone_date": "2026-11-02T08:00:00-05:00",
+   "next_milestone": "External chain audit, then mainnet, then TGE (no dates) · Quests ended: 381 pts",
+   "milestone_date": null,
    "dex_route": "",
    "chain": "Quip chain (testnet); QuipSwap on Base",
    "links": [
@@ -405,7 +405,7 @@
     "https://quip.network/documents/Quip-Security-Audit-v1.0.pdf",
     "https://www.codezen.tech/audits/quip-network/"
    ],
-   "notes": "Airdrop Bot: 381 Quip Points (final), rank 5000+; all free quests claimed (Follow X + 3 founder follows, Discord, Telegram, YouTube subscribe, daily check-ins). Quests close Mon Nov 2, 8:00 AM ET. Project: chain audit -> mainnet -> TGE, no dates; Oak Security contract audit (Sep 24) 48 findings, 0 critical; points convert to QUIP by leaderboard position at TGE, rate unpublished.",
+   "notes": "Airdrop Bot: 381 Quip Points (final), rank 5000+; all free quests claimed (Follow X + 3 founder follows, Discord, Telegram, YouTube subscribe, daily check-ins). Quests ended Mon Nov 2, 8:00 AM ET. Project: chain audit -> mainnet -> TGE, no dates; Oak Security contract audit (Sep 24) 48 findings, 0 critical; points convert to QUIP by leaderboard position at TGE, rate unpublished.",
    "airdrop_progress": {
     "campaign": "Quip Quests",
     "points": 381,
@@ -422,7 +422,7 @@
     "ends": "2026-11-02T08:00:00-05:00",
     "reported_at": "2026-11-02T07:46:00-05:00",
     "url": "https://quest.quip.network",
-    "status": "all free quests claimed"
+    "status": "ended"
    },
    "upgrade_if": "Chain audit published and a dated TGE with venues",
    "downgrade_if": "Audit slips or conversion terms disappoint",
@@ -978,7 +978,7 @@
    "closes": "2026-11-02T08:00:00-05:00",
    "link": "https://quest.quip.network",
    "unconfirmed": false,
-   "progress": "381 Quip Points (final), rank 5000+; all free quests claimed (Follow X + 3 founder follows, Discord, Telegram, YouTube subscribe, daily check-ins). Quests close Mon Nov 2, 8:00 AM ET.",
+   "progress": "Final: 381 Quip Points, rank 5000+, all free quests claimed. Campaign ended Nov 2, 8:00 AM ET.",
    "points": 381,
    "rank": "5000+ (exact rank not shown)",
    "claimed": [
@@ -991,7 +991,8 @@
    ],
    "open_tasks": [],
    "progress_at": "2026-11-02T07:46:00-05:00",
-   "status": "all free quests claimed"
+   "status": "ended",
+   "ended_at": "2026-11-02T08:00:00-05:00"
   },
   {
    "project": "Quip Network",
@@ -999,7 +1000,9 @@
    "how": "Official mindshare subdomain (same close as Quests)",
    "closes": "2026-11-02T08:00:00-05:00",
    "link": "https://mindshare.quip.network",
-   "unconfirmed": false
+   "unconfirmed": false,
+   "status": "ended",
+   "ended_at": "2026-11-02T08:00:00-05:00"
   },
   {
    "project": "Quip Network",
@@ -1043,15 +1046,6 @@
   }
  ],
  "deadlines": [
-  {
-   "project": "Quip Network",
-   "title": "Quip Quests: 381 pts · all claimed",
-   "type": "Airdrop quests",
-   "theme": "Quantum",
-   "url": "https://quest.quip.network",
-   "date": "2026-11-02T08:00:00-05:00",
-   "text": "Quip Quests & Mindshare close"
-  },
   {
    "project": "Axis Robotics",
    "title": "MEXC Airdrop+ for AXIS ends (exchange-run)",
@@ -1157,8 +1151,8 @@
    "theme": "Quantum",
    "source_type": "official",
    "kind": "airdrop_progress",
-   "at": "2026-11-02T07:46:00-05:00",
-   "text": "OPEN CAMPAIGN · Quip Quests close Nov 2, 8:00 AM ET. Airdrop Bot final: 381 Quip Points, rank 5000+; all free quests claimed (Follow X + 3 founder follows, Discord, Telegram, YouTube subscribe, daily check-ins). Quests close Mon Nov 2, 8:00 AM ET.",
+   "at": "2026-11-02T09:14:00-05:00",
+   "text": "CAMPAIGN ENDED · Quip Quests closed Nov 2, 8:00 AM ET. Final: 381 Quip Points, rank 5000+, all free quests claimed.",
    "url": "https://quest.quip.network"
   },
   {
@@ -1229,7 +1223,7 @@
    },
    {
     "name": "Quip Network (QUIP)",
-    "why": "Airdrop Bot final: 381 Quip Points, rank 5000+, all free quests claimed; quests close Mon Nov 2, 8:00 AM ET. Score 62: chain audit, then mainnet, then TGE.",
+    "why": "Airdrop Bot final: 381 Quip Points, rank 5000+, all free quests claimed; quests ended Mon Nov 2, 8:00 AM ET. Score 62: chain audit, then mainnet, then TGE.",
     "url": "https://quip.network",
     "logo": "logos/quip-network.png"
    },
@@ -1248,7 +1242,7 @@
    "Rejected: BSC Agent-ID mint memes (NOTHUMAN/GHOSTX), TERA, AXON (Hotcoin-only)."
   ],
   "quantum": [
-   "Quip Network 62 WATCH · Airdrop Bot final: 381 Quip Points, rank 5000+, all free quests claimed; quests close Nov 2 8:00 AM ET.",
+   "Quip Network 62 WATCH · Airdrop Bot final: 381 Quip Points, rank 5000+, all free quests claimed; quests ended Nov 2 8:00 AM ET.",
    "Verona 65 and Quantus 64 unchanged; no new quantum project reached 55.",
    "Radar: ARMchain PQ L1 devnet (testnet Nov 15, no token). Rejected: Asentum (nickname-only team), Soqucoin (still)."
   ]
@@ -1262,7 +1256,7 @@
    "No new HIGH PRIORITY today; Ritual (78) stays the only one (already alerted Nov 1).",
    "No verdict or score changes across the 10 watchlist projects.",
    "Ritual: outlets claim a Zellic audit, but there is no public report yet; Audit factor unchanged.",
-   "Airdrop Bot final: 381 Quip Points, all free quests claimed; Quip quests close Mon Nov 2, 8:00 AM ET.",
+   "Airdrop Bot final: 381 Quip Points, all free quests claimed; Quip quests ended Mon Nov 2, 8:00 AM ET.",
    "Next 72h: MEXC Airdrop+ for AXIS ends Tue Nov 3, 8:00 AM ET.",
    "Rejected today: Asentum, NOTHUMAN/GHOSTX, TERA, AXON, Soqucoin (still)."
   ],
@@ -1271,10 +1265,10 @@
     "project": "Quip Network",
     "ticker": "QUIP",
     "theme": "Quantum",
-    "coming": "Quests end Mon 11/2 8:00 AM ET · Airdrop Bot: 381 Quip Points, all claimed",
+    "coming": "Quests ended Mon 11/2 8:00 AM ET · final 381 Quip Points",
     "when": "Nov 2, 8:00 AM ET",
     "score": 62,
-    "why": "Airdrop Bot: 381 Quip Points (final), rank 5000+; all free quests claimed. Quests close Mon Nov 2, 8:00 AM ET."
+    "why": "Airdrop Bot: 381 Quip Points (final), rank 5000+; all free quests claimed. Quests ended Mon Nov 2, 8:00 AM ET."
    },
    {
     "project": "GenLayer",
@@ -1418,7 +1412,7 @@
    {
     "section": "prelaunch",
     "theme": "Quantum",
-    "text": "Quip Quests: Airdrop Bot final: 381 Quip Points (rank 5000+), all free quests claimed. Quests & Mindshare close Mon Nov 2, 8:00 AM ET; Quip Points continue until mainnet."
+    "text": "Quip Quests: Airdrop Bot final: 381 Quip Points (rank 5000+), all free quests claimed. Quests & Mindshare ended Mon Nov 2, 8:00 AM ET; Quip Points continue until mainnet."
    },
    {
     "section": "tokens",
