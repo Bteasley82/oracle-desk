@@ -170,7 +170,8 @@
      "text": "Public audit publication",
      "confirmed": false
     }
-   ]
+   ],
+   "logo": "logos/ritual.png"
   },
   {
    "name": "Verona (ex-XION)",
@@ -254,7 +255,8 @@
      "text": "Phase two: validator keys to ML-DSA-65",
      "confirmed": false
     }
-   ]
+   ],
+   "logo": "logos/verona-ex-xion.png"
   },
   {
    "name": "Quantus",
@@ -349,7 +351,8 @@
      "text": "Tier-1 CEX listing",
      "confirmed": false
     }
-   ]
+   ],
+   "logo": "logos/quantus.png"
   },
   {
    "name": "Quip Network",
@@ -463,7 +466,8 @@
      "text": "Chain audit -> mainnet -> TGE",
      "confirmed": false
     }
-   ]
+   ],
+   "logo": "logos/quip-network.png"
   },
   {
    "name": "GenLayer",
@@ -538,7 +542,8 @@
      "date": "2026-11-02",
      "score": 60
     }
-   ]
+   ],
+   "logo": "logos/genlayer.png"
   },
   {
    "name": "NeoSoul",
@@ -623,7 +628,8 @@
      "text": "Gate Launchpool for DNA ends",
      "confirmed": true
     }
-   ]
+   ],
+   "logo": "logos/neosoul.png"
   },
   {
    "name": "Axis Robotics",
@@ -714,7 +720,8 @@
      "text": "MEXC Airdrop+ for AXIS ends",
      "confirmed": true
     }
-   ]
+   ],
+   "logo": "logos/axis-robotics.png"
   },
   {
    "name": "Fraction AI",
@@ -794,7 +801,8 @@
      "text": "Admission to trading per EU MiCA white paper",
      "confirmed": false
     }
-   ]
+   ],
+   "logo": "logos/fraction-ai.png"
   },
   {
    "name": "Dataline",
@@ -814,12 +822,16 @@
     "liquidity": 3,
     "red_flag_pool": 8
    },
-   "website": "https://x.com/DatalineAI",
+   "website": "https://www.dataline.xyz",
    "next_milestone": "Uniswap CCA public sale on Base: date unpublished",
    "milestone_date": null,
    "dex_route": "",
    "chain": "Base (planned)",
    "links": [
+    {
+     "label": "Site",
+     "url": "https://www.dataline.xyz"
+    },
     {
      "label": "X",
      "url": "https://x.com/DatalineAI"
@@ -845,6 +857,7 @@
    "last_update": "2026-11-02T07:43:00-05:00",
    "niche": "AI",
    "official_links": [
+    "https://www.dataline.xyz",
     "https://x.com/DatalineAI",
     "https://www.theblock.co/news/deals/2026-10-21-dataline-decentralized-data-network-ai-agents-funding-ico-421596"
    ],
@@ -878,7 +891,8 @@
      "text": "Token launch targeted by end of 2026",
      "confirmed": false
     }
-   ]
+   ],
+   "logo": "logos/dataline.png"
   },
   {
    "name": "TermiX",
@@ -952,7 +966,8 @@
      "text": "TMT TGE: no date announced",
      "confirmed": false
     }
-   ]
+   ],
+   "logo": "logos/termix.png"
   }
  ],
  "airdrops": [
@@ -1209,17 +1224,20 @@
    {
     "name": "Ritual (RITUAL)",
     "why": "Still the only HIGH PRIORITY (78). Outlets say Zellic audited it, but no public report exists yet, so the audit gap remains.",
-    "url": "https://ritual.net"
+    "url": "https://ritual.net",
+    "logo": "logos/ritual.png"
    },
    {
     "name": "Quip Network (QUIP)",
     "why": "Airdrop Bot final: 381 Quip Points, rank 5000+, all free quests claimed; quests close Mon Nov 2, 8:00 AM ET. Score 62: chain audit, then mainnet, then TGE.",
-    "url": "https://quest.quip.network"
+    "url": "https://quip.network",
+    "logo": "logos/quip-network.png"
    },
    {
     "name": "Axis Robotics (AXIS)",
     "why": "MEXC Airdrop+ ends Tue Nov 3, 8:00 AM ET (exchange-run). Score 57; the sell-off dispute is unresolved.",
-    "url": "https://axisrobotics.ai"
+    "url": "https://axisrobotics.ai",
+    "logo": "logos/axis-robotics.png"
    }
   ],
   "ai": [
