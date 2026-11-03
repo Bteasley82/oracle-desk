@@ -745,7 +745,7 @@
     },
     {
      "date": "2026-11-03",
-     "text": "MEXC Airdrop+ for AXIS ends",
+     "text": "MEXC Airdrop+ for AXIS ends (ended Nov 3, 8:00 AM ET)",
      "confirmed": true
     }
    ],
@@ -1047,10 +1047,15 @@
   {
    "project": "Quip Network",
    "what": "Quip Points (ongoing)",
-   "how": "Daily sign-in, node, QuipSwap paper swaps; points convert to QUIP at TGE by leaderboard position",
+   "how": "Daily sign-in on the official points site: 1 QP per sign-in, up to 5 QP/day; also node, QuipSwap paper swaps. Points convert to QUIP at TGE by leaderboard position (rate unpublished).",
    "closes": null,
-   "link": "https://links.quip.network",
-   "unconfirmed": true
+   "link": "https://points.quip.network",
+   "unconfirmed": false,
+   "status": "open",
+   "end_date": "none announced",
+   "link_verified": "points.quip.network is linked from the official links.quip.network (checked Nov 3, 9:15 AM ET)",
+   "progress": "Airdrop Bot: today's (Nov 3) sign-in not done yet.",
+   "progress_at": "2026-11-03T09:12:00-05:00"
   },
   {
    "project": "NeoSoul",
