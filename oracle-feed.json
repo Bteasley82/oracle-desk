@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-06T09:17:38-05:00",
+ "generated_at": "2026-11-06T09:56:26-05:00",
  "updated": "2026-11-06T07:37:49-05:00",
  "status": {
   "state": "idle",
-  "last_scan": "2026-11-06T09:17:38-05:00",
+  "last_scan": "2026-11-06T09:56:26-05:00",
   "next_scan": "2026-11-07T07:30:00-05:00",
   "alerts_used_today": 0,
   "alert_cap": 3,
@@ -14,7 +14,7 @@
    "Screened new AI and quantum launches: 3 rejected",
    "No new HIGH PRIORITY (0 of 3 used)"
   ],
-  "note": "Airdrop update: NeoSoul Gate Launchpool marked ended; Quip Points still blocked on MetaMask."
+  "note": "Airdrop update: Quip Points wallet connected; no points yet. Account creation needs gas, waiting on owner's decision."
  },
  "snapshot_note": "Sweep Nov 6 · 1 HIGH · 9 WATCH · 3 rejected · no score changes · Quip final: 381 Quip Points",
  "alerts_used_today": 0,
@@ -1175,8 +1175,8 @@
    "status": "open",
    "end_date": "none announced",
    "link_verified": "points.quip.network is linked from the official links.quip.network (checked Nov 3, 9:15 AM ET)",
-   "progress": "Airdrop Bot: Nov 6 daily sign-in not done; MetaMask still locked in box Chrome (4th day).",
-   "progress_at": "2026-11-06T09:12:00-05:00"
+   "progress": "Airdrop Bot (Nov 6): MetaMask unlocked and wallet connected (connect only). No points yet. Creating the Quip account needs network gas, so it's paused until the owner decides. Free steps after that: link X, follow @quipnetwork, daily sign-in.",
+   "progress_at": "2026-11-06T09:55:00-05:00"
   },
   {
    "project": "NeoSoul",
