@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T09:56:26-05:00",
+ "generated_at": "2026-11-06T11:22:42-05:00",
  "updated": "2026-11-06T07:37:49-05:00",
  "status": {
   "state": "idle",
@@ -1175,8 +1175,8 @@
    "status": "open",
    "end_date": "none announced",
    "link_verified": "points.quip.network is linked from the official links.quip.network (checked Nov 3, 9:15 AM ET)",
-   "progress": "Airdrop Bot (Nov 6): MetaMask unlocked and wallet connected (connect only). No points yet. Creating the Quip account needs network gas, so it's paused until the owner decides. Free steps after that: link X, follow @quipnetwork, daily sign-in.",
-   "progress_at": "2026-11-06T09:55:00-05:00"
+   "progress": "Airdrop Bot (Nov 6): wallet connected, no points yet. Creating the Quip account needs a little ETH for gas on Base or Ethereum (BNB doesn't work). Waiting on the owner's decision.",
+   "progress_at": "2026-11-06T11:20:00-05:00"
   },
   {
    "project": "NeoSoul",
