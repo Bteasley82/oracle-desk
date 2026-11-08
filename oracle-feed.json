@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T07:38:45-05:00",
+ "generated_at": "2026-11-08T08:53:29-05:00",
  "updated": "2026-11-08T07:38:45-05:00",
  "status": {
   "state": "idle",
@@ -16,7 +16,7 @@
   ],
   "note": "Airdrop update: Quip Points wallet connected; no points yet. Account creation needs gas, waiting on owner's decision."
  },
- "snapshot_note": "Sweep Nov 8 · 1 HIGH · 9 WATCH · 3 rejected · no score changes · Quip final: 381 Quip Points",
+ "snapshot_note": "Sweep Nov 8 · 1 HIGH · 9 WATCH · 3 rejected · no score changes · Quip Quests ended with 381 historical earned campaign points, rank 5000+; separate from new Quip Points; no verified rollover or token/reward entitlement.",
  "alerts_used_today": 0,
  "alert_cap": 3,
  "alerts": [
@@ -478,7 +478,7 @@
     "https://quip.network/documents/Quip-Security-Audit-v1.0.pdf",
     "https://www.codezen.tech/audits/quip-network/"
    ],
-   "notes": "Airdrop Bot: 381 Quip Points (final), rank 5000+; all free quests claimed (Follow X + 3 founder follows, Discord, Telegram, YouTube subscribe, daily check-ins). Quests ended Mon Nov 2, 8:00 AM ET. Project: chain audit -> mainnet -> TGE, no dates; Oak Security contract audit (Sep 24) 48 findings, 0 critical; points convert to QUIP by leaderboard position at TGE, rate unpublished. Nov 3: no new phase, audit or TGE news; team at SiGMA Rome this week. Nov 4: no new official posts; audit, mainnet and TGE still undated. Nov 4: Quip Node Manager UI refresh (download link on official X); audit, mainnet and TGE still undated. Nov 5: QVM featured in investing.com; CTO Richard Carback on Bloccelerate panel Nov 6. Audit/mainnet/TGE still undated. Nov 6 evening: SIGMA Rome booth wrap; launched 'Have you been qwned?' PQ address-exposure checker (official). Audit/mainnet/TGE still undated.",
+   "notes": "Airdrop Bot: Quip Quests ended with 381 historical earned campaign points, rank 5000+; separate from new Quip Points; no verified rollover or token/reward entitlement; all free quests claimed (Follow X + 3 founder follows, Discord, Telegram, YouTube subscribe, daily check-ins). Quests ended Mon Nov 2, 8:00 AM ET. Project: chain audit -> mainnet -> TGE, no dates; Oak Security contract audit (Sep 24) 48 findings, 0 critical. Nov 3: no new phase, audit or TGE news; team at SiGMA Rome this week. Nov 4: no new official posts; audit, mainnet and TGE still undated. Nov 4: Quip Node Manager UI refresh (download link on official X); audit, mainnet and TGE still undated. Nov 5: QVM featured in investing.com; CTO Richard Carback on Bloccelerate panel Nov 6. Audit/mainnet/TGE still undated. Nov 6 evening: SIGMA Rome booth wrap; launched 'Have you been qwned?' PQ address-exposure checker (official). Audit/mainnet/TGE still undated.",
    "airdrop_progress": {
     "campaign": "Quip Quests",
     "points": 381,
@@ -1501,10 +1501,10 @@
     "project": "Quip Network",
     "ticker": "QUIP",
     "theme": "Quantum",
-    "coming": "Quests ended Mon 11/2 8:00 AM ET · final 381 Quip Points",
+    "coming": "Quip Quests ended · 381 historical earned campaign points",
     "when": "Nov 2, 8:00 AM ET",
     "score": 62,
-    "why": "Airdrop Bot: 381 Quip Points (final), rank 5000+; all free quests claimed. Quests ended Mon Nov 2, 8:00 AM ET."
+    "why": "Quip Quests ended with 381 historical earned campaign points, rank 5000+; separate from new Quip Points; no verified rollover or token/reward entitlement."
    },
    {
     "project": "GenLayer",
