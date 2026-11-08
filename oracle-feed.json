@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T08:53:29-05:00",
+ "generated_at": "2026-11-08T12:30:10-05:00",
  "updated": "2026-11-08T07:38:45-05:00",
  "status": {
   "state": "idle",
@@ -14,9 +14,9 @@
    "Screened new AI/PQ: Qurve, PHULAX, Lcen AI rejected",
    "No new HIGH PRIORITY (0 of 3 used)"
   ],
-  "note": "Airdrop update: Quip Points wallet connected; no points yet. Account creation needs gas, waiting on owner's decision."
+  "note": "Airdrop Bot (Nov 8, 11:29 AM CT): Quip V1 account created on Ethereum at 11:27 AM CT. Dashboard says \"No points for this wallet yet\"; numeric balance and rank not shown. X linking and following @quipnetwork remain incomplete; sign-in/check-in points unverified. No end date shown. Historical 381 Quip Quests points remain separate; no verified rollover or token/reward entitlement."
  },
- "snapshot_note": "Sweep Nov 8 · 1 HIGH · 9 WATCH · 3 rejected · no score changes · Quip Quests ended with 381 historical earned campaign points, rank 5000+; separate from new Quip Points; no verified rollover or token/reward entitlement.",
+ "snapshot_note": "Sweep Nov 8 · 1 HIGH · 9 WATCH · 3 rejected · no score changes · Quip Quests ended with 381 historical earned campaign points, rank 5000+; separate from new Quip Points; no verified rollover or token/reward entitlement. · Airdrop Bot: Quip V1 created on Ethereum; X link/follow pending; sign-in points unverified",
  "alerts_used_today": 0,
  "alert_cap": 3,
  "alerts": [
@@ -447,7 +447,7 @@
    },
    "website": "https://quip.network",
    "cg_watch": true,
-   "next_milestone": "External chain audit, then mainnet, then TGE (no dates) · Quests ended: 381 pts",
+   "next_milestone": "Quip V1 created on Ethereum (Airdrop Bot); X link/follow pending; sign-in unverified · audit/mainnet/TGE undated",
    "milestone_date": null,
    "dex_route": "",
    "chain": "Quip chain (testnet); QuipSwap on Base",
@@ -478,7 +478,7 @@
     "https://quip.network/documents/Quip-Security-Audit-v1.0.pdf",
     "https://www.codezen.tech/audits/quip-network/"
    ],
-   "notes": "Airdrop Bot: Quip Quests ended with 381 historical earned campaign points, rank 5000+; separate from new Quip Points; no verified rollover or token/reward entitlement; all free quests claimed (Follow X + 3 founder follows, Discord, Telegram, YouTube subscribe, daily check-ins). Quests ended Mon Nov 2, 8:00 AM ET. Project: chain audit -> mainnet -> TGE, no dates; Oak Security contract audit (Sep 24) 48 findings, 0 critical. Nov 3: no new phase, audit or TGE news; team at SiGMA Rome this week. Nov 4: no new official posts; audit, mainnet and TGE still undated. Nov 4: Quip Node Manager UI refresh (download link on official X); audit, mainnet and TGE still undated. Nov 5: QVM featured in investing.com; CTO Richard Carback on Bloccelerate panel Nov 6. Audit/mainnet/TGE still undated. Nov 6 evening: SIGMA Rome booth wrap; launched 'Have you been qwned?' PQ address-exposure checker (official). Audit/mainnet/TGE still undated.",
+   "notes": "Airdrop Bot: Quip Quests ended with 381 historical earned campaign points, rank 5000+; separate from new Quip Points; no verified rollover or token/reward entitlement; all free quests claimed (Follow X + 3 founder follows, Discord, Telegram, YouTube subscribe, daily check-ins). Quests ended Mon Nov 2, 8:00 AM ET. Project: chain audit -> mainnet -> TGE, no dates; Oak Security contract audit (Sep 24) 48 findings, 0 critical. Nov 3: no new phase, audit or TGE news; team at SiGMA Rome this week. Nov 4: no new official posts; audit, mainnet and TGE still undated. Nov 4: Quip Node Manager UI refresh (download link on official X); audit, mainnet and TGE still undated. Nov 5: QVM featured in investing.com; CTO Richard Carback on Bloccelerate panel Nov 6. Audit/mainnet/TGE still undated. Nov 6 evening: SIGMA Rome booth wrap; launched 'Have you been qwned?' PQ address-exposure checker (official). Audit/mainnet/TGE still undated. Airdrop Bot (Nov 8, 11:29 AM CT): Quip V1 account created on Ethereum at 11:27 AM CT. Dashboard says \"No points for this wallet yet\"; numeric balance and rank not shown. X linking and following @quipnetwork remain incomplete; sign-in/check-in points unverified. No end date shown. Historical 381 Quip Quests points remain separate; no verified rollover or token/reward entitlement.",
    "airdrop_progress": {
     "campaign": "Quip Quests",
     "points": 381,
@@ -1248,15 +1248,20 @@
   {
    "project": "Quip Network",
    "what": "Quip Points (ongoing)",
-   "how": "Daily sign-in on the official points site: 1 QP per sign-in, up to 5 QP/day; also node, QuipSwap paper swaps. Points convert to QUIP at TGE by leaderboard position (rate unpublished).",
+   "how": "Link X and follow @quipnetwork, then verify daily sign-in on the official points site. Sign-in/check-in points are not yet verified; no verified token/reward entitlement.",
    "closes": null,
    "link": "https://points.quip.network",
    "unconfirmed": false,
    "status": "open",
    "end_date": "none announced",
    "link_verified": "points.quip.network is linked from the official links.quip.network (checked Nov 3, 9:15 AM ET)",
-   "progress": "Airdrop Bot (Nov 6): wallet connected, no points yet. Creating the Quip account needs a little ETH for gas on Base or Ethereum (BNB doesn't work). Waiting on the owner's decision.",
-   "progress_at": "2026-11-06T11:20:00-05:00"
+   "progress": "Airdrop Bot (Nov 8, 11:29 AM CT): Quip V1 account created on Ethereum at 11:27 AM CT. Dashboard says \"No points for this wallet yet\"; numeric balance and rank not shown. X linking and following @quipnetwork remain incomplete; sign-in/check-in points unverified. No end date shown. Historical 381 Quip Quests points remain separate; no verified rollover or token/reward entitlement.",
+   "progress_at": "2026-11-08T12:29:00-05:00",
+   "open_tasks": [
+    "Link X",
+    "Follow @quipnetwork",
+    "Complete and verify daily sign-in/check-in points"
+   ]
   },
   {
    "project": "NeoSoul",
@@ -1504,7 +1509,7 @@
     "coming": "Quip Quests ended · 381 historical earned campaign points",
     "when": "Nov 2, 8:00 AM ET",
     "score": 62,
-    "why": "Quip Quests ended with 381 historical earned campaign points, rank 5000+; separate from new Quip Points; no verified rollover or token/reward entitlement."
+    "why": "Quip Quests ended with 381 historical earned campaign points, rank 5000+; separate from new Quip Points; no verified rollover or token/reward entitlement. Airdrop Bot (Nov 8, 11:29 AM CT): Quip V1 account created on Ethereum at 11:27 AM CT. Dashboard says \"No points for this wallet yet\"; numeric balance and rank not shown. X linking and following @quipnetwork remain incomplete; sign-in/check-in points unverified. No end date shown. Historical 381 Quip Quests points remain separate; no verified rollover or token/reward entitlement."
    },
    {
     "project": "GenLayer",
