@@ -1,24 +1,23 @@
 {
- "generated_at": "2026-11-13T09:25:44-05:00",
- "updated": "2026-11-13T07:36:07-05:00",
+ "generated_at": "2026-11-14T07:34:51-05:00",
+ "updated": "2026-11-14T07:34:51-05:00",
  "status": {
   "state": "idle",
-  "last_scan": "2026-11-13T07:36:07-05:00",
-  "next_scan": "2026-11-14T07:30:00-05:00",
+  "last_scan": "2026-11-14T07:34:51-05:00",
+  "next_scan": "2026-11-15T07:30:00-05:00",
   "alerts_used_today": 0,
   "alert_cap": 3,
-  "x_reads_left_today": 994,
+  "x_reads_left_today": 993,
   "activity": [
    "Re-checked 10 watchlist projects: no score changes",
-   "NeoSoul DNA listed on Bithumb (KRW)",
-   "Quantus QTC live on Solana (Raydium)",
-   "Quip docs MCP server",
-   "Screened new AI/PQ: Raise rejected, DECA Labs on radar",
+   "Axis Robotics: points replaced by weekly AXIS rewards",
+   "Quip: Survivors game + testnet node guide",
+   "Screened new AI/PQ: DI on radar, no rejections",
    "No new HIGH PRIORITY (0 of 3 used)"
   ],
   "note": "Airdrop Bot (Nov 13): daily login at account.quip.network credited +1 Quip Activity Point; now 3 activity points (credited Nov 11, 12 and 13; account header shows 2 QP). Historical Quests 381 QP (ended Nov 2) remain separate, rank 5000+ (of ~66.4K); weekly/streak not shown. points.quip.network redirects to app.quip.network, where Points shows SOON. No end date announced; no verified token entitlement or rollover. Keep daily login going."
  },
- "snapshot_note": "Sweep Nov 13 · 1 HIGH · 9 WATCH · 1 rejected · no score changes · NeoSoul on Bithumb · QTC on Solana · Airdrop Bot: 3 Quip Activity Points + 381 historical Quests",
+ "snapshot_note": "Sweep Nov 14 · 1 HIGH · 9 WATCH · 0 rejected · no score changes · Axis now pays AXIS weekly · Airdrop Bot: 3 Quip Activity Points + 381 historical Quests",
  "alerts_used_today": 0,
  "alert_cap": 3,
  "alerts": [
@@ -124,15 +123,15 @@
     "https://cryptobriefing.com/coinbase-enables-ritual-token-spot-trading/",
     "https://www.kucoin.com/announcement/en-ritual-ritual-listed-on-kucoin1028"
    ],
-   "notes": "Mainnet + TGE Oct 26; spot on Coinbase (Oct 26), MEXC (Oct 26) and KuCoin (Oct 28). 18% unlocked at launch, insiders locked >=12 months, uncapped (~5%/yr issuance). No public audit found. Nov 2: some outlets (Dealroom, HOGE Wire) say Zellic audited the protocol, but no public report was found (not in Zellic's public repo, not on the Ritual blog), so Audit stays 3/10. Nov 3: still no public Zellic report (Zellic publications repo last updated Oct 28 with no Ritual entry; Ritual blog has nothing new). Nov 4: price up ~60% in 24h (about $0.017 to $0.028, CoinGecko) with no new official news; still no public Zellic report (repo last updated Oct 28). Price only, no score change. Nov 5: no new official X or Foundation blog posts; Zellic publications still have no public Ritual report. Gate CandyDrop (#189) for RITUAL runs through Wed Nov 11 5:00 AM ET (exchange-run, KYC). Nov 6: no new official X or Foundation blog posts; no public audit report yet. Gate CandyDrop ends Wed Nov 11 5:00 AM ET. Nov 7: no new official X or Foundation blog posts; Gate CandyDrop still ends Wed Nov 11 5:00 AM ET. Price ~$0.026. Nov 8: no new official posts; Gate CandyDrop ends Wed Nov 11 5:00 AM ET. Price ~+60% in 24h (CoinGecko ~$0.044, 24h vol ~$7.8M) with no official catalyst found; momentum only, score unchanged. Nov 9: no new official posts; price up again (~$0.050 vs ~$0.044 Nov 8, CoinGecko) with no official catalyst or new listing found; score unchanged. Gate CandyDrop ends Wed Nov 11 5:00 AM ET. Nov 10: price eased to ~$0.038 (from ~$0.050 Nov 9, CoinGecko) after last week's run-up; no new official posts or listings found; score unchanged. Gate CandyDrop ends Wed Nov 11 5:00 AM ET. Nov 11: no official posts; Gate CandyDrop ended Wed Nov 11 5:00 AM ET. One KOL post (Nov 10) alleges a Ritual community-growth member was behind a separate rugged project; unverified single-source claim, not scored. Price ~$0.032. Nov 12: no official posts; no follow-up to the Nov 10 single-KOL allegation (still unverified, not scored). Nov 13: no official posts since Nov 12 sweep; KOL allegation still unverified, not scored.",
+   "notes": "Mainnet + TGE Oct 26; spot on Coinbase (Oct 26), MEXC (Oct 26) and KuCoin (Oct 28). 18% unlocked at launch, insiders locked >=12 months, uncapped (~5%/yr issuance). No public audit found. Nov 2: some outlets (Dealroom, HOGE Wire) say Zellic audited the protocol, but no public report was found (not in Zellic's public repo, not on the Ritual blog), so Audit stays 3/10. Nov 3: still no public Zellic report (Zellic publications repo last updated Oct 28 with no Ritual entry; Ritual blog has nothing new). Nov 4: price up ~60% in 24h (about $0.017 to $0.028, CoinGecko) with no new official news; still no public Zellic report (repo last updated Oct 28). Price only, no score change. Nov 5: no new official X or Foundation blog posts; Zellic publications still have no public Ritual report. Gate CandyDrop (#189) for RITUAL runs through Wed Nov 11 5:00 AM ET (exchange-run, KYC). Nov 6: no new official X or Foundation blog posts; no public audit report yet. Gate CandyDrop ends Wed Nov 11 5:00 AM ET. Nov 7: no new official X or Foundation blog posts; Gate CandyDrop still ends Wed Nov 11 5:00 AM ET. Price ~$0.026. Nov 8: no new official posts; Gate CandyDrop ends Wed Nov 11 5:00 AM ET. Price ~+60% in 24h (CoinGecko ~$0.044, 24h vol ~$7.8M) with no official catalyst found; momentum only, score unchanged. Nov 9: no new official posts; price up again (~$0.050 vs ~$0.044 Nov 8, CoinGecko) with no official catalyst or new listing found; score unchanged. Gate CandyDrop ends Wed Nov 11 5:00 AM ET. Nov 10: price eased to ~$0.038 (from ~$0.050 Nov 9, CoinGecko) after last week's run-up; no new official posts or listings found; score unchanged. Gate CandyDrop ends Wed Nov 11 5:00 AM ET. Nov 11: no official posts; Gate CandyDrop ended Wed Nov 11 5:00 AM ET. One KOL post (Nov 10) alleges a Ritual community-growth member was behind a separate rugged project; unverified single-source claim, not scored. Price ~$0.032. Nov 12: no official posts; no follow-up to the Nov 10 single-KOL allegation (still unverified, not scored). Nov 13: no official posts since Nov 12 sweep; KOL allegation still unverified, not scored. Nov 14: no official posts since Nov 12; KOL allegation still unverified, not scored.",
    "upgrade_if": "A public audit of the core chain is published and 24h volume deepens",
    "downgrade_if": "Insider unlock news, an exploit, or Coinbase/KuCoin delisting",
    "provisional": false,
-   "price": 0.03467766,
-   "market_cap": 62419786,
-   "volume_24h": 3382165,
-   "price_updated": "2026-11-14T07:30:16-05:00",
-   "last_update": "2026-11-14T07:30:16-05:00",
+   "price": 0.03488585,
+   "market_cap": 62794293,
+   "volume_24h": 3399617,
+   "price_updated": "2026-11-14T06:34:51-06:00",
+   "last_update": "2026-11-14T06:34:51-06:00",
    "cg_id": "ritual",
    "niche": "AI",
    "official_links": [
@@ -198,6 +197,10 @@
     {
      "date": "2026-11-13",
      "score": 78
+    },
+    {
+     "date": "2026-11-14",
+     "score": 78
     }
    ],
    "contract": "Native on RITUAL chain (ID 784); BSC & Base 0x256Ea35422b2F36B24aC1D66159Fe69e75918C37 (official tokenomics page; CoinGecko lists no platform contract)",
@@ -261,15 +264,15 @@
     "https://announcements.bybit.com/en/article/bybit-to-support-verona-verona-v32-0-1-network-upgrade--artfb91da5997be/",
     "https://www.globenewswire.com/news-release/2026/10/28/3390239/0/en/verona-launches-fermi-mainnet-v32-with-nist-post-quantum-cryptography.html"
    ],
-   "notes": "Existing token (ex-XION). Fermi v32 (Oct 28) added ML-DSA-65 and SLH-DSA-128s account signing; added to CoinGecko and CoinMarketCap Quantum-Resistant categories (CMC per @verona_dev Oct 30). Validators still classical. Nov 2: official account retweeted an interview mentioning a new Verona stablecoin (not yet verified from verona.dev). Nov 3: the stablecoin in yesterday's retweet is verUSD (Brale-issued, launched Sep 29, The Paypers), not a new launch. Bybit (Nov 3) supports the v33.0.1 upgrade on Nov 4 04:20 UTC (Tue Nov 3 ~11:20 PM ET); trading unaffected. Nov 3: official thread pairs Verona's ML-DSA (NIST PQ) signing with Abelian (@PQabelian) for private value transfer; messaging, no token change. Nov 4 afternoon: Pulsar MoneyApp cashback promo for Verona community (code VRONA, first 500); partner marketing, not a token change. Nov 6: no material change. Nov 6: marketing teaser that Nov/Dec will be busier for $VERONA; no dated milestone. Score 65 unchanged. Nov 10: official X teased a verUSD/VERONA pair; no details yet. Nov 11: launched a verona.dev/founder page; verUSD/VERONA pair still without details. Nov 12: no new official posts. Nov 13: no new official posts.",
+   "notes": "Existing token (ex-XION). Fermi v32 (Oct 28) added ML-DSA-65 and SLH-DSA-128s account signing; added to CoinGecko and CoinMarketCap Quantum-Resistant categories (CMC per @verona_dev Oct 30). Validators still classical. Nov 2: official account retweeted an interview mentioning a new Verona stablecoin (not yet verified from verona.dev). Nov 3: the stablecoin in yesterday's retweet is verUSD (Brale-issued, launched Sep 29, The Paypers), not a new launch. Bybit (Nov 3) supports the v33.0.1 upgrade on Nov 4 04:20 UTC (Tue Nov 3 ~11:20 PM ET); trading unaffected. Nov 3: official thread pairs Verona's ML-DSA (NIST PQ) signing with Abelian (@PQabelian) for private value transfer; messaging, no token change. Nov 4 afternoon: Pulsar MoneyApp cashback promo for Verona community (code VRONA, first 500); partner marketing, not a token change. Nov 6: no material change. Nov 6: marketing teaser that Nov/Dec will be busier for $VERONA; no dated milestone. Score 65 unchanged. Nov 10: official X teased a verUSD/VERONA pair; no details yet. Nov 11: launched a verona.dev/founder page; verUSD/VERONA pair still without details. Nov 12: no new official posts. Nov 13: no new official posts. Nov 14: one image-only post; nothing material.",
    "upgrade_if": "Validator-key migration ships and volume grows",
    "downgrade_if": "Upgrade bugs or the classical-key path stays the default",
    "provisional": false,
-   "price": 0.101246,
-   "market_cap": 9383092,
-   "volume_24h": 283972,
-   "price_updated": "2026-11-14T07:30:16-05:00",
-   "last_update": "2026-11-14T07:30:16-05:00",
+   "price": 0.101275,
+   "market_cap": 9384813,
+   "volume_24h": 284476,
+   "price_updated": "2026-11-14T06:34:51-06:00",
+   "last_update": "2026-11-14T06:34:51-06:00",
    "cg_id": "verona",
    "niche": "Quantum",
    "official_links": [
@@ -333,6 +336,10 @@
     {
      "date": "2026-11-13",
      "score": 65
+    },
+    {
+     "date": "2026-11-14",
+     "score": 65
     }
    ],
    "milestones": [
@@ -395,15 +402,15 @@
     "https://bigone.zendesk.com/hc/en-us/articles/62918956035353-BigONE-Lists-Quantus-QTC-USDT-Trading-Pair-is-Now-Available",
     "https://x.com/QuantusNetwork/status/2120935453100581023"
    ],
-   "notes": "ML-DSA PoW L1 (mainnet Sep 9); trading via NEAR Intents since Oct 6, plus BigONE, Ourbit, SafeTrade. 27% genesis premine (insiders 1-yr lock + 36 mo linear). No audit found; FDV ~18x market cap. Nov 2: QTC swaps live inside the Quantus wallet via NEAR Intents (official post); no new venue or audit. Nov 3: teased an offline key product ('Your keys belong offline. Soon'); no date, venue or audit news. Nov 4: official post that Quantum Secure Encrypted Money is coming to @Chance_ (private-mode apps / Shadow Accounts teaser); no date, venue or audit news. Nov 5: reiterated ML-DSA-from-genesis vs ethereum migration clock. Nov 5: official post on Yuvi Lightman paper (PQ accounts on EVM without address change); Mumbai NEAR fireside. Nov 6: Bitrue lists QTC spot (deposits open, trading once liquidity met) — not a tier-1 venue, no score change. Nov 7: no new official posts since Bitrue listing note; score 64 unchanged. Nov 10: official X says QTC is now tradable on Bitrue (Nov 9). Bitrue is not a tier-1 venue, so the liquidity score is unchanged. Nov 11: official teaser video only ('headed somewhere sunny'); no new venue. Score unchanged. Nov 12: official posts on GPU mining (PoW, 21M cap, no dev tax) and a weekly quantum recap; no new venue. Nov 13: QTC now on Solana (official post Nov 12): Raydium CLMM pool, bridged via NEAR Intents (canonical bridge per @near_intents, RT'd by Quantus). Raydium is now QTC's largest venue on CoinGecko (~$0.44M/24h). Not a tier-1 CEX; score unchanged. 33,400+ accounts (official).",
+   "notes": "ML-DSA PoW L1 (mainnet Sep 9); trading via NEAR Intents since Oct 6, plus BigONE, Ourbit, SafeTrade. 27% genesis premine (insiders 1-yr lock + 36 mo linear). No audit found; FDV ~18x market cap. Nov 2: QTC swaps live inside the Quantus wallet via NEAR Intents (official post); no new venue or audit. Nov 3: teased an offline key product ('Your keys belong offline. Soon'); no date, venue or audit news. Nov 4: official post that Quantum Secure Encrypted Money is coming to @Chance_ (private-mode apps / Shadow Accounts teaser); no date, venue or audit news. Nov 5: reiterated ML-DSA-from-genesis vs ethereum migration clock. Nov 5: official post on Yuvi Lightman paper (PQ accounts on EVM without address change); Mumbai NEAR fireside. Nov 6: Bitrue lists QTC spot (deposits open, trading once liquidity met) — not a tier-1 venue, no score change. Nov 7: no new official posts since Bitrue listing note; score 64 unchanged. Nov 10: official X says QTC is now tradable on Bitrue (Nov 9). Bitrue is not a tier-1 venue, so the liquidity score is unchanged. Nov 11: official teaser video only ('headed somewhere sunny'); no new venue. Score unchanged. Nov 12: official posts on GPU mining (PoW, 21M cap, no dev tax) and a weekly quantum recap; no new venue. Nov 13: QTC now on Solana (official post Nov 12): Raydium CLMM pool, bridged via NEAR Intents (canonical bridge per @near_intents, RT'd by Quantus). Raydium is now QTC's largest venue on CoinGecko (~$0.44M/24h). Not a tier-1 CEX; score unchanged. 33,400+ accounts (official). Nov 14: education posts only (ML-DSA since genesis vs Bitcoin BIP 360/361 drafts; Devcon talk RT). No audit or tier-1 CEX; score unchanged.",
    "upgrade_if": "Audit published or a tier-1 CEX listing",
    "downgrade_if": "Premine unlock pressure or mining centralisation",
    "provisional": false,
-   "price": 43.81,
-   "market_cap": 14966761,
-   "volume_24h": 837166,
-   "price_updated": "2026-11-14T07:30:16-05:00",
-   "last_update": "2026-11-14T07:30:16-05:00",
+   "price": 43.97,
+   "market_cap": 15039149,
+   "volume_24h": 840229,
+   "price_updated": "2026-11-14T06:34:51-06:00",
+   "last_update": "2026-11-14T06:34:51-06:00",
    "cg_id": "quantus",
    "niche": "Quantum",
    "official_links": [
@@ -467,6 +474,10 @@
     },
     {
      "date": "2026-11-13",
+     "score": 64
+    },
+    {
+     "date": "2026-11-14",
      "score": 64
     }
    ],
@@ -546,7 +557,7 @@
     "https://quip.network/documents/Quip-Security-Audit-v1.0.pdf",
     "https://www.codezen.tech/audits/quip-network/"
    ],
-   "notes": "Airdrop Bot: Quip Quests ended with 381 historical earned campaign points, rank 5000+; separate from new Quip Points; no verified rollover or token/reward entitlement; all free quests claimed (Follow X + 3 founder follows, Discord, Telegram, YouTube subscribe, daily check-ins). Quests ended Mon Nov 2, 8:00 AM ET. Project: chain audit -> mainnet -> TGE, no dates; Oak Security contract audit (Sep 24) 48 findings, 0 critical. Nov 3: no new phase, audit or TGE news; team at SiGMA Rome this week. Nov 4: no new official posts; audit, mainnet and TGE still undated. Nov 4: Quip Node Manager UI refresh (download link on official X); audit, mainnet and TGE still undated. Nov 5: QVM featured in investing.com; CTO Richard Carback on Bloccelerate panel Nov 6. Audit/mainnet/TGE still undated. Nov 6 evening: SIGMA Rome booth wrap; launched 'Have you been qwned?' PQ address-exposure checker (official). Audit/mainnet/TGE still undated. Nov 9: no new official posts. Airdrop Bot (Nov 8, 9:32 PM ET): X @mobbeezy6500 now shows linked on quest.quip.network (Completed: Connect Twitter); following @quipnetwork confirmed. Historical 381 Quip Quests points remain separate; no verified rollover or token/reward entitlement. Nov 10: official X says 28,000+ Quip Accounts created and GetBlock joined as a testnet validator; still no TGE date.  Nov 11: founders' Korea Blockchain Week talk on the quantum timeline; still no TGE date. Nov 12: unified Quip app live (Nov 11, official): accounts, order-book swaps and points in one place at app.quip.network. Still no mainnet/TGE date. Referral-link 'airdrop' posts circulating: use official links only. Airdrop Bot (Nov 12, 9:15 AM ET): daily login at account.quip.network credits +1 Quip Activity Point automatically (no button); credited Nov 11 and Nov 12 (2 activity points; account header shows 1 QP). Historical Quests 381 QP (ended Nov 2) remain separate, rank 5000+ (of ~66.4K); weekly/streak not shown. points.quip.network now redirects to app.quip.network, where Points shows SOON. No end date announced; no verified token entitlement or rollover. Keep daily login going. Nov 13: dev docs now served over a public MCP server (official, Nov 12); proof-of-useful-work explainer. Still no audit/mainnet/TGE date. Airdrop Bot (Nov 13): daily login at account.quip.network credited +1; now 3 Quip Activity Points (Nov 11, 12 and 13; account header shows 2 QP). Historical Quests 381 QP and rank 5000+ (of ~66.4K) unchanged. Keep daily login going.",
+   "notes": "Airdrop Bot: Quip Quests ended with 381 historical earned campaign points, rank 5000+; separate from new Quip Points; no verified rollover or token/reward entitlement; all free quests claimed (Follow X + 3 founder follows, Discord, Telegram, YouTube subscribe, daily check-ins). Quests ended Mon Nov 2, 8:00 AM ET. Project: chain audit -> mainnet -> TGE, no dates; Oak Security contract audit (Sep 24) 48 findings, 0 critical. Nov 3: no new phase, audit or TGE news; team at SiGMA Rome this week. Nov 4: no new official posts; audit, mainnet and TGE still undated. Nov 4: Quip Node Manager UI refresh (download link on official X); audit, mainnet and TGE still undated. Nov 5: QVM featured in investing.com; CTO Richard Carback on Bloccelerate panel Nov 6. Audit/mainnet/TGE still undated. Nov 6 evening: SIGMA Rome booth wrap; launched 'Have you been qwned?' PQ address-exposure checker (official). Audit/mainnet/TGE still undated. Nov 9: no new official posts. Airdrop Bot (Nov 8, 9:32 PM ET): X @mobbeezy6500 now shows linked on quest.quip.network (Completed: Connect Twitter); following @quipnetwork confirmed. Historical 381 Quip Quests points remain separate; no verified rollover or token/reward entitlement. Nov 10: official X says 28,000+ Quip Accounts created and GetBlock joined as a testnet validator; still no TGE date.  Nov 11: founders' Korea Blockchain Week talk on the quantum timeline; still no TGE date. Nov 12: unified Quip app live (Nov 11, official): accounts, order-book swaps and points in one place at app.quip.network. Still no mainnet/TGE date. Referral-link 'airdrop' posts circulating: use official links only. Airdrop Bot (Nov 12, 9:15 AM ET): daily login at account.quip.network credits +1 Quip Activity Point automatically (no button); credited Nov 11 and Nov 12 (2 activity points; account header shows 1 QP). Historical Quests 381 QP (ended Nov 2) remain separate, rank 5000+ (of ~66.4K); weekly/streak not shown. points.quip.network now redirects to app.quip.network, where Points shows SOON. No end date announced; no verified token entitlement or rollover. Keep daily login going. Nov 13: dev docs now served over a public MCP server (official, Nov 12); proof-of-useful-work explainer. Still no audit/mainnet/TGE date. Airdrop Bot (Nov 13): daily login at account.quip.network credited +1; now 3 Quip Activity Points (Nov 11, 12 and 13; account header shows 2 QP). Historical Quests 381 QP and rank 5000+ (of ~66.4K) unchanged. Keep daily login going. Nov 14: 'Quip Survivors' browser game (survive.quip.network, official post Nov 13) and testnet node guide (1,500+ nodes at peak). Still no audit/mainnet/TGE date.",
    "airdrop_progress": {
     "campaign": "Quip Quests",
     "points": 381,
@@ -573,7 +584,7 @@
    "volume_24h": null,
    "price_updated": null,
    "cg_id": null,
-   "last_update": "2026-11-13T07:36:07-05:00",
+   "last_update": "2026-11-14T07:34:51-05:00",
    "niche": "Quantum",
    "official_links": [
     "https://quip.network",
@@ -638,6 +649,10 @@
     {
      "date": "2026-11-13",
      "score": 62
+    },
+    {
+     "date": "2026-11-14",
+     "score": 62
     }
    ],
    "milestones": [
@@ -701,7 +716,7 @@
     "https://www.theblock.co/news/business/2024-08-20-vcs-back-ai-focused-blockchain-team-building-internet-connected-smart-contracts-312105",
     "https://portal.genlayer.foundation/assets/documents/genlayer-tokenomics-october-2026.pdf"
    ],
-   "notes": "NEW this sweep. AI-native chain for 'intelligent contracts' (YeagerAI; CEO Albert Castellana). $7.5M seed led by North Island Ventures (The Block, Aug 2024). Tokenomics published: 4.2B genesis, ~24.4% float at TGE, investors/labs 12-mo cliff. MiCA paper names Kraken, Coinbase, Bybit EU, KuCoin EU, Gate. No independent audit yet; airdrop registration closed. Nov 2: official thread introduced Pre-Mainnet Staking: from 'THE DAY' (TGE, still undated) unclaimed airdrops count as staked, 1 Staking Point per GEN per day, leaderboard decides first validator seats. TokenPost (Nov 2): CEO expects mainnet in December. Impostor risk: a 'GEN' token is quoted on Base Uniswap v4 (Surf AI); GenLayer's token is not launched and is planned on Arbitrum, so it is not GenLayer's. Nov 4: no TGE date yet. Nov 4: reply pointing builders needing a fair judge to GenLayer x NEAR; no TGE date. Nov 6: official explainer — at mainnet the Foundation backs validators with its own GEN; Pre-Mainnet Staking (points/leaderboard) decides node seats. No TGE date. Nov 7: no new official posts after Pre-Mainnet Staking explainer; no TGE date. Nov 9: CoinGecko now has a 'Preview Only' GenLayer page (id genlayer, homepage genlayer.com, Ethereum contract 0x4242...025a2f, no price). That contract is not yet confirmed on GenLayer's own site/docs, so treat it as unverified. Official AMA with Edgars Nemse on Mon Nov 9. No TGE date. Nov 10: only commentary posts; no TGE date; CoinGecko preview contract still unverified. Nov 11: CEO article (Nov 10) confirms the move to Arbitrum Nitro (operated with Conduit) is complete; Bradbury testnet on the new stack; roadmap unchanged. Community posts describe a staking-points plan for unclaimed GEN airdrops; not seen on official channels, unverified. No TGE date. Nov 12: official node-seats thread (Nov 11): Pre-Mainnet Staking opens on 'THE DAY'; 1 Staking Point per staked GEN per day; seats need a node run 30 days on Clarke testnet. 'Coming Soon' teaser Nov 12. No TGE date. Nov 13: only reposts (founder interview, #JusticeNeedsAnUpgrade). Pre-Mainnet Staking 'THE DAY' still undated; no TGE date.",
+   "notes": "NEW this sweep. AI-native chain for 'intelligent contracts' (YeagerAI; CEO Albert Castellana). $7.5M seed led by North Island Ventures (The Block, Aug 2024). Tokenomics published: 4.2B genesis, ~24.4% float at TGE, investors/labs 12-mo cliff. MiCA paper names Kraken, Coinbase, Bybit EU, KuCoin EU, Gate. No independent audit yet; airdrop registration closed. Nov 2: official thread introduced Pre-Mainnet Staking: from 'THE DAY' (TGE, still undated) unclaimed airdrops count as staked, 1 Staking Point per GEN per day, leaderboard decides first validator seats. TokenPost (Nov 2): CEO expects mainnet in December. Impostor risk: a 'GEN' token is quoted on Base Uniswap v4 (Surf AI); GenLayer's token is not launched and is planned on Arbitrum, so it is not GenLayer's. Nov 4: no TGE date yet. Nov 4: reply pointing builders needing a fair judge to GenLayer x NEAR; no TGE date. Nov 6: official explainer — at mainnet the Foundation backs validators with its own GEN; Pre-Mainnet Staking (points/leaderboard) decides node seats. No TGE date. Nov 7: no new official posts after Pre-Mainnet Staking explainer; no TGE date. Nov 9: CoinGecko now has a 'Preview Only' GenLayer page (id genlayer, homepage genlayer.com, Ethereum contract 0x4242...025a2f, no price). That contract is not yet confirmed on GenLayer's own site/docs, so treat it as unverified. Official AMA with Edgars Nemse on Mon Nov 9. No TGE date. Nov 10: only commentary posts; no TGE date; CoinGecko preview contract still unverified. Nov 11: CEO article (Nov 10) confirms the move to Arbitrum Nitro (operated with Conduit) is complete; Bradbury testnet on the new stack; roadmap unchanged. Community posts describe a staking-points plan for unclaimed GEN airdrops; not seen on official channels, unverified. No TGE date. Nov 12: official node-seats thread (Nov 11): Pre-Mainnet Staking opens on 'THE DAY'; 1 Staking Point per staked GEN per day; seats need a node run 30 days on Clarke testnet. 'Coming Soon' teaser Nov 12. No TGE date. Nov 13: only reposts (founder interview, #JusticeNeedsAnUpgrade). Pre-Mainnet Staking 'THE DAY' still undated; no TGE date. Nov 14: one link-only post; Pre-Mainnet Staking 'THE DAY' still undated.",
    "upgrade_if": "Dated TGE with confirmed venues and an independent audit",
    "downgrade_if": "More date slips or impostor/claim scams",
    "provisional": false,
@@ -710,7 +725,7 @@
    "market_cap": null,
    "volume_24h": null,
    "price_updated": null,
-   "last_update": "2026-11-13T07:36:07-05:00",
+   "last_update": "2026-11-14T07:34:51-05:00",
    "niche": "AI",
    "official_links": [
     "https://www.genlayer.com",
@@ -770,6 +785,10 @@
     {
      "date": "2026-11-13",
      "score": 60
+    },
+    {
+     "date": "2026-11-14",
+     "score": 60
     }
    ],
    "logo": "logos/genlayer.png"
@@ -816,15 +835,15 @@
     "https://blog.kraken.com/product/asset-listings/dna-is-available-for-trading",
     "https://x.com/NeoSoulAI/status/2121140607477481762"
    ],
-   "notes": "AI trading-agent workbench (NeoTrade). Kraken, KuCoin, Gate, Bitget, MEXC. 130M of 1B DNA circulating at launch; team unlocks KPI-linked after 12-mo cliff. Only one co-founder named; no audit. Nov 3: MEXC Airdrop+ for DNA (exchange-run) ends Wed Nov 4 6:00 AM ET; Gate Launchpool ends Fri Nov 6 6:00 AM ET. Nov 4: NeoTrade live on web (Google/email sign-in, no wallet; agent trades prediction markets in a quiz-picked style). MEXC Airdrop+ ended 6:00 AM ET; Gate Launchpool ends Fri Nov 6 6:00 AM ET. Nov 5: long-horizon brand post ('still building 100 years from now'); thanked Gate Launchpool crew. Gate Launchpool still ends Fri Nov 6 6:00 AM ET. Nov 6: Gate Launchpool ended 6:00 AM ET. NeoLand Black Invites live (200 DNA in AI credits for NeoTrade). Nov 7: no new material posts after Gate Launchpool end; NeoLand Black Invites still live. Nov 9: announced exploratory collaboration with Brevis (ZK proofs for private AI trading-agent data); no token impact. Nov 10: launched NeoConnect (enterprise access for platforms/agents to embed NeoSoul's trading workflow). No token impact. Nov 11: launched NeoLand (gamified app feature). No token impact. Nov 12: official post claims $6M ARR and $500K subscription revenue for NeoTrade (self-reported, unaudited). Nov 13: DNA listed on Bithumb KRW market (official @NeoSoulAI + @BithumbOfficial posts); trading from 16:00 KST Nov 13 (2:00 AM ET Fri Nov 13). Bithumb is not on the spec's tier-1 list; liquidity factor already 13/15 (Kraken, KuCoin, Bitget on CoinGecko); score unchanged.",
+   "notes": "AI trading-agent workbench (NeoTrade). Kraken, KuCoin, Gate, Bitget, MEXC. 130M of 1B DNA circulating at launch; team unlocks KPI-linked after 12-mo cliff. Only one co-founder named; no audit. Nov 3: MEXC Airdrop+ for DNA (exchange-run) ends Wed Nov 4 6:00 AM ET; Gate Launchpool ends Fri Nov 6 6:00 AM ET. Nov 4: NeoTrade live on web (Google/email sign-in, no wallet; agent trades prediction markets in a quiz-picked style). MEXC Airdrop+ ended 6:00 AM ET; Gate Launchpool ends Fri Nov 6 6:00 AM ET. Nov 5: long-horizon brand post ('still building 100 years from now'); thanked Gate Launchpool crew. Gate Launchpool still ends Fri Nov 6 6:00 AM ET. Nov 6: Gate Launchpool ended 6:00 AM ET. NeoLand Black Invites live (200 DNA in AI credits for NeoTrade). Nov 7: no new material posts after Gate Launchpool end; NeoLand Black Invites still live. Nov 9: announced exploratory collaboration with Brevis (ZK proofs for private AI trading-agent data); no token impact. Nov 10: launched NeoConnect (enterprise access for platforms/agents to embed NeoSoul's trading workflow). No token impact. Nov 11: launched NeoLand (gamified app feature). No token impact. Nov 12: official post claims $6M ARR and $500K subscription revenue for NeoTrade (self-reported, unaudited). Nov 13: DNA listed on Bithumb KRW market (official @NeoSoulAI + @BithumbOfficial posts); trading from 16:00 KST Nov 13 (2:00 AM ET Fri Nov 13). Bithumb is not on the spec's tier-1 list; liquidity factor already 13/15 (Kraken, KuCoin, Bitget on CoinGecko); score unchanged. Nov 14: no new official posts after the Bithumb listing.",
    "upgrade_if": "Named team and an audit",
    "downgrade_if": "Revenue claims fail independent checks",
    "provisional": false,
-   "price": 0.158271,
-   "market_cap": 20575258,
-   "volume_24h": 30799829,
-   "price_updated": "2026-11-14T07:30:16-05:00",
-   "last_update": "2026-11-14T07:30:16-05:00",
+   "price": 0.158,
+   "market_cap": 20538489,
+   "volume_24h": 30675676,
+   "price_updated": "2026-11-14T06:34:51-06:00",
+   "last_update": "2026-11-14T06:34:51-06:00",
    "cg_id": "neosoul",
    "niche": "AI",
    "official_links": [
@@ -888,6 +907,10 @@
     {
      "date": "2026-11-13",
      "score": 58
+    },
+    {
+     "date": "2026-11-14",
+     "score": 58
     }
    ],
    "contract": "0xA991F61940095AEA0724ef54077223B048c5CF7b",
@@ -929,8 +952,8 @@
     "red_flag_pool": 3
    },
    "website": "https://axisrobotics.ai",
-   "next_milestone": "OTC/ZachXBT dispute unresolved; first monthly ecosystem unlock reported for November (date unconfirmed)",
-   "milestone_date": null,
+   "next_milestone": "Sat Nov 21: next weekly AXIS reward settlement (5:00 AM ET)",
+   "milestone_date": "2026-11-21T05:00:00-05:00",
    "dex_route": "",
    "chain": "Base",
    "links": [
@@ -950,17 +973,18 @@
    "sources": [
     "https://tgeindex.com/tge/axis-robotics/",
     "https://www.panews.io/articles/01a18863-17dc-715b-990d-21430c8f7370",
-    "https://cryptobriefing.com/axis-robotics-axis-token-sell-off-zachxbt/"
+    "https://cryptobriefing.com/axis-robotics-axis-token-sell-off-zachxbt/",
+    "https://x.com/axisrobotics/status/2121571321922601120"
    ],
-   "notes": "Physical-AI teleop data network; TGE Oct 22 with 13 day-one venues. Oct 28-29 sell-off of ~42M AXIS (ZachXBT flagged insiders; Axis blames an OTC counterparty, says 835M AXIS locked). Price down ~52% in 7 days. No audit; no named team. Nov 2: no resolution; Axis says it is pursuing legal remedies against the OTC counterparty; ZachXBT's insider claim still open. Nov 2 official post: AXIS-Bench research paper. Nov 3: MEXC Airdrop+ ended 8:00 AM ET. Dispute still unresolved (counterparty unnamed). Official product update: fewer open task slots because a model now handles simple tasks. Nov 4: no new official posts; OTC/ZachXBT dispute unresolved. Nov 4: amplified a top-contributor tutorial; OTC/ZachXBT dispute unresolved. Nov 5: official AXIS token buyback announced, first $150K tranche complete (from commercial revenue). Nov 6: AXIS staking on HTX (up to 150% APY, exchange product). LLM robotics demo. OTC/ZachXBT dispute unresolved; no score change yet. Nov 7: secondary coverage of $150K buyback; ecosystem unlock / OTC dispute with ZachXBT still unresolved. Score 57 unchanged. Nov 9: published TUCO research (sim-to-real robot data curation paper). No token news. Nov 10: shared ODE Policy visual-policy distillation results. No token news. Nov 11: media post only. No token news. Nov 12: no new official posts. Nov 13: no new official posts.",
+   "notes": "Physical-AI teleop data network; TGE Oct 22 with 13 day-one venues. Oct 28-29 sell-off of ~42M AXIS (ZachXBT flagged insiders; Axis blames an OTC counterparty, says 835M AXIS locked). Price down ~52% in 7 days. No audit; no named team. Nov 2: no resolution; Axis says it is pursuing legal remedies against the OTC counterparty; ZachXBT's insider claim still open. Nov 2 official post: AXIS-Bench research paper. Nov 3: MEXC Airdrop+ ended 8:00 AM ET. Dispute still unresolved (counterparty unnamed). Official product update: fewer open task slots because a model now handles simple tasks. Nov 4: no new official posts; OTC/ZachXBT dispute unresolved. Nov 4: amplified a top-contributor tutorial; OTC/ZachXBT dispute unresolved. Nov 5: official AXIS token buyback announced, first $150K tranche complete (from commercial revenue). Nov 6: AXIS staking on HTX (up to 150% APY, exchange product). LLM robotics demo. OTC/ZachXBT dispute unresolved; no score change yet. Nov 7: secondary coverage of $150K buyback; ecosystem unlock / OTC dispute with ZachXBT still unresolved. Score 57 unchanged. Nov 9: published TUCO research (sim-to-real robot data curation paper). No token news. Nov 10: shared ODE Policy visual-policy distillation results. No token news. Nov 11: media post only. No token news. Nov 12: no new official posts. Nov 13: no new official posts. Nov 14: Points ended; from Sat Nov 14 every verified, signed trajectory pays AXIS directly (2-star 1 AXIS up to 5-star 2.5 AXIS, max 5 runs per task), settled weekly Saturdays 10:00 UTC (5:00 AM ET) and claimed to a Base wallet via hub.axisrobotics.ai (official thread). Referrals/multipliers removed. Adds ongoing emission/sell pressure; total pool size not stated. Score unchanged.",
    "upgrade_if": "Independent confirmation of who sold and a named team",
    "downgrade_if": "Evidence the sellers were insiders",
    "provisional": false,
-   "price": 0.090265,
-   "market_cap": 14893799,
-   "volume_24h": 2301529,
-   "price_updated": "2026-11-14T07:30:16-05:00",
-   "last_update": "2026-11-14T07:30:16-05:00",
+   "price": 0.090401,
+   "market_cap": 14915823,
+   "volume_24h": 2296845,
+   "price_updated": "2026-11-14T06:34:51-06:00",
+   "last_update": "2026-11-14T06:34:51-06:00",
    "cg_id": "axis-robotics",
    "niche": "AI",
    "official_links": [
@@ -1024,6 +1048,10 @@
     {
      "date": "2026-11-13",
      "score": 57
+    },
+    {
+     "date": "2026-11-14",
+     "score": 57
     }
    ],
    "contract": "0x5be75e3b0aff5d1a042a5363ae36acb1d6d755ea",
@@ -1041,6 +1069,11 @@
     {
      "date": "2026-11-03",
      "text": "MEXC Airdrop+ for AXIS ends (ended Nov 3, 8:00 AM ET)",
+     "confirmed": true
+    },
+    {
+     "date": "2026-11-14",
+     "text": "Season 2: trajectories pay AXIS directly, weekly claim (Sat 10:00 UTC)",
      "confirmed": true
     }
    ],
@@ -1088,7 +1121,7 @@
    "sources": [
     "https://tgeindex.com/tge/fraction-ai/"
    ],
-   "notes": "AI agent competitions; Halborn audit. Date comes from its EU MiCA white paper (7,000,000,001 FRAC total supply); allocation, vesting, float and venues unpublished (Binance, Coinbase, OKX named only as intended venues). Nov 3: no change; Nov 11 MiCA date stands; no tokenomics, venues or project confirmation of the date. Nov 4: TGE Index still lists FRAC admission to trading from Nov 11 (MiCA); no project confirmation or tokenomics. Nov 4–5: agent performance posts (short trades); TGE Index still lists FRAC admission to trading from Nov 11 (MiCA); tokenomics unpublished. Nov 6: macro/market commentary only; FRAC Nov 11 trading admission (MiCA filing) still not project-confirmed; tokenomics unpublished. Nov 7: FRAC Nov 11 trading admission (MiCA filing) still not project-confirmed; tokenomics unpublished. Nov 8: Nov 11 trading admission (MiCA filing per TGE Index) still not confirmed by the project. Nov 9: TGE Index still lists FRAC admission to trading from Nov 11 (MiCA filing); no project confirmation, tokenomics or venues yet. Nov 10: TGE Index still lists FRAC admission to trading from Wed Nov 11 (MiCA filing); still not announced by the project; no tokenomics or venues. Nov 11: MiCA white paper date (admission to trading from Nov 11) has arrived, but TGE Index saw no launch post or exchange notice as of 5:30 AM ET and the project's own posts are agent-performance stats only. Still provisional. Nov 12: still no launch post or exchange notice after the Nov 11 MiCA admission date; not listed on CoinGecko. Official posts are agent trading recaps. Still provisional. Nov 13: still no launch post, exchange notice or CoinGecko listing (TGE Index: Nov 11 MiCA date passed, no new date). Official posts are agent trading recaps. Still provisional.",
+   "notes": "AI agent competitions; Halborn audit. Date comes from its EU MiCA white paper (7,000,000,001 FRAC total supply); allocation, vesting, float and venues unpublished (Binance, Coinbase, OKX named only as intended venues). Nov 3: no change; Nov 11 MiCA date stands; no tokenomics, venues or project confirmation of the date. Nov 4: TGE Index still lists FRAC admission to trading from Nov 11 (MiCA); no project confirmation or tokenomics. Nov 4–5: agent performance posts (short trades); TGE Index still lists FRAC admission to trading from Nov 11 (MiCA); tokenomics unpublished. Nov 6: macro/market commentary only; FRAC Nov 11 trading admission (MiCA filing) still not project-confirmed; tokenomics unpublished. Nov 7: FRAC Nov 11 trading admission (MiCA filing) still not project-confirmed; tokenomics unpublished. Nov 8: Nov 11 trading admission (MiCA filing per TGE Index) still not confirmed by the project. Nov 9: TGE Index still lists FRAC admission to trading from Nov 11 (MiCA filing); no project confirmation, tokenomics or venues yet. Nov 10: TGE Index still lists FRAC admission to trading from Wed Nov 11 (MiCA filing); still not announced by the project; no tokenomics or venues. Nov 11: MiCA white paper date (admission to trading from Nov 11) has arrived, but TGE Index saw no launch post or exchange notice as of 5:30 AM ET and the project's own posts are agent-performance stats only. Still provisional. Nov 12: still no launch post or exchange notice after the Nov 11 MiCA admission date; not listed on CoinGecko. Official posts are agent trading recaps. Still provisional. Nov 13: still no launch post, exchange notice or CoinGecko listing (TGE Index: Nov 11 MiCA date passed, no new date). Official posts are agent trading recaps. Still provisional. Nov 14: still no launch post, exchange notice or CoinGecko listing (TGE Index unchanged). Still provisional.",
    "upgrade_if": "Tokenomics and confirmed venues published",
    "downgrade_if": "Nov 11 passes with no launch",
    "provisional": true,
@@ -1097,7 +1130,7 @@
    "volume_24h": null,
    "price_updated": null,
    "cg_id": null,
-   "last_update": "2026-11-13T07:36:07-05:00",
+   "last_update": "2026-11-14T07:34:51-05:00",
    "niche": "AI",
    "official_links": [
     "https://fractionai.xyz",
@@ -1160,6 +1193,10 @@
     {
      "date": "2026-11-13",
      "score": 49
+    },
+    {
+     "date": "2026-11-14",
+     "score": 49
     }
    ],
    "milestones": [
@@ -1212,7 +1249,7 @@
     "https://www.theblock.co/news/deals/2026-10-21-dataline-decentralized-data-network-ai-agents-funding-ico-421596",
     "https://cryptobriefing.com/dataline-raises-10-6m-ai-data-network-token-sale/"
    ],
-   "notes": "$10.6M seed (Lattice, Dispersion; Coinbase Ventures participating). Oct 30 posts explain the continuous clearing auction but give no date, size, price or tokenomics. Nov 3: no sale date yet. Nov 4: no sale date. Nov 5: no sale date or official posts since last check. Nov 6: no new official posts or sale date. Nov 6/7: official explainer on Continuous Clearing Auctions for the DAT sale; still no sale date. Nov 9: official post on why CCA pre-bidding matters; still no sale date, size or tokenomics. Nov 11: another official CCA bidding explainer (max budget + max FDV); still no sale date, size or tokenomics. Nov 12: no new official posts; no sale date. Nov 13: no new official posts; no sale date.",
+   "notes": "$10.6M seed (Lattice, Dispersion; Coinbase Ventures participating). Oct 30 posts explain the continuous clearing auction but give no date, size, price or tokenomics. Nov 3: no sale date yet. Nov 4: no sale date. Nov 5: no sale date or official posts since last check. Nov 6: no new official posts or sale date. Nov 6/7: official explainer on Continuous Clearing Auctions for the DAT sale; still no sale date. Nov 9: official post on why CCA pre-bidding matters; still no sale date, size or tokenomics. Nov 11: another official CCA bidding explainer (max budget + max FDV); still no sale date, size or tokenomics. Nov 12: no new official posts; no sale date. Nov 13: no new official posts; no sale date. Nov 14: no new official posts; no sale date.",
    "upgrade_if": "Sale terms and tokenomics published",
    "downgrade_if": "Sale opens without tokenomics",
    "provisional": true,
@@ -1221,7 +1258,7 @@
    "volume_24h": null,
    "price_updated": null,
    "cg_id": null,
-   "last_update": "2026-11-13T07:36:07-05:00",
+   "last_update": "2026-11-14T07:34:51-05:00",
    "niche": "AI",
    "official_links": [
     "https://www.dataline.xyz",
@@ -1284,6 +1321,10 @@
     {
      "date": "2026-11-13",
      "score": 43
+    },
+    {
+     "date": "2026-11-14",
+     "score": 43
     }
    ],
    "milestones": [
@@ -1342,7 +1383,7 @@
     "https://www.agent.family/campaigns/kaito-katalyst",
     "https://www.chaincatcher.com/en/article/2275451"
    ],
-   "notes": "Agent job marketplace on BNB Chain. Only 0.30% of supply disclosed. Its X posts (Oct 30 - Nov 1) tell AI agents incl. Grok Bot to 'help me install' its skills; the Oracle ignores these (security flag). Nov 2: new 'Agents Helping Agents Bounty' post (agents post bounties for other agents); no tokenomics or TGE date. Nov 3: teased an AI short-drama agent; another post tells agents (incl. Grok Bot) to install its skills (ignored, security flag); no tokenomics. Nov 4: self-reported $30.45M agent transaction volume and 1.31M agents indexed (own dashboard, unaudited); 'Agents Helping Agents' bounty (follow/repost tasks). Still no tokenomics. Nov 5: Montage Studio short-form video agent demo (escrowed agent crew); BNB Chain 'Set and Earn' campaign deadline was Wed Nov 5 7:00 AM ET (12:00 UTC). Still no tokenomics. Nov 6: Montage Studio agent promo (5X TP points). Still no tokenomics. Nov 7: marketplace volume claimed ~$30M (self-reported via X News); agent-skills promo continues. Tokenomics still unpublished. Nov 9: posts keep telling AI agents to install its skills (ignored). No tokenomics. Nov 10: called for BNB Chain security experts to build 'C724 Security Agents'. Still no tokenomics. Nov 11: teased an AI game agent; still no tokenomics. Nov 12: game-creation agent live on its platform; still no tokenomics. Nov 13: more 'tell your Grok bot to install TermiX skills' posts (ignored, never installed); still no tokenomics.",
+   "notes": "Agent job marketplace on BNB Chain. Only 0.30% of supply disclosed. Its X posts (Oct 30 - Nov 1) tell AI agents incl. Grok Bot to 'help me install' its skills; the Oracle ignores these (security flag). Nov 2: new 'Agents Helping Agents Bounty' post (agents post bounties for other agents); no tokenomics or TGE date. Nov 3: teased an AI short-drama agent; another post tells agents (incl. Grok Bot) to install its skills (ignored, security flag); no tokenomics. Nov 4: self-reported $30.45M agent transaction volume and 1.31M agents indexed (own dashboard, unaudited); 'Agents Helping Agents' bounty (follow/repost tasks). Still no tokenomics. Nov 5: Montage Studio short-form video agent demo (escrowed agent crew); BNB Chain 'Set and Earn' campaign deadline was Wed Nov 5 7:00 AM ET (12:00 UTC). Still no tokenomics. Nov 6: Montage Studio agent promo (5X TP points). Still no tokenomics. Nov 7: marketplace volume claimed ~$30M (self-reported via X News); agent-skills promo continues. Tokenomics still unpublished. Nov 9: posts keep telling AI agents to install its skills (ignored). No tokenomics. Nov 10: called for BNB Chain security experts to build 'C724 Security Agents'. Still no tokenomics. Nov 11: teased an AI game agent; still no tokenomics. Nov 12: game-creation agent live on its platform; still no tokenomics. Nov 13: more 'tell your Grok bot to install TermiX skills' posts (ignored, never installed); still no tokenomics. Nov 14: follow-for-USDT social campaign with Four Meme x MonoPoly and Kaito rank post; still no tokenomics.",
    "upgrade_if": "Full tokenomics and a dated TGE",
    "downgrade_if": "More agent-install prompts or referral-driven pushes",
    "provisional": true,
@@ -1351,7 +1392,7 @@
    "volume_24h": null,
    "price_updated": null,
    "cg_id": null,
-   "last_update": "2026-11-13T07:36:07-05:00",
+   "last_update": "2026-11-14T07:34:51-05:00",
    "niche": "AI",
    "official_links": [
     "https://www.agent.family",
@@ -1412,6 +1453,10 @@
     },
     {
      "date": "2026-11-13",
+     "score": 33
+    },
+    {
+     "date": "2026-11-14",
      "score": 33
     }
    ],
@@ -1549,17 +1594,24 @@
    "text": "Quip (QUIP): chain audit, then mainnet, then TGE; no dates"
   }
  ],
- "rejections": [
-  {
-   "name": "Raise (raise_agent)",
-   "theme": "AI",
-   "niche": "AI",
-   "score": "unscored",
-   "reason": "REJECT: 10-follower account (created Sep 2026) pitching AI-agent creation plus token launches; anon, nothing verifiable",
-   "at": "2026-11-13T07:36:07-05:00"
-  }
- ],
+ "rejections": [],
  "prelaunch_updates": [
+  {
+   "project": "Axis Robotics",
+   "theme": "AI",
+   "source_type": "official",
+   "at": "2026-11-14T06:49:54-05:00",
+   "text": "Points ended. Season 2: each verified, signed trajectory pays 1-2.5 AXIS, settled every Saturday 10:00 UTC (5:00 AM ET), claimed on Base at hub.axisrobotics.ai. Claiming needs a wallet: Byron's call.",
+   "url": "https://x.com/axisrobotics/status/2121571321922601120"
+  },
+  {
+   "project": "Quip Network",
+   "theme": "Quantum",
+   "source_type": "official",
+   "at": "2026-11-13T16:57:12-05:00",
+   "text": "New 'Quip Survivors' browser game at survive.quip.network; testnet node guide says 1,500+ nodes at peak. No TGE date.",
+   "url": "https://x.com/quipnetwork/status/2121361764184981667"
+  },
   {
    "at": "2026-11-13T09:25:44-05:00",
    "kind": "airdrop_progress",
@@ -1629,26 +1681,10 @@
    "at": "2026-11-11T00:53:00-05:00",
    "text": "New explainer on CCA bidding (max budget + max FDV) for the DAT sale; still no sale date or tokenomics.",
    "url": "https://x.com/DatalineAI/status/2120394426963153054"
-  },
-  {
-   "project": "GenLayer",
-   "theme": "AI",
-   "source_type": "official",
-   "at": "2026-11-10T12:59:00-05:00",
-   "text": "CEO article: migration to Arbitrum Nitro (run with Conduit) complete; Bradbury testnet on the new stack; roadmap unchanged. No TGE date.",
-   "url": "https://x.com/GenLayer/status/2120214822247891040"
-  },
-  {
-   "project": "Quip Network",
-   "theme": "Quantum",
-   "source_type": "official",
-   "at": "2026-11-09T15:35:00-05:00",
-   "text": "28,000+ Quip Accounts (quantum-resistant wallets) created; GetBlock joined as testnet validator (Nov 9). No TGE date.",
-   "url": "https://x.com/quipnetwork/status/2119891526612357452"
   }
  ],
  "digest": {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "top3": [
    {
     "name": "Ritual (RITUAL)",
@@ -1657,43 +1693,42 @@
     "logo": "logos/ritual.png"
    },
    {
-    "name": "NeoSoul (DNA)",
-    "why": "Score 58 WATCH. Listed on Bithumb KRW (trading from Fri Nov 13, 2:00 AM ET); still no named team or audit.",
-    "url": "https://neosoul.ai",
-    "logo": "logos/neosoul.png"
+    "name": "Axis Robotics (AXIS)",
+    "why": "Score 57 WATCH. Points replaced by direct AXIS rewards per signed trajectory, weekly claim on Base; more emissions, pool size not stated.",
+    "url": "https://axisrobotics.ai",
+    "logo": "logos/axis-robotics.png"
    },
    {
-    "name": "Quantus (QTC)",
-    "why": "Score 64 WATCH. QTC now tradable on Solana (Raydium via NEAR Intents); still no audit or tier-1 CEX.",
-    "url": "https://www.quantus.com",
-    "logo": "logos/quantus.png"
+    "name": "Quip Network (QUIP)",
+    "why": "Score 62 WATCH. Testnet node push + new game; Airdrop Bot at 3 Quip Activity Points. Still no TGE date.",
+    "url": "https://quip.network",
+    "logo": "logos/quip-network.png"
    }
   ],
   "ai": [
    "Ritual 78 HIGH PRIORITY unchanged.",
-   "NeoSoul DNA listed on Bithumb (KRW); GenLayer Pre-Mainnet Staking still undated; Fraction AI still no launch.",
-   "Radar: DECA Labs ($12M from Polychain, Pantera, Accel, dao5; no token announced). Rejected: Raise."
+   "Axis Robotics Season 2: AXIS paid per signed trajectory, weekly Saturday claims.",
+   "Fraction AI still no launch; GenLayer staking undated. Radar: DI (Decentralized Intelligence), unverified backers, check-in pushed by airdrop farmers."
   ],
   "quantum": [
-   "Quantus QTC on Solana via Raydium + NEAR Intents.",
-   "Quip dev docs on a public MCP server; no TGE date. Airdrop Bot: 3 Quip Activity Points (Nov 11–13).",
+   "Quip: Survivors game + testnet node guide; Airdrop Bot 3 Quip Activity Points (Nov 13).",
+   "Quantus: education posts only; QRL notes a signed exchange agreement for QRL 2.0 (exchange not named).",
    "NAORIS KuCoin posts remain a giveaway shill wave (Oct 27 listing): not new."
   ]
  },
  "report": {
-  "updated": "2026-11-13T07:36:07-05:00",
-  "intro": "Morning sweep for Fri Nov 13, 2026 (ET): watchlist re-checked for listings, audits, tokenomics, unlocks and red flags; new AI and quantum/PQ candidates screened. No score changes today.",
+  "updated": "2026-11-14T07:34:51-05:00",
+  "intro": "Morning sweep for Sat Nov 14, 2026 (ET): watchlist re-checked for listings, audits, tokenomics, unlocks and red flags; new AI and quantum/PQ candidates screened. No score changes today.",
   "snapshots": "Prices: CoinGecko, refreshed hourly by the desk (each row shows its own Updated time). Research: official sites and X accounts, exchange notices, TGE Index, The Block, Crypto Briefing.",
   "disclaimer": "The Oracle never connects wallets, signs, or trades. Scores measure disclosure and evidence, not price.",
   "takeaways": [
    "No new HIGH PRIORITY today; Ritual (78) stays the only one.",
    "No verdict or score changes across the 10 watchlist projects.",
-   "NeoSoul: DNA listed on Bithumb KRW market (trading from Fri Nov 13, 2:00 AM ET).",
-   "Quantus: QTC now on Solana (Raydium pool, NEAR Intents bridge).",
-   "Quip: dev docs on a public MCP server; still no TGE date.",
+   "Axis Robotics: points ended; signed trajectories now pay AXIS directly, weekly claim Saturdays 5:00 AM ET on Base (wallet needed: Byron's decision).",
+   "Quip: Survivors game and testnet node guide; still no TGE date.",
    "GenLayer Pre-Mainnet Staking and Fraction AI launch: still undated.",
-   "Next 72h (to Mon Nov 16 ~7:30 AM ET): no dated deadlines.",
-   "Radar: DECA Labs (AI agents on Base, $12M raise, no token). Rejected today: Raise."
+   "Next 72h (to Tue Nov 17 ~7:30 AM ET): no dated deadlines. QMS Builder Program closes Wed Nov 18.",
+   "Radar: DI (Decentralized Intelligence) check-in campaign; QRL exchange agreement for QRL 2.0. No rejections today."
   ],
   "prelaunch": [
    {
@@ -1749,7 +1784,8 @@
    "QMS Network (no team or token; Builder Program to Nov 18)",
    "Project Eleven (PQ custody, no token)",
    "QRL 2.0 testnet (no rewards)",
-   "DECA Labs (AI): agent-led software network on Base; $12M from Polychain, Pantera, Accel, dao5 (PR via The Block + TokenPost, Nov 10); waitlist farming posts; no token or tokenomics announced."
+   "DECA Labs (AI): agent-led software network on Base; $12M from Polychain, Pantera, Accel, dao5 (PR via The Block + TokenPost, Nov 10); waitlist farming posts; no token or tokenomics announced.",
+   "DI / Decentralized Intelligence (AI): @Didotxyz_ (72K, created Dec 2024) AI x crypto data/quant network; bio claims OKX Ventures, Draper Dragon backing (not independently confirmed); daily check-in pushed by airdrop-farming accounts; no token or tokenomics seen."
   ],
   "tokens": [
    {
@@ -1758,9 +1794,9 @@
     "theme": "AI",
     "category": "AI L1",
     "tier": "Strong",
-    "price": 0.04394155,
-    "market_cap": 79094782,
-    "volume_24h": 7986914,
+    "price": 0.03467766,
+    "market_cap": 62419786,
+    "volume_24h": 3382165,
     "score": 78,
     "dex": ""
    },
@@ -1770,9 +1806,9 @@
     "theme": "Quantum",
     "category": "PQ L1",
     "tier": "Watch",
-    "price": 0.104802,
-    "market_cap": 9712607,
-    "volume_24h": 211371,
+    "price": 0.101246,
+    "market_cap": 9383092,
+    "volume_24h": 283972,
     "score": 65,
     "dex": ""
    },
@@ -1782,9 +1818,9 @@
     "theme": "Quantum",
     "category": "PQ L1",
     "tier": "Watch",
-    "price": 48.21,
-    "market_cap": 16378846,
-    "volume_24h": 1746549,
+    "price": 43.81,
+    "market_cap": 14966761,
+    "volume_24h": 837166,
     "score": 64,
     "dex": "NEAR Intents, Rhea Finance, Raydium (Solana)"
    },
@@ -1794,9 +1830,9 @@
     "theme": "AI",
     "category": "AI agents",
     "tier": "Watch",
-    "price": 0.170843,
-    "market_cap": 22209551,
-    "volume_24h": 50763461,
+    "price": 0.158271,
+    "market_cap": 20575258,
+    "volume_24h": 30799829,
     "score": 58,
     "dex": ""
    },
@@ -1806,9 +1842,9 @@
     "theme": "AI",
     "category": "Physical AI data",
     "tier": "Watch",
-    "price": 0.098539,
-    "market_cap": 16258856,
-    "volume_24h": 3654646,
+    "price": 0.090265,
+    "market_cap": 14893799,
+    "volume_24h": 2301529,
     "score": 57,
     "dex": ""
    }
@@ -1849,12 +1885,12 @@
    {
     "section": "prelaunch",
     "theme": "AI",
-    "text": "NeoSoul: Bithumb KRW listing confirmed by @NeoSoulAI and @BithumbOfficial; adds venue depth but Bithumb is not on the spec's tier-1 list, so no score change."
+    "text": "Axis Robotics: Season 2 pays AXIS per signed trajectory (1-2.5 AXIS by task star level, up to 5 runs per task), weekly settlement Sat 10:00 UTC, claim on Base via hub.axisrobotics.ai (official subdomain). Ongoing emissions; reward pool size not stated. No score change."
    },
    {
     "section": "prelaunch",
     "theme": "Quantum",
-    "text": "Quantus: QTC on Solana via Raydium, bridged by NEAR Intents (official post Nov 12). Score unchanged pending audit / tier-1 CEX."
+    "text": "Quip: new Survivors game and testnet node guide (1,500+ nodes at peak). QRL: exchange update mentions a signed agreement for QRL 2.0 (venue not named)."
    },
    {
     "section": "prelaunch",
@@ -1864,7 +1900,7 @@
    {
     "section": "airdrops",
     "theme": "Quantum",
-    "text": "Quip Points: Airdrop Bot (Nov 13) reports 3 Quip Activity Points from daily login at account.quip.network (credited Nov 11, 12 and 13; account header shows 2 QP). Historical Quests 381 QP remain separate, rank 5000+ (of ~66.4K). No end date; no verified token entitlement or rollover. Keep daily login going."
+    "text": "Quip Points: Airdrop Bot (Nov 13) shows 3 Quip Activity Points from daily logins; 381 historical Quests points separate."
    }
   ],
   "sources": [
@@ -1873,23 +1909,23 @@
     "url": "https://tgeindex.com/tge/november-2026/"
    },
    {
-    "title": "NeoSoul on X: Bithumb listing",
-    "url": "https://x.com/NeoSoulAI/status/2121140607477481762"
+    "title": "Axis Robotics on X: Season 2 AXIS rewards",
+    "url": "https://x.com/axisrobotics/status/2121571321922601120"
    },
    {
-    "title": "Quantus on X: QTC on Solana",
-    "url": "https://x.com/QuantusNetwork/status/2120935453100581023"
+    "title": "Quip Network on X: Quip Survivors",
+    "url": "https://x.com/quipnetwork/status/2121361764184981667"
    },
    {
-    "title": "Quip Network on X: docs MCP server",
-    "url": "https://x.com/quipnetwork/status/2120989605663031685"
+    "title": "Quip Network on X: testnet nodes",
+    "url": "https://x.com/quipnetwork/status/2121253500848136262"
    },
    {
-    "title": "TokenPost: DECA Labs $12M",
-    "url": "https://www.tokenpost.com/news/business/53523"
+    "title": "QRL on X: exchange update",
+    "url": "https://x.com/QRLedger/status/2121268952399548642"
    }
   ]
  },
- "sweep": "sweeps/2026-11-13.md",
- "prices_updated": "2026-11-14T07:30:16-05:00"
+ "sweep": "sweeps/2026-11-14.md",
+ "prices_updated": "2026-11-14T06:34:51-06:00"
 }
