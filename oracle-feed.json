@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T07:32:12-05:00",
+ "generated_at": "2026-11-19T07:36:13-05:00",
  "updated": "2026-11-19T07:32:12-05:00",
  "status": {
   "state": "idle",
@@ -16,9 +16,9 @@
    "Axis phishing posts continue (real contract, fake claim link)",
    "No new HIGH PRIORITY (0 of 3 used)"
   ],
-  "note": "Airdrop Bot (Nov 18, 9:23 AM ET check): daily login at account.quip.network credited +1 Quip Activity Point; now 8 activity points (credited Nov 11–18; account header showed 7 QP). Activity rank not re-read; last known #24,532 as of Nov 15. Historical Quests 381 QP (ended Nov 2) remain separate, rank 5000+. points.quip.network redirects to app.quip.network, where Points shows SOON. No end date announced; no verified token entitlement or rollover. Keep daily login going."
+  "note": "Airdrop Bot (as of Nov 18, 9:23 AM ET): daily login at account.quip.network credited +1 Quip Activity Point; 8 activity points as of Nov 18 (credited Nov 11–18; account header 7 QP). Activity rank not re-read; last known #24,532 as of Nov 15. Historical Quests 381 QP (ended Nov 2) remain separate, rank 5000+. points.quip.network redirects to app.quip.network, where Points shows SOON. No end date announced; no verified token entitlement or rollover. Keep daily login going."
  },
- "snapshot_note": "Sweep Nov 19 · 1 HIGH · 10 WATCH · 0 rejected · new: Pieverse 61 · Airdrop Bot: 8 Quip Activity Points + 381 historical Quests",
+ "snapshot_note": "Sweep Nov 19 · 1 HIGH · 10 WATCH · 0 rejected · new: Pieverse 61 · Airdrop Bot: 8 Quip Activity Points as of Nov 18, rank #24,532 as of Nov 15 + 381 historical Quests",
  "alerts_used_today": 0,
  "alert_cap": 3,
  "alerts": [
@@ -587,7 +587,7 @@
    },
    "website": "https://quip.network",
    "cg_watch": true,
-   "next_milestone": "Airdrop Bot: 8 Quip Activity Points (daily login Nov 11–18), activity rank #24,532 as of Nov 15; 381 historical Quests points, rank 5000+; keep daily login going · audit/mainnet/TGE undated",
+   "next_milestone": "Airdrop Bot: 8 Quip Activity Points as of Nov 18 (daily login Nov 11–18; account header 7 QP), activity rank #24,532 as of Nov 15; 381 historical Quests points, rank 5000+; keep daily login going · audit/mainnet/TGE undated",
    "milestone_date": null,
    "dex_route": "",
    "chain": "Quip chain (testnet); QuipSwap on Base",
@@ -618,7 +618,7 @@
     "https://quip.network/documents/Quip-Security-Audit-v1.0.pdf",
     "https://www.codezen.tech/audits/quip-network/"
    ],
-   "notes": "Airdrop Bot: Quip Quests ended with 381 historical earned campaign points, rank 5000+; separate from new Quip Points; no verified rollover or token/reward entitlement; all free quests claimed (Follow X + 3 founder follows, Discord, Telegram, YouTube subscribe, daily check-ins). Quests ended Mon Nov 2, 8:00 AM ET. Project: chain audit -> mainnet -> TGE, no dates; Oak Security contract audit (Sep 24) 48 findings, 0 critical. Nov 3: no new phase, audit or TGE news; team at SiGMA Rome this week. Nov 4: no new official posts; audit, mainnet and TGE still undated. Nov 4: Quip Node Manager UI refresh (download link on official X); audit, mainnet and TGE still undated. Nov 5: QVM featured in investing.com; CTO Richard Carback on Bloccelerate panel Nov 6. Audit/mainnet/TGE still undated. Nov 6 evening: SIGMA Rome booth wrap; launched 'Have you been qwned?' PQ address-exposure checker (official). Audit/mainnet/TGE still undated. Nov 9: no new official posts. Airdrop Bot (Nov 8, 9:32 PM ET): X @mobbeezy6500 now shows linked on quest.quip.network (Completed: Connect Twitter); following @quipnetwork confirmed. Historical 381 Quip Quests points remain separate; no verified rollover or token/reward entitlement. Nov 10: official X says 28,000+ Quip Accounts created and GetBlock joined as a testnet validator; still no TGE date.  Nov 11: founders' Korea Blockchain Week talk on the quantum timeline; still no TGE date. Nov 12: unified Quip app live (Nov 11, official): accounts, order-book swaps and points in one place at app.quip.network. Still no mainnet/TGE date. Referral-link 'airdrop' posts circulating: use official links only. Airdrop Bot (Nov 12, 9:15 AM ET): daily login at account.quip.network credits +1 Quip Activity Point automatically (no button); credited Nov 11 and Nov 12 (2 activity points; account header shows 1 QP). Historical Quests 381 QP (ended Nov 2) remain separate, rank 5000+ (of ~66.4K); weekly/streak not shown. points.quip.network now redirects to app.quip.network, where Points shows SOON. No end date announced; no verified token entitlement or rollover. Keep daily login going. Nov 13: dev docs now served over a public MCP server (official, Nov 12); proof-of-useful-work explainer. Still no audit/mainnet/TGE date. Airdrop Bot (Nov 13): daily login at account.quip.network credited +1; now 3 Quip Activity Points (Nov 11, 12 and 13; account header shows 2 QP). Historical Quests 381 QP and rank 5000+ (of ~66.4K) unchanged. Keep daily login going. Nov 14: 'Quip Survivors' browser game (survive.quip.network, official post Nov 13) and testnet node guide (1,500+ nodes at peak). Still no audit/mainnet/TGE date. Airdrop Bot (Nov 14): daily login at account.quip.network credited +1; now 4 Quip Activity Points (Nov 11–14; account header shows 3 QP). Historical Quests 381 QP and rank 5000+ (of ~66.4K) unchanged. Keep daily login going. Nov 15: no new official posts. Airdrop Bot Nov 14: 4 Quip Activity Points. Airdrop Bot (Nov 15): daily login at account.quip.network credited +1; now 5 Quip Activity Points (Nov 11–15), activity rank #24,532. Historical Quests 381 QP and rank 5000+ unchanged. Keep daily login going. Nov 16: no new official posts. Airdrop Bot Nov 15: 5 Quip Activity Points. Airdrop Bot (Nov 16): daily login at account.quip.network credited +1; now 6 Quip Activity Points (Nov 11–16). Activity rank not re-read today; last known #24,532 as of Nov 15. Historical Quests 381 QP and rank 5000+ unchanged. Keep daily login going. Nov 17: only a 'is your BTC quantum-exposed' checker post; no TGE news. Airdrop Bot Nov 16: 6 Quip Activity Points. Airdrop Bot (Nov 17): daily login at account.quip.network credited +1; now 7 Quip Activity Points (Nov 11–17). Activity rank not re-read today; last known #24,532 as of Nov 15. Historical Quests 381 QP and rank 5000+ unchanged. Keep daily login going. Nov 18: founders' video on the quantum opportunity only; no TGE news. Airdrop Bot Nov 17: 7 Quip Activity Points. Nov 19: official blog on XQuad (toolchain behind QVM) with two demos; no TGE news. Airdrop Bot Nov 18: 8 Quip Activity Points.",
+   "notes": "Airdrop Bot: Quip Quests ended with 381 historical earned campaign points, rank 5000+; separate from new Quip Points; no verified rollover or token/reward entitlement; all free quests claimed (Follow X + 3 founder follows, Discord, Telegram, YouTube subscribe, daily check-ins). Quests ended Mon Nov 2, 8:00 AM ET. Project: chain audit -> mainnet -> TGE, no dates; Oak Security contract audit (Sep 24) 48 findings, 0 critical. Nov 3: no new phase, audit or TGE news; team at SiGMA Rome this week. Nov 4: no new official posts; audit, mainnet and TGE still undated. Nov 4: Quip Node Manager UI refresh (download link on official X); audit, mainnet and TGE still undated. Nov 5: QVM featured in investing.com; CTO Richard Carback on Bloccelerate panel Nov 6. Audit/mainnet/TGE still undated. Nov 6 evening: SIGMA Rome booth wrap; launched 'Have you been qwned?' PQ address-exposure checker (official). Audit/mainnet/TGE still undated. Nov 9: no new official posts. Airdrop Bot (Nov 8, 9:32 PM ET): X @mobbeezy6500 now shows linked on quest.quip.network (Completed: Connect Twitter); following @quipnetwork confirmed. Historical 381 Quip Quests points remain separate; no verified rollover or token/reward entitlement. Nov 10: official X says 28,000+ Quip Accounts created and GetBlock joined as a testnet validator; still no TGE date.  Nov 11: founders' Korea Blockchain Week talk on the quantum timeline; still no TGE date. Nov 12: unified Quip app live (Nov 11, official): accounts, order-book swaps and points in one place at app.quip.network. Still no mainnet/TGE date. Referral-link 'airdrop' posts circulating: use official links only. Airdrop Bot (Nov 12, 9:15 AM ET): daily login at account.quip.network credits +1 Quip Activity Point automatically (no button); credited Nov 11 and Nov 12 (2 activity points; account header shows 1 QP). Historical Quests 381 QP (ended Nov 2) remain separate, rank 5000+ (of ~66.4K); weekly/streak not shown. points.quip.network now redirects to app.quip.network, where Points shows SOON. No end date announced; no verified token entitlement or rollover. Keep daily login going. Nov 13: dev docs now served over a public MCP server (official, Nov 12); proof-of-useful-work explainer. Still no audit/mainnet/TGE date. Airdrop Bot (Nov 13): daily login at account.quip.network credited +1; now 3 Quip Activity Points (Nov 11, 12 and 13; account header shows 2 QP). Historical Quests 381 QP and rank 5000+ (of ~66.4K) unchanged. Keep daily login going. Nov 14: 'Quip Survivors' browser game (survive.quip.network, official post Nov 13) and testnet node guide (1,500+ nodes at peak). Still no audit/mainnet/TGE date. Airdrop Bot (Nov 14): daily login at account.quip.network credited +1; now 4 Quip Activity Points (Nov 11–14; account header shows 3 QP). Historical Quests 381 QP and rank 5000+ (of ~66.4K) unchanged. Keep daily login going. Nov 15: no new official posts. Airdrop Bot Nov 14: 4 Quip Activity Points. Airdrop Bot (Nov 15): daily login at account.quip.network credited +1; now 5 Quip Activity Points (Nov 11–15), activity rank #24,532. Historical Quests 381 QP and rank 5000+ unchanged. Keep daily login going. Nov 16: no new official posts. Airdrop Bot Nov 15: 5 Quip Activity Points. Airdrop Bot (Nov 16): daily login at account.quip.network credited +1; now 6 Quip Activity Points (Nov 11–16). Activity rank not re-read today; last known #24,532 as of Nov 15. Historical Quests 381 QP and rank 5000+ unchanged. Keep daily login going. Nov 17: only a 'is your BTC quantum-exposed' checker post; no TGE news. Airdrop Bot Nov 16: 6 Quip Activity Points. Airdrop Bot (Nov 17): daily login at account.quip.network credited +1; now 7 Quip Activity Points (Nov 11–17). Activity rank not re-read today; last known #24,532 as of Nov 15. Historical Quests 381 QP and rank 5000+ unchanged. Keep daily login going. Nov 18: founders' video on the quantum opportunity only; no TGE news. Airdrop Bot Nov 17: 7 Quip Activity Points. Nov 19: official blog on XQuad (toolchain behind QVM) with two demos; no TGE news. Airdrop Bot Nov 18: 8 Quip Activity Points as of Nov 18 (account header 7 QP); activity rank #24,532 as of Nov 15.",
    "airdrop_progress": {
     "campaign": "Quip Quests",
     "points": 381,
@@ -1800,7 +1800,7 @@
    "status": "open",
    "end_date": "none announced",
    "link_verified": "points.quip.network was linked from the official links.quip.network (checked Nov 3, 9:15 AM ET); as of Nov 12 it redirects to app.quip.network (Points shows SOON). Daily login is at account.quip.network.",
-   "progress": "Airdrop Bot (Nov 18, 9:23 AM ET check): daily login at account.quip.network credited +1 Quip Activity Point; now 8 activity points (credited Nov 11–18; account header showed 7 QP). Activity rank not re-read; last known #24,532 as of Nov 15. Historical Quests 381 QP (ended Nov 2) remain separate, rank 5000+. points.quip.network redirects to app.quip.network, where Points shows SOON. No end date announced; no verified token entitlement or rollover. Keep daily login going.",
+   "progress": "Airdrop Bot (as of Nov 18, 9:23 AM ET): daily login at account.quip.network credited +1 Quip Activity Point; 8 activity points as of Nov 18 (credited Nov 11–18; account header 7 QP). Activity rank not re-read; last known #24,532 as of Nov 15. Historical Quests 381 QP (ended Nov 2) remain separate, rank 5000+. points.quip.network redirects to app.quip.network, where Points shows SOON. No end date announced; no verified token entitlement or rollover. Keep daily login going.",
    "progress_at": "2026-11-18T09:23:00-05:00",
    "open_tasks": [
     "Keep daily login going"
@@ -1897,7 +1897,7 @@
   },
   {
    "project": "Quip Network",
-   "title": "Chain audit, then mainnet, then TGE; no dates · Airdrop Bot: 8 Quip Activity Points",
+   "title": "Chain audit, then mainnet, then TGE; no dates · Airdrop Bot: 8 Quip Activity Points as of Nov 18",
    "type": "Launch",
    "theme": "Quantum",
    "url": "https://quip.network/blog/quip-network-final-stretch-to-mainnet",
@@ -2007,7 +2007,7 @@
    },
    {
     "name": "Quip Network (QUIP)",
-    "why": "Score 62 WATCH. Airdrop Bot at 8 Quip Activity Points (Nov 11-18); XQuad demos published; still no TGE date.",
+    "why": "Score 62 WATCH. Airdrop Bot at 8 Quip Activity Points as of Nov 18 (Nov 11–18); XQuad demos published; still no TGE date.",
     "url": "https://quip.network",
     "logo": "logos/quip-network.png"
    }
@@ -2021,7 +2021,7 @@
   "quantum": [
    "Quantus: Quantum Alliance X Space today 10:00 AM ET; QTC about -27% over 7 days.",
    "Verona teases 'the biggest step yet' for verUSD (no details).",
-   "Quip: XQuad demos blog; Airdrop Bot 8 Quip Activity Points (Nov 11-18).",
+   "Quip: XQuad demos blog; Airdrop Bot 8 Quip Activity Points as of Nov 18 (Nov 11–18).",
    "Pi Network testnet and TRON's Nile testnet are trialling ML-DSA / post-quantum signatures (large existing chains; context only)."
   ]
  },
@@ -2037,7 +2037,7 @@
    "Quantus hosts a 'Quantum Alliance' X Space today (Thu) 10:00 AM ET with Quip's co-founders; QTC is down about 27% over 7 days with no project news.",
    "GenLayer says GEN will auto-stake and earn Staking Points from THE DAY; still no date. Verona teases its 'biggest step yet' for verUSD.",
    "Axis 'claim $AXIS' phishing posts continue; they quote the real Base contract to look legitimate but link to a fake claim page. Only axisrobotics.ai and its hub/airdrop subdomains are real.",
-   "Quip Points: Airdrop Bot at 8 Quip Activity Points (Nov 11-18); keep daily login going.",
+   "Quip Points: Airdrop Bot at 8 Quip Activity Points as of Nov 18 (Nov 11–18); activity rank #24,532 as of Nov 15; keep daily login going.",
    "Rejected: none today. Perle (PRL, AI data) on radar only.",
    "Next 72h (to Sun Nov 22 ~7:30 AM ET): Quantus Quantum Alliance X Space Thu Nov 19 10:00 AM ET; Axis weekly reward settlement Sat Nov 21 5:00 AM ET. Just after: TermiX Kaito winners (Mon Nov 23, may shift); FLOP testnet tentatively Tue Nov 24."
   ],
@@ -2046,10 +2046,10 @@
     "project": "Quip Network",
     "ticker": "QUIP",
     "theme": "Quantum",
-    "coming": "381 historical Quests points + 8 Quip Activity Points (rank #24,532 as of Nov 15)",
+    "coming": "381 historical Quests points + 8 Quip Activity Points as of Nov 18 (rank #24,532 as of Nov 15)",
     "when": "Quests ended Nov 2, 8:00 AM ET · daily login ongoing, no end date",
     "score": 62,
-    "why": "Quip Quests ended with 381 historical earned campaign points, rank 5000+; separate from new Quip Activity Points; no verified rollover or token/reward entitlement. Airdrop Bot (Nov 18, 9:23 AM ET check): daily login at account.quip.network credited +1 Quip Activity Point; now 8 activity points (credited Nov 11–18; account header showed 7 QP). Activity rank not re-read; last known #24,532 as of Nov 15. Historical Quests 381 QP (ended Nov 2) remain separate, rank 5000+. points.quip.network redirects to app.quip.network, where Points shows SOON. No end date announced; no verified token entitlement or rollover. Keep daily login going."
+    "why": "Quip Quests ended with 381 historical earned campaign points, rank 5000+; separate from new Quip Activity Points; no verified rollover or token/reward entitlement. Airdrop Bot (as of Nov 18, 9:23 AM ET): daily login at account.quip.network credited +1; 8 Quip Activity Points as of Nov 18 (credited Nov 11–18; account header 7 QP). Activity rank not re-read; last known #24,532 as of Nov 15. points.quip.network redirects to app.quip.network, where Points shows SOON. No end date announced. Keep daily login going."
    },
    {
     "project": "GenLayer",
@@ -2226,7 +2226,7 @@
    {
     "section": "airdrops",
     "theme": "Quantum",
-    "text": "Quip Points: Airdrop Bot (Nov 18) shows 8 Quip Activity Points from daily logins; 381 historical Quests points separate."
+    "text": "Quip Points: Airdrop Bot (as of Nov 18, 9:23 AM ET) reports 8 Quip Activity Points from daily login at account.quip.network (credited Nov 11–18; account header 7 QP). Activity rank not re-read; last known #24,532 as of Nov 15. Historical Quests 381 QP remain separate, rank 5000+. No end date; no verified token entitlement or rollover. Keep daily login going."
    }
   ],
   "sources": [
